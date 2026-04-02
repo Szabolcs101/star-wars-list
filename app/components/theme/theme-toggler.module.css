@@ -1,0 +1,17 @@
+.lightModeIcon, .darkModeIcon {
+    width: 1.5rem;
+    cursor: pointer;
+}
+
+.lightModeIcon {
+    fill: var(--font-highlighted);
+}
+
+.darkModeIcon {
+    fill: #5195db;
+}
+
+.themes {
+    display: flex;
+    gap: 1rem;
+}

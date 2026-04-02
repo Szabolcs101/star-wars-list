@@ -1,0 +1,31 @@
+.card {
+    max-width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: whitesmoke;
+    padding: 3rem;
+    gap: 1rem;
+    color: black;
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.4);
+}
+
+.gmail {
+    height: 2.5rem;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.description {
+    text-align: center;
+    font-style: italic;
+}
+
+.text {
+    font-weight: bold;
+    color: var(--font-secondary);
+}

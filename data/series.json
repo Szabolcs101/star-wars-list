@@ -1,0 +1,994 @@
+[
+    {
+        "id": "star-wars-the-clone-wars-s1",
+        "type": "animation series",
+        "title": "Star Wars: The Clone Wars - Season 1",
+        "startDate": "2008-10-03",
+        "endDate": "2009-03-20",
+        "status": "released",
+        "genre": "Science Fiction, Animation, Action, Adventure",
+        "director": [
+            "Dave Filoni"
+        ],
+        "runtime": 22,
+        "episodes": 22,
+        "canonStatus": "Canon",
+        "imageUrl": "/series/the-clone-wars-s.jpeg",
+        "trailerUrl": "https://www.youtube.com/watch?v=mmVfC0I11HU",
+        "characters": [
+            "anakin-skywalker",
+            "ahsoka-tano",
+            "obi-wan-kenobi",
+            "captain-rex",
+            "yoda",
+            "count-dooku",
+            "asajj-ventress"
+        ],
+        "relations": [
+            {
+                "relatedId": "star-wars-the-clone-wars-s2",
+                "type": "sequel"
+            }
+        ],
+        "description": "The opening season of The Clone Wars introduces Ahsoka Tano as Anakin Skywalker's new Padawan learner amid the escalating conflict between the Republic and the Separatists. Jedi Knights lead clone troopers in battles across the galaxy, facing villains like Count Dooku and General Grievous. Key arcs explore themes of loyalty, war's toll, and moral dilemmas, with standout episodes featuring bounty hunters, droid armies, and early hints at larger conspiracies. This season establishes the show's signature style of interconnected stories, high-stakes action, and character growth that deepens the prequel era lore beyond the films. (approx. 520 characters)"
+    },
+    {
+        "id": "star-wars-the-clone-wars-s2",
+        "type": "animation series",
+        "title": "Star Wars: The Clone Wars - Season 2",
+        "startDate": "2009-10-02",
+        "endDate": "2010-04-30",
+        "status": "released",
+        "genre": "Science Fiction, Animation, Action, Adventure",
+        "director": [
+            "Dave Filoni"
+        ],
+        "runtime": 22,
+        "episodes": 22,
+        "canonStatus": "Canon",
+        "imageUrl": "/series/the-clone-wars-s2-s.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=example-tcw-s2",
+        "characters": [
+            "anakin-skywalker",
+            "ahsoka-tano",
+            "obi-wan-kenobi",
+            "captain-rex",
+            "cad-bane",
+            "mandalorians",
+            "plo-koon"
+        ],
+        "relations": [
+            {
+                "relatedId": "star-wars-the-clone-wars-s1",
+                "type": "prequel"
+            },
+            {
+                "relatedId": "star-wars-the-clone-wars-s3",
+                "type": "sequel"
+            }
+        ],
+        "description": "Season 2 intensifies the galactic war with new threats from bounty hunters like Cad Bane and political intrigue on Mandalore. Anakin and Ahsoka tackle high-profile missions, including hostage rescues and Separatist plots, while Obi-Wan confronts old enemies. Arcs delve into clone trooper individuality, Jedi Council decisions, and the cost of conflict. The season builds emotional stakes through character bonds and foreshadows darker turns in the war, blending action-packed battles with quieter moments of reflection and growth in the Star Wars universe. (approx. 480 characters)"
+    },
+    {
+        "id": "star-wars-the-clone-wars-s3",
+        "type": "animation series",
+        "title": "Star Wars: The Clone Wars - Season 3",
+        "startDate": "2010-09-17",
+        "endDate": "2011-04-01",
+        "status": "released",
+        "genre": "Science Fiction, Animation, Action, Adventure",
+        "director": [
+            "Dave Filoni"
+        ],
+        "runtime": 22,
+        "episodes": 22,
+        "canonStatus": "Canon",
+        "imageUrl": "/series/the-clone-wars-s3-s.jpg",
+        "trailerUrl": "",
+        "characters": [
+            "anakin-skywalker",
+            "ahsoka-tano",
+            "obi-wan-kenobi",
+            "darth-maul",
+            "savage-opress",
+            "mother-talzin",
+            "captain-rex"
+        ],
+        "relations": [
+            {
+                "relatedId": "star-wars-the-clone-wars-s2",
+                "type": "prequel"
+            },
+            {
+                "relatedId": "star-wars-the-clone-wars-s4",
+                "type": "sequel"
+            }
+        ],
+        "description": "Season 3 explores darker Sith influences as Darth Maul's return is teased through his brother Savage Opress and Nightsister magic. The Jedi face internal and external challenges, with arcs on corruption, betrayal, and the Force's balance. Ahsoka matures as a Jedi while Anakin grapples with attachments. Battles escalate with new villains and alliances, highlighting the war's toll on individuals and the galaxy. This season marks a tonal shift toward more mature storytelling, setting up future tragedies in the prequel saga. (approx. 450 characters)"
+    },
+    {
+        "id": "star-wars-the-clone-wars-s4",
+        "type": "animation series",
+        "title": "Star Wars: The Clone Wars - Season 4",
+        "startDate": "2011-09-16",
+        "endDate": "2012-03-16",
+        "status": "released",
+        "genre": "Science Fiction, Animation, Action, Adventure",
+        "director": [
+            "Dave Filoni"
+        ],
+        "runtime": 22,
+        "episodes": 22,
+        "canonStatus": "Canon",
+        "imageUrl": "/series/the-clone-wars-s4-s.jpeg",
+        "trailerUrl": "",
+        "characters": [
+            "anakin-skywalker",
+            "obi-wan-kenobi",
+            "ahsoka-tano",
+            "darth-maul",
+            "savage-opress",
+            "bo-katan-kryze",
+            "general-grievous"
+        ],
+        "relations": [
+            {
+                "relatedId": "star-wars-the-clone-wars-s3",
+                "type": "prequel"
+            },
+            {
+                "relatedId": "star-wars-the-clone-wars-s5",
+                "type": "sequel"
+            }
+        ],
+        "description": "Season 4 features the dramatic return of Darth Maul, who allies with his brother Savage to seek revenge on Obi-Wan. Mandalore becomes a battleground with Bo-Katan Kryze's resistance against Maul's crime syndicate. Clone troopers gain depth through arcs on loyalty and identity. The season mixes epic duels, political drama, and tragedy, advancing the war's narrative toward its inevitable end while expanding Mandalorian lore and Sith schemes. (approx. 420 characters)"
+    },
+    {
+        "id": "star-wars-the-clone-wars-s5",
+        "type": "animation series",
+        "title": "Star Wars: The Clone Wars - Season 5",
+        "startDate": "2012-09-29",
+        "endDate": "2013-03-02",
+        "status": "released",
+        "genre": "Science Fiction, Animation, Action, Adventure",
+        "director": [
+            "Dave Filoni"
+        ],
+        "runtime": 22,
+        "episodes": 20,
+        "canonStatus": "Canon",
+        "imageUrl": "/series/the-clone-wars-s5-s.jpg",
+        "trailerUrl": "",
+        "characters": [
+            "ahsoka-tano",
+            "anakin-skywalker",
+            "obi-wan-kenobi",
+            "captain-rex",
+            "barriss-offee",
+            "tarkin",
+            "plo-koon"
+        ],
+        "relations": [
+            {
+                "relatedId": "star-wars-the-clone-wars-s4",
+                "type": "prequel"
+            },
+            {
+                "relatedId": "star-wars-the-clone-wars-s6",
+                "type": "sequel"
+            }
+        ],
+        "description": "Season 5 centers on Ahsoka Tano's trial for a crime she didn't commit, leading to her disillusionment with the Jedi Order. Bombings at the Jedi Temple and Onderon rebellion arcs highlight corruption and rebellion themes. Anakin struggles with mentorship, while the war rages on multiple fronts. The season delivers emotional highs and lows, culminating in Ahsoka's departure, which profoundly impacts future stories in the saga. (approx. 410 characters)"
+    },
+    {
+        "id": "star-wars-the-clone-wars-s6",
+        "type": "animation series",
+        "title": "Star Wars: The Clone Wars - Season 6: The Lost Missions",
+        "startDate": "2014-03-07",
+        "endDate": "2014-03-07",
+        "status": "released",
+        "genre": "Science Fiction, Animation, Action, Adventure",
+        "director": [
+            "Dave Filoni"
+        ],
+        "runtime": 22,
+        "episodes": 13,
+        "canonStatus": "Canon",
+        "imageUrl": "/series/the-clone-wars-s6-s.jpg",
+        "trailerUrl": "",
+        "characters": [
+            "yoda",
+            "anakin-skywalker",
+            "captain-rex",
+            "chancellor-palpatine",
+            "sifo-dyas",
+            "fives"
+        ],
+        "relations": [
+            {
+                "relatedId": "star-wars-the-clone-wars-s5",
+                "type": "prequel"
+            },
+            {
+                "relatedId": "star-wars-the-clone-wars-s7",
+                "type": "sequel"
+            }
+        ],
+        "description": "The Lost Missions focus on Yoda's quest for answers about the Force and Sifo-Dyas' role in clone creation. Clone trooper Fives uncovers inhibitor chip secrets tied to Order 66. Arcs examine conspiracy, loyalty, and the Sith's long game. Released on Netflix, this season bridges to the prequel trilogy's climax with profound revelations about the war's engineered nature. (approx. 380 characters)"
+    },
+    {
+        "id": "star-wars-the-clone-wars-s7",
+        "type": "animation series",
+        "title": "Star Wars: The Clone Wars - Season 7",
+        "startDate": "2020-02-21",
+        "endDate": "2020-05-04",
+        "status": "released",
+        "genre": "Science Fiction, Animation, Action, Adventure",
+        "director": [
+            "Dave Filoni"
+        ],
+        "runtime": 25,
+        "episodes": 12,
+        "canonStatus": "Canon",
+        "imageUrl": "/series/the-clone-wars-s7-s.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=mmVfC0I11HU",
+        "characters": [
+            "ahsoka-tano",
+            "captain-rex",
+            "anakin-skywalker",
+            "obi-wan-kenobi",
+            "darth-maul",
+            "bo-katan-kryze"
+        ],
+        "relations": [
+            {
+                "relatedId": "star-wars-the-clone-wars-s6",
+                "type": "prequel"
+            }
+        ],
+        "description": "The final season delivers the Siege of Mandalore, where Ahsoka and Bo-Katan lead forces against Maul's syndicate, coinciding with Revenge of the Sith events. Rex removes his inhibitor chip, saving Ahsoka from Order 66 betrayal. Emotional arcs provide closure to characters like Maul and Ahsoka, tying animated lore to live-action films with intense battles and heartbreaking moments. (approx. 420 characters)"
+    },
+    {
+        "id": "star-wars-rebels-s1",
+        "type": "animation series",
+        "title": "Star Wars Rebels - Season 1",
+        "startDate": "2014-10-03",
+        "endDate": "2015-03-07",
+        "status": "released",
+        "genre": "Science Fiction, Animation, Adventure",
+        "director": [
+            "Dave Filoni"
+        ],
+        "runtime": 22,
+        "episodes": 15,
+        "canonStatus": "Canon",
+        "imageUrl": "/series/rebels-s.jpeg",
+        "trailerUrl": "https://www.youtube.com/watch?v=3I2hC5b5s1A",
+        "characters": [
+            "ezra-bridger",
+            "kanan-jarrus",
+            "hera-syndulla",
+            "sabine-wren",
+            "zeb-orrelios",
+            "chopper",
+            "agent-kallus"
+        ],
+        "relations": [
+            {
+                "relatedId": "star-wars-rebels-s2",
+                "type": "sequel"
+            }
+        ],
+        "description": "Set before A New Hope, Rebels follows a small rebel cell on Lothal fighting Imperial oppression. Young Ezra Bridger joins the Ghost crew, discovering his Force sensitivity under Kanan's guidance. They undertake missions against the Empire, facing Inquisitors and Agent Kallus. The season builds team dynamics, introduces the Force's mysteries, and establishes the early Rebellion's spark in a gritty animated format. (approx. 410 characters)"
+    },
+    {
+        "id": "star-wars-rebels-s2",
+        "type": "animation series",
+        "title": "Star Wars Rebels - Season 2",
+        "startDate": "2015-06-20",
+        "endDate": "2016-03-30",
+        "status": "released",
+        "genre": "Science Fiction, Animation, Adventure",
+        "director": [
+            "Dave Filoni"
+        ],
+        "runtime": 22,
+        "episodes": 22,
+        "canonStatus": "Canon",
+        "imageUrl": "/series/rebels-s2-s.jpg",
+        "trailerUrl": "",
+        "characters": [
+            "ezra-bridger",
+            "kanan-jarrus",
+            "ahsoka-tano",
+            "darth-vader",
+            "hera-syndulla",
+            "sabine-wren"
+        ],
+        "relations": [
+            {
+                "relatedId": "star-wars-rebels-s1",
+                "type": "prequel"
+            },
+            {
+                "relatedId": "star-wars-rebels-s3",
+                "type": "sequel"
+            }
+        ],
+        "description": "Season 2 brings Ahsoka Tano into the fold, confronting her former master Darth Vader. The crew faces escalating Imperial threats, including Grand Admiral Thrawn's introduction. Ezra trains in the Force while the team aids rebel growth. Iconic battles and emotional confrontations deepen connections to the original trilogy era. (approx. 380 characters)"
+    },
+    {
+        "id": "star-wars-rebels-s3",
+        "type": "animation series",
+        "title": "Star Wars Rebels - Season 3",
+        "startDate": "2016-09-24",
+        "endDate": "2017-03-25",
+        "status": "released",
+        "genre": "Science Fiction, Animation, Adventure",
+        "director": [
+            "Dave Filoni"
+        ],
+        "runtime": 22,
+        "episodes": 22,
+        "canonStatus": "Canon",
+        "imageUrl": "/series/rebels-s3-s.jpg",
+        "trailerUrl": "",
+        "characters": [
+            "ezra-bridger",
+            "kanan-jarrus",
+            "grand-admiral-thrawn",
+            "maul",
+            "hera-syndulla",
+            "sabine-wren"
+        ],
+        "relations": [
+            {
+                "relatedId": "star-wars-rebels-s2",
+                "type": "prequel"
+            },
+            {
+                "relatedId": "star-wars-rebels-s4",
+                "type": "sequel"
+            }
+        ],
+        "description": "Season 3 pits the rebels against Thrawn's strategic brilliance and Maul's final pursuits. Ezra's training advances amid personal temptations. Mandalore arcs and base defenses heighten stakes as the Empire tightens control. The season builds toward larger rebellion efforts with intense action and character sacrifices. (approx. 370 characters)"
+    },
+    {
+        "id": "star-wars-rebels-s4",
+        "type": "animation series",
+        "title": "Star Wars Rebels - Season 4",
+        "startDate": "2017-10-16",
+        "endDate": "2018-03-05",
+        "status": "released",
+        "genre": "Science Fiction, Animation, Adventure",
+        "director": [
+            "Dave Filoni"
+        ],
+        "runtime": 22,
+        "episodes": 15,
+        "canonStatus": "Canon",
+        "imageUrl": "/series/rebels-s4-s.jpg",
+        "trailerUrl": "",
+        "characters": [
+            "ezra-bridger",
+            "grand-admiral-thrawn",
+            "sabine-wren",
+            "hera-syndulla",
+            "ahsoka-tano",
+            "kanan-jarrus"
+        ],
+        "relations": [
+            {
+                "relatedId": "star-wars-rebels-s3",
+                "type": "prequel"
+            }
+        ],
+        "description": "The final season resolves Lothal's fate with World Between Worlds mysticism and Thrawn's defeat. Characters face ultimate sacrifices for the Rebellion's future. Ties to Rogue One and A New Hope strengthen, delivering closure with epic battles, emotional farewells, and hope for the galaxy. (approx. 360 characters)"
+    },
+    {
+        "id": "star-wars-the-bad-batch-s1",
+        "type": "animation series",
+        "title": "Star Wars: The Bad Batch - Season 1",
+        "startDate": "2021-05-04",
+        "endDate": "2021-08-13",
+        "status": "released",
+        "genre": "Science Fiction, Animation, Action",
+        "director": [
+            "Jennifer Corbett",
+            "Brad Rau"
+        ],
+        "runtime": 25,
+        "episodes": 16,
+        "canonStatus": "Canon",
+        "imageUrl": "/series/the-bad-batch-s.jpeg",
+        "trailerUrl": "https://www.youtube.com/watch?v=paC69QNT05A",
+        "characters": [
+            "hunter",
+            "wrecker",
+            "tech",
+            "crosshair",
+            "echo",
+            "omega",
+            "cid"
+        ],
+        "relations": [
+            {
+                "relatedId": "star-wars-the-clone-wars-s7",
+                "type": "other"
+            },
+            {
+                "relatedId": "star-wars-the-bad-batch-s2",
+                "type": "sequel"
+            }
+        ],
+        "description": "Post-Order 66, Clone Force 99 (Bad Batch) protects young clone Omega from the Empire. They navigate bounty hunting and early Imperial experiments. Crosshair's loyalty conflict adds tension. The season explores clone identity in a changing galaxy, blending action with family themes. (approx. 360 characters)"
+    },
+    {
+        "id": "star-wars-the-bad-batch-s2",
+        "type": "animation series",
+        "title": "Star Wars: The Bad Batch - Season 2",
+        "startDate": "2023-01-04",
+        "endDate": "2023-03-29",
+        "status": "released",
+        "genre": "Science Fiction, Animation, Action",
+        "director": [
+            "Jennifer Corbett",
+            "Brad Rau"
+        ],
+        "runtime": 25,
+        "episodes": 16,
+        "canonStatus": "Canon",
+        "imageUrl": "/series/the-bad-batch-s2-s.jpeg",
+        "trailerUrl": "",
+        "characters": [
+            "omega",
+            "hunter",
+            "crosshair",
+            "wrecker",
+            "tech",
+            "echo",
+            "cid"
+        ],
+        "relations": [
+            {
+                "relatedId": "star-wars-the-bad-batch-s1",
+                "type": "prequel"
+            },
+            {
+                "relatedId": "star-wars-the-bad-batch-s3",
+                "type": "sequel"
+            }
+        ],
+        "description": "The Batch faces betrayal and Empire pursuits while protecting Omega. Crosshair's arc evolves amid moral choices. Missions reveal clone enhancements and Imperial projects. The season heightens emotional stakes and action in the early Empire era. (approx. 340 characters)"
+    },
+    {
+        "id": "star-wars-the-bad-batch-s3",
+        "type": "animation series",
+        "title": "Star Wars: The Bad Batch - Season 3",
+        "startDate": "2024-02-21",
+        "endDate": "2024-05-01",
+        "status": "released",
+        "genre": "Science Fiction, Animation, Action",
+        "director": [
+            "Jennifer Corbett",
+            "Brad Rau"
+        ],
+        "runtime": 25,
+        "episodes": 15,
+        "canonStatus": "Canon",
+        "imageUrl": "/series/the-bad-batch-s3-s.jpeg",
+        "trailerUrl": "",
+        "characters": [
+            "omega",
+            "hunter",
+            "crosshair",
+            "wrecker",
+            "echo",
+            "emerie-karr"
+        ],
+        "relations": [
+            {
+                "relatedId": "star-wars-the-bad-batch-s2",
+                "type": "prequel"
+            }
+        ],
+        "description": "The final season confronts Tantiss facility secrets and clone destinies. Omega leads escapes while the Batch reunites. Emotional resolutions and battles close arcs, linking to broader saga themes of freedom and family. (approx. 320 characters)"
+    },
+    {
+        "id": "the-mandalorian-s1",
+        "type": "series",
+        "title": "The Mandalorian - Season 1",
+        "startDate": "2019-11-12",
+        "endDate": "2019-12-27",
+        "status": "released",
+        "genre": "Science Fiction, Adventure, Action",
+        "director": [
+            "Jon Favreau",
+            "Dave Filoni",
+            "Rick Famuyiwa"
+        ],
+        "runtime": 40,
+        "episodes": 8,
+        "canonStatus": "Canon",
+        "imageUrl": "/series/the-mandalorian-s.jpeg",
+        "trailerUrl": "https://www.youtube.com/watch?v=aOC8E8z_ifw",
+        "characters": [
+            "din-djarin",
+            "grogu",
+            "cara-dune",
+            "greef-karga",
+            "moff-gideon",
+            "ig-11",
+            "kuiil"
+        ],
+        "relations": [
+            {
+                "relatedId": "the-mandalorian-s2",
+                "type": "sequel"
+            }
+        ],
+        "description": "A lone Mandalorian bounty hunter accepts a high-value target: a mysterious child with Force abilities. Protecting Grogu from Imperial remnants, Din navigates the Outer Rim's underworld. Encounters with allies like Cara Dune and enemies like Moff Gideon build a found-family story in post-Empire chaos, reviving classic Western vibes in Star Wars. (approx. 400 characters)"
+    },
+    {
+        "id": "the-mandalorian-s2",
+        "type": "series",
+        "title": "The Mandalorian - Season 2",
+        "startDate": "2020-10-30",
+        "endDate": "2020-12-18",
+        "status": "released",
+        "genre": "Science Fiction, Adventure, Action",
+        "director": [
+            "Jon Favreau",
+            "Dave Filoni",
+            "Rick Famuyiwa"
+        ],
+        "runtime": 45,
+        "episodes": 8,
+        "canonStatus": "Canon",
+        "imageUrl": "/series/the-mandalorian-s2-s.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=eWnTeKEsDlU",
+        "characters": [
+            "din-djarin",
+            "grogu",
+            "ahsoka-tano",
+            "bo-katan-kryze",
+            "bob-a-fett",
+            "fennec-shand",
+            "moff-gideon"
+        ],
+        "relations": [
+            {
+                "relatedId": "the-mandalorian-s1",
+                "type": "prequel"
+            },
+            {
+                "relatedId": "the-mandalorian-s3",
+                "type": "sequel"
+            }
+        ],
+        "description": "Din seeks Jedi for Grogu while facing old foes and Mandalorian heritage. Ahsoka Tano, Bo-Katan, and Boba Fett appear in crossover arcs. The season expands lore with lightsaber training, Darksaber quests, and Imperial threats, blending adventure and emotional bonds. (approx. 360 characters)"
+    },
+    {
+        "id": "the-mandalorian-s3",
+        "type": "series",
+        "title": "The Mandalorian - Season 3",
+        "startDate": "2023-03-01",
+        "endDate": "2023-04-19",
+        "status": "released",
+        "genre": "Science Fiction, Adventure, Action",
+        "director": [
+            "Rick Famuyiwa",
+            "Bryce Dallas Howard"
+        ],
+        "runtime": 45,
+        "episodes": 8,
+        "canonStatus": "Canon",
+        "imageUrl": "/series/the-mandalorian-s3-s.jpeg",
+        "trailerUrl": "https://www.youtube.com/watch?v=3nZ5okK5M_E",
+        "characters": [
+            "din-djarin",
+            "grogu",
+            "bo-katan-kryze",
+            "moff-gideon",
+            "greef-karga",
+            "armorer",
+            "paz-vizsla"
+        ],
+        "relations": [
+            {
+                "relatedId": "the-mandalorian-s2",
+                "type": "prequel"
+            }
+        ],
+        "description": "Din and Grogu reclaim Mandalore from Imperial occupation. Bo-Katan joins the quest for redemption. Battles against Gideon and pirate threats test Mandalorian unity. The season emphasizes culture, forgiveness, and new alliances in the New Republic era. (approx. 340 characters)"
+    },
+    {
+        "id": "the-book-of-boba-fett",
+        "type": "series",
+        "title": "The Book of Boba Fett",
+        "startDate": "2021-12-29",
+        "endDate": "2022-02-09",
+        "status": "released",
+        "genre": "Science Fiction, Adventure, Action",
+        "director": [
+            "Robert Rodriguez",
+            "Dave Filoni"
+        ],
+        "runtime": 45,
+        "episodes": 7,
+        "canonStatus": "Canon",
+        "imageUrl": "/series/the-book-of-boba-fett-s.jpeg",
+        "trailerUrl": "https://www.youtube.com/watch?v=example-boba-fett",
+        "characters": [
+            "boba-fett",
+            "fennec-shand",
+            "din-djarin",
+            "grogu",
+            "the-mods",
+            "pykes"
+        ],
+        "relations": [],
+        "description": "Boba Fett claims Jabba's throne on Tatooine, building a crime syndicate with Fennec Shand. Flashbacks show his survival and Tusken alliances. Mandalorian crossovers add action. The season explores power, loyalty, and redemption in the underworld. (approx. 320 characters)"
+    },
+    {
+        "id": "obi-wan-kenobi-s1",
+        "type": "series",
+        "title": "Obi-Wan Kenobi",
+        "startDate": "2022-05-27",
+        "endDate": "2022-06-22",
+        "status": "released",
+        "genre": "Science Fiction, Adventure, Drama",
+        "director": [
+            "Deborah Chow"
+        ],
+        "runtime": 45,
+        "episodes": 6,
+        "canonStatus": "Canon",
+        "imageUrl": "/series/obi-wan-kenobi-s.jpeg",
+        "trailerUrl": "https://www.youtube.com/watch?v=example-obi-wan-kenobi",
+        "characters": [
+            "obi-wan-kenobi",
+            "leia-organa",
+            "darth-vader",
+            "reva",
+            "grand-inquisitor",
+            "bail-organa"
+        ],
+        "relations": [],
+        "description": "Exiled Obi-Wan protects young Leia from Inquisitors. Reva hunts Jedi while Vader pursues his former master. Emotional confrontations revisit past traumas. The limited series bridges prequels and originals with lightsaber duels and redemption themes. (approx. 340 characters)"
+    },
+    {
+        "id": "andor-s1",
+        "type": "series",
+        "title": "Andor - Season 1",
+        "startDate": "2022-09-21",
+        "endDate": "2022-11-23",
+        "status": "released",
+        "genre": "Science Fiction, Drama, Thriller",
+        "director": [
+            "Tony Gilroy"
+        ],
+        "runtime": 40,
+        "episodes": 12,
+        "canonStatus": "Canon",
+        "imageUrl": "/series/andor-s.jpeg",
+        "trailerUrl": "https://www.youtube.com/watch?v=cKOe5mmeOeA",
+        "characters": [
+            "cassian-andor",
+            "luthen-rael",
+            "mon-mothma",
+            "dedra-meero",
+            "syril-karn",
+            "bix-caleen"
+        ],
+        "relations": [
+            {
+                "relatedId": "andor-s2",
+                "type": "sequel"
+            }
+        ],
+        "description": "Cassian Andor's journey from thief to rebel unfolds under Imperial oppression. Luthen builds resistance networks while Mon Mothma risks everything. Tense spy thriller elements highlight rebellion's moral costs and personal sacrifices leading to Rogue One. (approx. 360 characters)"
+    },
+    {
+        "id": "andor-s2",
+        "type": "series",
+        "title": "Andor - Season 2",
+        "startDate": "2025-04-22",
+        "endDate": "2025-05-13",
+        "status": "released",
+        "genre": "Science Fiction, Drama, Thriller",
+        "director": [
+            "Tony Gilroy"
+        ],
+        "runtime": 40,
+        "episodes": 12,
+        "canonStatus": "Canon",
+        "imageUrl": "/series/andor-s2-s.jpg",
+        "trailerUrl": "",
+        "characters": [
+            "cassian-andor",
+            "luthen-rael",
+            "mon-mothma",
+            "dedra-meero",
+            "k-2so"
+        ],
+        "relations": [
+            {
+                "relatedId": "andor-s1",
+                "type": "prequel"
+            }
+        ],
+        "description": "Season 2 escalates Cassian's commitment to the Rebellion, introducing K-2SO and building toward Rogue One. Imperial crackdowns intensify personal risks for Mon Mothma and Luthen. The season delivers political intrigue, heists, and character arcs culminating in the film's events. (approx. 340 characters)"
+    },
+    {
+        "id": "ahsoka",
+        "type": "series",
+        "title": "Ahsoka",
+        "startDate": "2023-08-22",
+        "endDate": "2023-10-03",
+        "status": "released",
+        "genre": "Science Fiction, Adventure, Action",
+        "director": [
+            "Dave Filoni"
+        ],
+        "runtime": 45,
+        "episodes": 8,
+        "canonStatus": "Canon",
+        "imageUrl": "/series/ahsoka-s.jpeg",
+        "trailerUrl": "https://www.youtube.com/watch?v=2rZlzr5X3rU",
+        "characters": [
+            "ahsoka-tano",
+            "sabine-wren",
+            "hera-syndulla",
+            "baylan-skoll",
+            "shin-hati",
+            "grand-admiral-thrawn",
+            "ezra-bridger"
+        ],
+        "relations": [
+            {
+                "relatedId": "star-wars-rebels-s4",
+                "type": "other"
+            }
+        ],
+        "description": "Ahsoka hunts Thrawn's return and Ezra Bridger in uncharted space. Sabine trains in the Force while facing dark Jedi. Rebels crossovers expand New Republic threats with lightsaber battles and mystical elements from World Between Worlds. (approx. 320 characters)"
+    },
+    {
+        "id": "the-acolyte-s1",
+        "type": "series",
+        "title": "The Acolyte",
+        "startDate": "2024-06-04",
+        "endDate": "2024-07-16",
+        "status": "released",
+        "genre": "Science Fiction, Mystery, Action",
+        "director": [
+            "Leslye Headland"
+        ],
+        "runtime": 40,
+        "episodes": 8,
+        "canonStatus": "Canon",
+        "imageUrl": "/series/the-acolyte-s.jpeg",
+        "trailerUrl": "",
+        "characters": [
+            "mae-aniseya",
+            "osha-aniseya",
+            "sol",
+            "qimir",
+            "vernestra-rwoh",
+            "yord-fandar"
+        ],
+        "relations": [],
+        "description": "High Republic era mystery follows twin sisters and a Jedi murder investigation. Dark side forces emerge amid Jedi hubris. The season blends martial arts action, family drama, and Sith intrigue in a fresh prequel timeline. (approx. 300 characters)"
+    },
+    {
+        "id": "skeleton-crew-s1",
+        "type": "series",
+        "title": "Skeleton Crew",
+        "startDate": "2024-12-03",
+        "endDate": "2025-01-14",
+        "status": "released",
+        "genre": "Science Fiction, Adventure",
+        "director": [
+            "Jon Watts"
+        ],
+        "runtime": 40,
+        "episodes": 8,
+        "canonStatus": "Canon",
+        "imageUrl": "/series/skeleton-crew-s.jpeg",
+        "trailerUrl": "",
+        "characters": [
+            "jude",
+            "wim",
+            "neel",
+            "kb",
+            "jod-na-nawood"
+        ],
+        "relations": [],
+        "description": "Kids lost in the galaxy during New Republic era face pirates and mysteries. Amblin-style adventure with coming-of-age themes and Star Wars wonder. The season emphasizes friendship and discovery in a kid-friendly format. (approx. 300 characters)"
+    },
+    {
+        "id": "star-wars-visions-s1",
+        "type": "animation series",
+        "title": "Star Wars: Visions - Volume 1",
+        "startDate": "2021-09-22",
+        "endDate": "2021-09-22",
+        "status": "released",
+        "genre": "Science Fiction, Animation, Anthology",
+        "director": [
+            "Various Japanese studios"
+        ],
+        "runtime": 15,
+        "episodes": 9,
+        "canonStatus": "Canon",
+        "imageUrl": "/series/visions-s.jpeg",
+        "trailerUrl": "https://www.youtube.com/watch?v=lle0NNmvIyU",
+        "characters": [
+            "ronin",
+            "the-daughter",
+            "kara",
+            "lah-mudry",
+            "t0-b1",
+            "the-elder",
+            "lop"
+        ],
+        "relations": [
+            {
+                "relatedId": "star-wars-visions-s2",
+                "type": "sequel"
+            }
+        ],
+        "description": "Anthology of 9 anime shorts by Japanese studios reimagines Star Wars with ronin Jedi, droid adventures, and village protectors. Non-canon tales celebrate Force, lightsabers, and heroism in diverse styles from action to emotional drama. (approx. 320 characters)"
+    },
+    {
+        "id": "star-wars-visions-s2",
+        "type": "animation series",
+        "title": "Star Wars: Visions - Volume 2",
+        "startDate": "2023-05-04",
+        "endDate": "2023-05-04",
+        "status": "released",
+        "genre": "Science Fiction, Animation, Anthology",
+        "director": [
+            "Various global studios"
+        ],
+        "runtime": 15,
+        "episodes": 9,
+        "canonStatus": "Canon",
+        "imageUrl": "/series/visions-s2-s.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=SSXqU92cymY",
+        "characters": [
+            "sith",
+            "jedi",
+            "droids",
+            "spies",
+            "rebels",
+            "warriors"
+        ],
+        "relations": [
+            {
+                "relatedId": "star-wars-visions-s1",
+                "type": "prequel"
+            },
+            {
+                "relatedId": "star-wars-visions-s3",
+                "type": "sequel"
+            }
+        ],
+        "description": "Volume 2 features international studios with punk, Celtic, and high-energy shorts on Sith, spies, and post-Empire survival. Diverse animation styles honor Star Wars while experimenting freely. (approx. 280 characters)"
+    },
+    {
+        "id": "star-wars-visions-s3",
+        "type": "animation series",
+        "title": "Star Wars: Visions - Volume 3",
+        "startDate": "2025-10-29",
+        "endDate": "2025-10-29",
+        "status": "released",
+        "genre": "Science Fiction, Animation, Anthology",
+        "director": [
+            "Various Japanese studios"
+        ],
+        "runtime": 15,
+        "episodes": 9,
+        "canonStatus": "Canon",
+        "imageUrl": "/series/visions-s3-s.jpeg",
+        "trailerUrl": "https://www.youtube.com/watch?v=SuOQbmC9PQk",
+        "characters": [
+            "ronin",
+            "lah-kara",
+            "grand-master",
+            "princess-rebel",
+            "bounty-hunters",
+            "yuko"
+        ],
+        "relations": [
+            {
+                "relatedId": "star-wars-visions-s2",
+                "type": "prequel"
+            }
+        ],
+        "description": "Volume 3 includes sequels to The Duel, Ninth Jedi, and new tales with stars like Anna Sawai and Simu Liu. Anime shorts blend action and emotion in creative Star Wars interpretations. (approx. 300 characters)"
+    },
+    {
+        "id": "ewoks-1985",
+        "type": "animation series",
+        "title": "Ewoks (1985 Animated Series)",
+        "startDate": "1985-09-07",
+        "endDate": "1986-12-06",
+        "status": "released",
+        "genre": "Animation, Adventure, Fantasy, Children",
+        "director": [
+            "Nelvana team"
+        ],
+        "runtime": 22,
+        "episodes": 26,
+        "canonStatus": "Legends",
+        "imageUrl": "/series/ewoks-s.jpg",
+        "trailerUrl": "",
+        "characters": [
+            "wicket-w.-warrick",
+            "kneesaa-a-jari-kintaka",
+            "teebo",
+            "latara",
+            "chief-chirpa",
+            "logray"
+        ],
+        "relations": [],
+        "description": "Young Ewoks on Endor face magical creatures, Duloks, and witches in whimsical adventures. Focus on friendship, bravery, and nature in a kid-oriented fantasy series expanding Return of the Jedi's moon. Nostalgic 80s animation now Legends continuity. (approx. 320 characters)"
+    },
+    {
+        "id": "clone-wars-2003",
+        "type": "animation series",
+        "title": "Star Wars: Clone Wars (2003) - Microseries",
+        "startDate": "2003-11-07",
+        "endDate": "2005-03-25",
+        "status": "released",
+        "genre": "Science Fiction, Animation, Action",
+        "director": [
+            "Genndy Tartakovsky"
+        ],
+        "runtime": 12,
+        "episodes": 25,
+        "canonStatus": "Legends",
+        "imageUrl": "/series/the-clone-wars-2003-s.jpeg",
+        "trailerUrl": "https://www.youtube.com/watch?v=2H5rusicEnc",
+        "characters": [
+            "anakin-skywalker",
+            "obi-wan-kenobi",
+            "yoda",
+            "mace-windu",
+            "count-dooku",
+            "asajj-ventress",
+            "general-grievous"
+        ],
+        "relations": [],
+        "description": "Stylized micro-series depicts Clone Wars battles with minimal dialogue and dynamic animation. Jedi lead epic clashes against Separatists. Influential for prequel era visuals, now Legends continuity. (approx. 280 characters)"
+    },
+    {
+        "id": "maul-shadow-lord",
+        "type": "animation series",
+        "title": "Star Wars: Maul - Shadow Lord",
+        "startDate": "2026-04-06",
+        "endDate": "2026-04-06",
+        "status": "not released",
+        "genre": "Science Fiction, Animation, Action",
+        "director": [
+            "Brad Brau"
+        ],
+        "runtime": 25,
+        "episodes": 10,
+        "canonStatus": "Canon",
+        "imageUrl": "/series/maul-shadow-lord-s.jpeg",
+        "trailerUrl": "https://www.youtube.com/watch?v=oonACDq89BY",
+        "characters": [
+            "darth-maul",
+            "anakin-skywalker",
+            "obi-wan-kenobi",
+            "yoda",
+            "mace-windu",
+            "count-dooku",
+            "asajj-ventress",
+            "general-grievous"
+        ],
+        "relations": [],
+        "description": "Around a year after the Clone Wars former Sith lord Maul rebuilds his criminal syndicate and seeks a new apprentice on the planet Janix during the reign of the Galactic Empire."
+    }
+]

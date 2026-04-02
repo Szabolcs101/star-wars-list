@@ -1,0 +1,32 @@
+.card:hover {
+    cursor: pointer;
+    transform: translateY(-8px);
+    transition: all 0.3s ease;
+}
+
+.title {
+    max-width: 13.625rem;
+    font-weight: bolder;
+    color: var(--font-secondary);
+    padding-top: 0.5rem;
+}
+
+.card:hover .title {
+    color: orange;
+}
+
+.cardImg {
+    height: 327px;
+}
+
+@media (max-width: 480px) {
+    .cardImg {
+        max-width: 109px;
+        max-height: 163.5px;
+    }
+
+    .title {
+        max-width: 6.8125rem;
+        font-size: small;
+    }
+}

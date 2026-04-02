@@ -1,0 +1,124 @@
+.filterListContainer {
+    margin: 50px var(--side-margin-default);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.searchContainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: var(--background-footer);
+    width: fit-content;
+    padding: 0.25rem 0.25rem 0.25rem 1rem;
+}
+
+.filterType {
+    display: flex;
+    flex-direction: column;
+}
+
+.searchInput:focus {
+    outline: none;
+}
+
+.searchInput {
+    height: 2rem;
+    background-color: var(--background-footer);
+    color: var(--font-footer);
+    font-weight: 400;
+    width: 12rem;
+}
+
+.title, .reset {
+    font-weight: bolder;
+    color: var(--font-footer);
+}
+
+.searchIcon {
+    width: 1rem;
+    fill: var(--font-footer);
+}
+
+.resetButton {
+    width: 2rem;
+    fill: var(--font-footer);
+    cursor: pointer;
+}
+
+.resetButton:hover {
+    fill: var(--font-highlighted);
+}
+
+.reset {
+    padding-bottom: 0.25rem;
+}
+
+.mobile {
+    display: none;
+}
+
+@media (max-width: 1024px) {
+    .filterListContainer {
+        margin: var(--vertical-margin-default) 50px;
+        gap: 1rem;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 480px) {
+    .mobile {
+        display: block;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .filterRow {
+        flex-direction: row;
+        display: flex;
+        margin: 30px 50px;
+    }
+
+    .mobileFilters {
+        display: flex;
+        justify-content: left;
+        flex-direction: column;
+        margin: 30px 50px;
+        gap: 0.5rem;
+    }
+
+    .filterIcon {
+        height: 2rem;
+        fill: var(--font-highlighted);
+        cursor: pointer;
+    }
+
+    .filterIcon:hover {
+        fill: orange;
+    }
+
+    .filterToggleButton {
+        border: 1px solid #d3d3d3;
+        background-color: var(--background-footer);
+        padding: 3px;
+    }
+
+    .resetCol {
+        display: flex;
+        align-items: baseline;
+        flex-direction: column;
+    }
+
+    .searchContainer {
+        max-width: 17rem;
+        width: 100%;
+    }
+    .searchInput {
+        max-width: 14.5rem;
+        width: 100%;
+    }
+}

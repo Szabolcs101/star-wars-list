@@ -1,0 +1,425 @@
+[
+    {
+        "id": "a-new-hope",
+        "type": "film",
+        "title": "Star Wars: Episode IV - A New Hope",
+        "releaseDate": "1977-05-25",
+        "status": "released",
+        "genre": "Science Fiction, Adventure, Action",
+        "director": "George Lucas",
+        "runtime": 121,
+        "imageUrl": "/movies/a-new-hope-m.jpeg",
+        "trailerUrl": "https://www.youtube.com/watch?v=1g3_CFmnU7k",
+        "characters": [
+            "luke-skywalker",
+            "princess-leia-organa",
+            "han-solo",
+            "obi-wan-kenobi",
+            "darth-vader",
+            "chewbacca",
+            "r2-d2",
+            "c-3po",
+            "grand-moff-tarkin"
+        ],
+        "relations": [
+            {
+                "relatedId": "revenge-of-the-sith",
+                "type": "sequel"
+            },
+            {
+                "relatedId": "empire-strikes-back",
+                "type": "sequel"
+            },
+            {
+                "relatedId": "return-of-the-jedi",
+                "type": "other"
+            }
+        ],
+        "description": "It is a period of civil war. Rebel spaceships, striking from a hidden base, have won their first victory against the evil Galactic Empire. During the battle, Rebel spies managed to steal secret plans to the Empire's ultimate weapon, the Death Star, an armored space station with enough power to destroy an entire planet. Pursued by the Empire's sinister agents, Princess Leia races home aboard her starship, custodian of the stolen plans that can save her people and restore freedom to the galaxy. A young farm boy, Luke Skywalker, joins forces with an old Jedi knight, Obi-Wan Kenobi, and a ragtag group of rebels to rescue a captive princess and destroy the Empire's space station, the Death Star. Luke discovers the Force and trains as a Jedi while confronting the dark side through Darth Vader. The film establishes the classic space opera conflict between the Rebellion and the Galactic Empire."
+    },
+    {
+        "id": "empire-strikes-back",
+        "type": "film",
+        "title": "Star Wars: Episode V - The Empire Strikes Back",
+        "releaseDate": "1980-05-21",
+        "status": "released",
+        "genre": "Science Fiction, Adventure, Action",
+        "director": "Irvin Kershner",
+        "runtime": 124,
+        "imageUrl": "/movies/the-empire-strikes-back-m.jpeg",
+        "trailerUrl": "https://www.youtube.com/watch?v=JNwNXF9Y6kY",
+        "characters": [
+            "luke-skywalker",
+            "darth-vader",
+            "han-solo",
+            "princess-leia-organa",
+            "lando-calrissian",
+            "yoda",
+            "chewbacca",
+            "boba-fett",
+            "emperor-palpatine"
+        ],
+        "relations": [
+            {
+                "relatedId": "a-new-hope",
+                "type": "prequel"
+            },
+            {
+                "relatedId": "return-of-the-jedi",
+                "type": "sequel"
+            },
+            {
+                "relatedId": "a-new-hope",
+                "type": "other"
+            }
+        ],
+        "description": "It is a dark time for the Rebellion. Although the Death Star has been destroyed, Imperial troops have driven the Rebel forces from their hidden base and pursued them across the galaxy. Evading the dreaded Imperial Starfleet, a group of freedom fighters led by Luke Skywalker has established a new secret base on the remote ice world of Hoth. The evil lord Darth Vader, obsessed with finding young Skywalker, has dispatched thousands of remote probes into the far reaches of space.... The Rebels are pursued by the Empire after the Death Star's destruction, leading to a desperate escape on the ice planet Hoth. Luke trains with Yoda in the swamps of Dagobah while his friends face Imperial forces, and a shocking revelation unfolds about Darth Vader's identity. The film deepens the personal and galactic conflicts in the struggle against the Empire."
+    },
+    {
+        "id": "return-of-the-jedi",
+        "type": "film",
+        "title": "Star Wars: Episode VI - Return of the Jedi",
+        "releaseDate": "1983-05-25",
+        "status": "released",
+        "genre": "Science Fiction, Adventure, Action",
+        "director": "Richard Marquand",
+        "runtime": 131,
+        "imageUrl": "/movies/return-of-the-jedi-m.jpeg",
+        "trailerUrl": "https://www.youtube.com/watch?v=5UfA_aKBGMc",
+        "characters": [
+            "luke-skywalker",
+            "darth-vader",
+            "emperor-palpatine",
+            "princess-leia-organa",
+            "han-solo",
+            "lando-calrissian",
+            "chewbacca",
+            "jabba-the-hutt",
+            "admiral-ackbar"
+        ],
+        "relations": [
+            {
+                "relatedId": "empire-strikes-back",
+                "type": "prequel"
+            },
+            {
+                "relatedId": "a-new-hope",
+                "type": "other"
+            }
+        ],
+        "description": "Luke Skywalker has returned to his home planet of Tatooine in an attempt to rescue his friend Han Solo from the clutches of the vile gangster Jabba the Hutt. Little does Luke know that the Galactic Empire has secretly begun construction on a new armored space station even more powerful than the first dreaded Death Star. When completed, this ultimate weapon will spell certain doom for the small band of rebels struggling to restore freedom to the galaxy.... The Rebellion rescues Han Solo from Jabba the Hutt's palace on Tatooine, while Luke confronts Vader and the Emperor to save his friends. A massive space battle ensues against the second Death Star, culminating in the redemption of Vader and the fall of the Empire. The trilogy concludes with the establishment of the New Republic."
+    },
+    {
+        "id": "phantom-menace",
+        "type": "film",
+        "title": "Star Wars: Episode I - The Phantom Menace",
+        "releaseDate": "1999-05-19",
+        "status": "released",
+        "genre": "Science Fiction, Adventure, Action",
+        "director": "George Lucas",
+        "runtime": 136,
+        "imageUrl": "/movies/the-phantom-menace-m.jpeg",
+        "trailerUrl": "https://www.youtube.com/watch?v=bD7bpG-zDJQ",
+        "characters": [
+            "qui-gon-jinn",
+            "obi-wan-kenobi",
+            "queen-padmé-amidala",
+            "anakin-skywalker",
+            "darth-maul",
+            "jar-jar-binks",
+            "darth-sidious",
+            "shmi-skywalker",
+            "mace-windu"
+        ],
+        "relations": [
+            {
+                "relatedId": "attack-of-the-clones",
+                "type": "sequel"
+            },
+            {
+                "relatedId": "attack-of-the-clones",
+                "type": "other"
+            }
+        ],
+        "description": "Turmoil has engulfed the Galactic Republic. The taxation of trade routes to outlying star systems is in dispute. Hoping to resolve the matter with a blockade of deadly battleships, the greedy Trade Federation has stopped all shipping to the small planet of Naboo. While the Congress of the Republic endlessly debates this alarming chain of events, the Supreme Chancellor has secretly dispatched two Jedi Knights, the guardians of peace and justice in the galaxy, to settle the conflict.... Jedi Master Qui-Gon Jinn and his apprentice Obi-Wan Kenobi protect Queen Amidala from assassins on Naboo, discovering the young Anakin Skywalker, a gifted slave with high midi-chlorian count. The story involves trade disputes, Sith Lord Darth Maul, and the fall of the Republic, setting the stage for greater conflict."
+    },
+    {
+        "id": "attack-of-the-clones",
+        "type": "film",
+        "title": "Star Wars: Episode II - Attack of the Clones",
+        "releaseDate": "2002-05-16",
+        "status": "released",
+        "genre": "Science Fiction, Adventure, Action",
+        "director": "George Lucas",
+        "runtime": 142,
+        "imageUrl": "/movies/attack-of-the-clones-m.jpeg",
+        "trailerUrl": "https://www.youtube.com/watch?v=gYbW1F_c9eM",
+        "characters": [
+            "obi-wan-kenobi",
+            "anakin-skywalker",
+            "padmé-amidala",
+            "count-dooku",
+            "yoda",
+            "mace-windu",
+            "jango-fett",
+            "boba-fett",
+            "chancellor-palpatine"
+        ],
+        "relations": [
+            {
+                "relatedId": "phantom-menace",
+                "type": "prequel"
+            },
+            {
+                "relatedId": "revenge-of-the-sith",
+                "type": "sequel"
+            },
+            {
+                "relatedId": "phantom-menace",
+                "type": "other"
+            }
+        ],
+        "description": "There is unrest in the Galactic Senate. Several thousand solar systems have declared their intentions to leave the Republic. This separatist movement, under the leadership of the mysterious Count Dooku, has made it difficult for the limited number of Jedi Knights to maintain peace and order in the galaxy. Senator Amidala, the former Queen of Naboo, is returning to the Galactic Senate to vote on the critical issue of creating an ARMY OF THE REPUBLIC to assist the overwhelmed Jedi.... Jedi knights Obi-Wan Kenobi and Anakin Skywalker investigate assassination attempts on Senator Padmé Amidala amid rising separatist threats. The story explores Anakin's secret marriage to Padmé, the outbreak of the Clone Wars, and Anakin's growing attachment issues. It escalates the conflict leading to the Empire's rise."
+    },
+    {
+        "id": "revenge-of-the-sith",
+        "type": "film",
+        "title": "Star Wars: Episode III - Revenge of the Sith",
+        "releaseDate": "2005-05-19",
+        "status": "released",
+        "genre": "Science Fiction, Adventure, Action",
+        "director": "George Lucas",
+        "runtime": 140,
+        "imageUrl": "/movies/revenge-of-the-sith-m.jpeg",
+        "trailerUrl": "https://www.youtube.com/watch?v=5UnjrG_N8hU",
+        "characters": [
+            "anakin-skywalker",
+            "obi-wan-kenobi",
+            "chancellor-palpatine",
+            "padmé-amidala",
+            "yoda",
+            "mace-windu",
+            "general-grievous",
+            "count-dooku",
+            "bail-organa"
+        ],
+        "relations": [
+            {
+                "relatedId": "attack-of-the-clones",
+                "type": "prequel"
+            },
+            {
+                "relatedId": "a-new-hope",
+                "type": "sequel"
+            },
+            {
+                "relatedId": "attack-of-the-clones",
+                "type": "other"
+            }
+        ],
+        "description": "War! The Republic is crumbling under attacks by the ruthless Sith Lord, Count Dooku. There are heroes on both sides. Evil is everywhere. In a stunning move, the fiendish droid leader, General Grievous, has swept into the Republic capital and kidnapped Chancellor Palpatine, leader of the Galactic Senate. As the Separatist Droid Army attempts to flee with their valuable hostage, two Jedi Knights lead a desperate mission to rescue the captive Chancellor.... Anakin Skywalker embraces the dark side as Darth Vader under Chancellor Palpatine's influence, leading to the execution of Order 66 and the fall of the Jedi Order. The film depicts the transformation of the Republic into the Galactic Empire and Anakin's full descent into villainy."
+    },
+    {
+        "id": "the-force-awakens",
+        "type": "film",
+        "title": "Star Wars: The Force Awakens",
+        "releaseDate": "2015-12-18",
+        "status": "released",
+        "genre": "Science Fiction, Adventure, Action",
+        "director": "J.J. Abrams",
+        "runtime": 138,
+        "imageUrl": "/movies/the-force-awakens-m.jpeg",
+        "trailerUrl": "https://www.youtube.com/watch?v=sGbxmsDFVnE",
+        "characters": [
+            "rey",
+            "finn",
+            "poe-dameron",
+            "han-solo",
+            "kylo-ren",
+            "leia-organa",
+            "luke-skywalker",
+            "chewbacca",
+            "supreme-leader-snoke"
+        ],
+        "relations": [
+            {
+                "relatedId": "return-of-the-jedi",
+                "type": "sequel"
+            },
+            {
+                "relatedId": "the-last-jedi",
+                "type": "sequel"
+            },
+            {
+                "relatedId": "the-last-jedi",
+                "type": "other"
+            }
+        ],
+        "description": "Luke Skywalker has vanished. In his absence, the sinister FIRST ORDER has risen from the ashes of the Empire and will not rest until Skywalker, the last Jedi, has been destroyed. With the support of the REPUBLIC, General Leia Organa leads a brave RESISTANCE. She is desperate to find her brother Luke and gain his help in restoring peace and justice to the galaxy. Leia has sent her most daring pilot on a secret mission to Jakku, where an old ally has discovered a clue to Luke's whereabouts.... Thirty years after the Empire's fall, Rey discovers her Force abilities on a desert planet, while Poe Dameron is captured by the First Order. Finn defects to help rescue Poe, teaming up with Han Solo and Chewbacca to find Luke Skywalker and confront the rising threat of Kylo Ren."
+    },
+    {
+        "id": "the-last-jedi",
+        "type": "film",
+        "title": "Star Wars: Episode VIII - The Last Jedi",
+        "releaseDate": "2017-12-15",
+        "status": "released",
+        "genre": "Science Fiction, Adventure, Action",
+        "director": "Rian Johnson",
+        "runtime": 152,
+        "imageUrl": "/movies/the-last-jedi-m.jpeg",
+        "trailerUrl": "https://www.youtube.com/watch?v=Qd6nLM2QlWw",
+        "characters": [
+            "rey",
+            "luke-skywalker",
+            "leia-organa",
+            "kylo-ren",
+            "poe-dameron",
+            "finn",
+            "rose-tico",
+            "vice-admiral-holdo",
+            "supreme-leader-snoke"
+        ],
+        "relations": [
+            {
+                "relatedId": "the-force-awakens",
+                "type": "prequel"
+            },
+            {
+                "relatedId": "the-rise-of-skywalker",
+                "type": "sequel"
+            },
+            {
+                "relatedId": "the-force-awakens",
+                "type": "other"
+            }
+        ],
+        "description": "The FIRST ORDER reigns. Having decimated the peaceful Republic, Supreme Leader Snoke now commands the last of the Imperial forces in a merciless campaign to crush the growing Resistance and end the light of the Jedi forever. Rey has found the vanished Luke Skywalker on the remote planet of Ahch-To, but he refuses to teach her the ways of the Force. Meanwhile, the Resistance prepares for a desperate stand against the First Order's fleet.... Rey trains with Luke Skywalker to confront the First Order, while Leia leads the Resistance's evacuation. Kylo Ren seeks Rey's help to rule, but conflicts arise as old alliances fracture and new Force connections are revealed. The film explores themes of failure and legacy in the ongoing war."
+    },
+    {
+        "id": "the-rise-of-skywalker",
+        "type": "film",
+        "title": "Star Wars: Episode IX - The Rise of Skywalker",
+        "releaseDate": "2019-12-20",
+        "status": "released",
+        "genre": "Science Fiction, Adventure, Action",
+        "director": "J.J. Abrams",
+        "runtime": 142,
+        "imageUrl": "/movies/the-rise-of-skywalker-m.jpeg",
+        "trailerUrl": "https://www.youtube.com/watch?v=adzYW5DZoWs",
+        "characters": [
+            "rey",
+            "kylo-ren",
+            "leia-organa",
+            "poe-dameron",
+            "finn",
+            "emperor-palpatine",
+            "lando-calrissian",
+            "jannah",
+            "zorii-bliss"
+        ],
+        "relations": [
+            {
+                "relatedId": "the-last-jedi",
+                "type": "prequel"
+            },
+            {
+                "relatedId": "the-force-awakens",
+                "type": "other"
+            }
+        ],
+        "description": "The dead speak! The galaxy has heard a mysterious broadcast, a threat of REVENGE in the voice of the late Emperor Palpatine. General Leia Organa dispatches a daring mission to recover vital information that could lead to Palpatine's location. Rey, Finn, Poe, Chewbacca, and the droids race across the galaxy to prevent the rise of the Final Order.... Rey faces Emperor Palpatine's return as the Final Order emerges, seeking ancient Sith wayfinders. With the help of Finn, Poe, and surviving allies, Rey uncovers her lineage and confronts Palpatine on Exegol, resolving the Skywalker saga's conflicts."
+    },
+    {
+        "id": "rogue-one",
+        "type": "film",
+        "title": "Rogue One: A Star Wars Story",
+        "releaseDate": "2016-12-16",
+        "status": "released",
+        "genre": "Science Fiction, Action, Adventure",
+        "director": "Gareth Edwards",
+        "runtime": 133,
+        "imageUrl": "/movies/rogue-one-a-star-wars-story-m.jpeg",
+        "trailerUrl": "https://www.youtube.com/watch?v=Wji-BZ0oCwg",
+        "characters": [
+            "jyn-erso",
+            "cassian-andor",
+            "k-2so",
+            "chirrut-îmwe",
+            "baze-malbus",
+            "bodhi-rook",
+            "orson-krennic",
+            "galen-erso",
+            "darth-vader"
+        ],
+        "relations": [
+            {
+                "relatedId": "a-new-hope",
+                "type": "prequel"
+            }
+        ],
+        "description": "A young girl named Jyn Erso is rescued from an Imperial attack by Rebel extremist Saw Gerrera. Years later, an adult Jyn is freed from an Imperial labor camp by the Rebel Alliance after her father, Galen Erso, sends a message via defected Imperial pilot Bodhi Rook revealing that he was forced to design a superweapon called the Death Star. Jyn joins a Rebel team led by Cassian Andor to steal the Death Star plans.... A ragtag group of rebels, including Jyn Erso, steals the Death Star plans after Galen Erso's betrayal by the Empire. They infiltrate Scarif to transmit the plans, facing Imperial forces in a high-stakes mission that sets up the events of A New Hope."
+    },
+    {
+        "id": "solo",
+        "type": "film",
+        "title": "Solo: A Star Wars Story",
+        "releaseDate": "2018-05-25",
+        "status": "released",
+        "genre": "Science Fiction, Adventure, Action",
+        "director": "Ron Howard",
+        "runtime": 135,
+        "imageUrl": "/movies/solo-a-star-wars-story-m.jpeg",
+        "trailerUrl": "https://www.youtube.com/watch?v=dNW0B0HsvVs",
+        "characters": [
+            "han-solo",
+            "chewbacca",
+            "lando-calrissian",
+            "qi'ra",
+            "tobias-beckett",
+            "dryden-vos",
+            "enfys-nest",
+            "l3-37",
+            "val"
+        ],
+        "relations": [
+            {
+                "relatedId": "a-new-hope",
+                "type": "prequel"
+            }
+        ],
+        "description": "Board the Millennium Falcon and journey to a galaxy far, far away in Solo: A Star Wars Story, an adventure with the most beloved scoundrel in the galaxy. Through a series of daring escapades deep within a dark and dangerous criminal underworld, Han Solo meets his mighty future copilot Chewbacca and encounters the notorious gambler Lando Calrissian, in a journey that will set the course of one of the Star Wars saga's most unlikely heroes.... Han Solo, a young thief, joins forces with Chewbacca and Lando Calrissian to pull off a heist on a criminal syndicate. Their adventures lead to Han's acquisition of the Millennium Falcon and his early encounters with the Empire's rise."
+    },
+    {
+        "id": "mandalorian-grogu",
+        "type": "film",
+        "title": "The Mandalorian & Grogu",
+        "releaseDate": "2026-05-22",
+        "status": "upcoming",
+        "genre": "Science Fiction, Adventure, Action",
+        "director": "Jon Favreau",
+        "runtime": "TBA",
+        "imageUrl": "/movies/mandalorian-and-grogu-m.jpeg",
+        "trailerUrl": "https://www.youtube.com/watch?v=_pa1KLXuW0Y",
+        "characters": [
+            "din-djarin-(the-mandalorian)",
+            "grogu",
+            "rotta-the-hutt",
+            "ward",
+            "imperial-warlord",
+            "bo-katan-kryze",
+            "ahsoka-tano",
+            "luke-skywalker"
+        ],
+        "relations": [
+            {
+                "relatedId": "return-of-the-jedi",
+                "type": "sequel"
+            },
+            {
+                "relatedId": "the-force-awakens",
+                "type": "prequel"
+            }
+        ],
+        "description": "The Mandalorian protects Grogu while facing new threats in the galaxy, including Imperial remnants and bounty hunters. The story continues their adventures from the TV series, enlisting help from the New Republic in a chaotic post-Empire galaxy. It marks Star Wars' return to theaters with familiar characters in a new cinematic chapter."
+    }
+]

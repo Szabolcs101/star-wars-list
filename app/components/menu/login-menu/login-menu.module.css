@@ -1,0 +1,38 @@
+.portal {
+    z-index: 10000;
+    position: relative;
+}
+
+.trigger {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: var(--font-highlighted);
+}
+
+.icon {
+    width: 1.75rem;
+    height: 1.75rem;
+}
+
+.popup {
+    background: var(--background-footer);
+    min-width: 140px;
+}
+
+.item {
+    padding: 10px 16px;
+    cursor: pointer;
+    color: var(--font-secondary);
+    font-weight: bold;
+}
+
+.list {
+    border: 1px solid white;
+}
+
+.userInfo {
+    padding: 0.5rem;
+    color: var(--font-highlighted);
+}

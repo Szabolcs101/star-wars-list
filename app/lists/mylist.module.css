@@ -1,0 +1,95 @@
+.page {
+    margin: var(--vertical-margin-default) var(--side-margin-default);
+}
+
+.table {
+    width: 100%;
+    background-color: var(--background-footer);
+    margin-bottom: 2rem;
+    font-size: 0.9rem;
+    color: var(--font-secondary);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 1rem;
+    text-align: left;
+}
+
+.row:hover {
+    background-color: var(--hover-color);
+}
+
+.image {
+    height: 3rem;
+    width: 3rem;
+    object-fit: cover;
+}
+
+.cover {
+    max-width: 60px;
+    width: 100%;
+    padding: 0;
+}
+
+.title, .itemTitle {
+    flex: 5;
+    text-align: left;
+}
+
+.itemTitle {
+    padding-left: 0.95rem;
+}
+
+.score, .progress, .type, .itemScore, .itemProgress, .itemType {
+    flex: 1;
+    text-align: center;
+}
+
+.listType {
+    color: var(--font-secondary);
+    font-size: 1.25rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+}
+
+.noEntries {
+    display: flex;
+    justify-content: center;
+    color: var(--font-secondary);
+    padding-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.progressWrapper {
+    display: flex;
+    justify-content: center;
+    gap: 0.25rem;
+}
+
+.plus {
+    width: 1rem;
+}
+
+@media (max-width: 1024px) {
+    .page {
+        margin: var(--vertical-margin-default) 50px;
+    }
+}
+

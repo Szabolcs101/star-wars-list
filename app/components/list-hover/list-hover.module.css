@@ -1,0 +1,47 @@
+.trigger {
+    cursor: pointer;
+}
+
+.trigger:hover {
+    color: orange;
+}
+
+.positioner {
+    z-index: 1000;
+}
+
+.popup {
+    box-sizing: border-box;
+    border: 1px solid lightgray;
+    padding-block: 0.25rem;
+    background-color: var(--background-footer);
+    transition:
+        transform 150ms,
+        opacity 150ms;
+}
+
+.item {
+    padding-block: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 2rem;
+    display: flex;
+    font-size: 0.875rem;
+    line-height: 1rem;
+    font-weight: bold;
+    color: var(--font-secondary);
+
+    &[data-highlighted] {
+        z-index: 0;
+        position: relative;
+        color: white;
+    }
+
+    &[data-highlighted]::before {
+        content: '';
+        z-index: -1;
+        position: absolute;
+        inset-block: 0;
+        inset-inline: 0.25rem;
+        background-color: var(--menu-highlighted);
+    }
+}

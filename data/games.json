@@ -1,0 +1,797 @@
+[
+    {
+        "id": "star-wars-jedi-fallen-order",
+        "type": "video game",
+        "title": "Star Wars Jedi: Fallen Order",
+        "releaseDate": "2019-11-15",
+        "status": "released",
+        "genre": "Action-Adventure, Metroidvania",
+        "publisher": "Electronic Arts",
+        "developer": "Respawn Entertainment",
+        "canonStatus": "Canon",
+        "imageUrl": "/games/jedi-fallen-order-g.jpg",
+        "platforms": [
+            "PC",
+            "PlayStation 4",
+            "PlayStation 5",
+            "Xbox One",
+            "Xbox Series X|S"
+        ],
+        "relations": [
+            {
+                "relatedId": "star-wars-jedi-survivor",
+                "type": "prequel"
+            }
+        ],
+        "description": "Star Wars Jedi: Fallen Order is a single-player action-adventure game following Cal Kestis, a young Jedi Padawan who survived Order 66. In the dark times of the Empire's rise, players explore diverse planets, uncover ancient Jedi secrets, and battle Imperial forces using lightsaber combat and Force abilities. The Metroidvania-style world encourages backtracking with new powers, while story elements bridge the prequel and original trilogies. Featuring intense duels, character growth, customizable difficulty, and stunning visuals, it revitalized Star Wars gaming with deep lore, emotional storytelling, and high-stakes survival against Inquisitors and stormtroopers. (approx. 520 characters)"
+    },
+    {
+        "id": "star-wars-jedi-survivor",
+        "type": "video game",
+        "title": "Star Wars Jedi: Survivor",
+        "releaseDate": "2023-04-28",
+        "status": "released",
+        "genre": "Action-Adventure, Metroidvania",
+        "publisher": "Electronic Arts",
+        "developer": "Respawn Entertainment",
+        "canonStatus": "Canon",
+        "imageUrl": "/games/jedi-survivor-g.jpg",
+        "platforms": [
+            "PC",
+            "PlayStation 5",
+            "Xbox Series X|S"
+        ],
+        "relations": [
+            {
+                "relatedId": "star-wars-jedi-fallen-order",
+                "type": "sequel"
+            },
+            {
+                "relatedId": "star-wars-jedi-3",
+                "type": "prequel"
+            }
+        ],
+        "description": "Set five years after Fallen Order, Star Wars Jedi: Survivor continues Cal Kestis' journey in the Empire's oppressive era. Players explore expanded worlds like Koboh and Jedha, forge alliances, confront past enemies, and seek hidden Jedi paths for survival. Enhanced combat includes new stances, perks, and customization, with vehicles, larger open areas, and deeper exploration. The narrative delves into loss, friendship, and hope, tying into Rebels and Obi-Wan Kenobi eras. Breathtaking graphics, emotional arcs, and epic boss fights make it a standout continuation that enriches Star Wars canon with mature themes and thrilling gameplay. (approx. 510 characters)"
+    },
+    {
+        "id": "star-wars-jedi-3",
+        "type": "video game",
+        "title": "Star Wars Jedi 3",
+        "releaseDate": "2026",
+        "status": "not released",
+        "genre": "Action-Adventure, Metroidvania",
+        "publisher": "Electronic Arts",
+        "developer": "Respawn Entertainment",
+        "canonStatus": "Canon",
+        "imageUrl": "/games/jedi-3-g.jpg",
+        "platforms": [
+            "PC",
+            "PlayStation 5",
+            "Xbox Series X|S"
+        ],
+        "relations": [
+            {
+                "relatedId": "star-wars-jedi-survivor",
+                "type": "sequel"
+            }
+        ],
+        "description": "The anticipated third installment in the Jedi series concludes Cal Kestis' saga, set years after Survivor amid escalating Imperial threats. Players wield advanced Force powers, customize lightsabers extensively, and navigate vast open worlds teeming with new allies, droids, and formidable foes. Expect evolved Metroidvania exploration, co-op elements, and narrative branches exploring Jedi philosophy, redemption, and the spark of rebellion. Building on predecessors' acclaim, it promises cinematic storytelling, heart-pounding combat, and ties to broader canon like Andor and Rogue One, delivering an emotional finale to one of Star Wars' most beloved new heroes. (approx. 495 characters)"
+    },
+    {
+        "id": "star-wars-outlaws",
+        "type": "video game",
+        "title": "Star Wars Outlaws",
+        "releaseDate": "2024-08-30",
+        "status": "released",
+        "genre": "Open World Action-Adventure",
+        "publisher": "Ubisoft",
+        "developer": "Massive Entertainment",
+        "canonStatus": "Canon",
+        "imageUrl": "/games/outlaws-g.jpg",
+        "platforms": [
+            "PC",
+            "PlayStation 5",
+            "Xbox Series X|S"
+        ],
+        "relations": [],
+        "description": "Star Wars Outlaws takes place between The Empire Strikes Back and Return of the Jedi, following scoundrel Kay Vess and her companion Nix in a high-stakes quest for freedom. Set on the galactic fringe, players engage in open-world exploration, stealth heists, space combat, speeder chases, and syndicate alliances like Crimson Dawn. The game expands the criminal underworld with new planets, factions, and dynamic choices impacting reputation and story. Blending action, adventure, and role-playing elements, it delivers a fresh rogue's perspective on the Star Wars universe, filled with betrayal, high-risk jobs, and the thrill of outrunning the Empire. (approx. 500 characters)"
+    },
+    {
+        "id": "star-wars-squadrons",
+        "type": "video game",
+        "title": "Star Wars: Squadrons",
+        "releaseDate": "2020-10-02",
+        "status": "released",
+        "genre": "Space Combat Simulation",
+        "publisher": "Electronic Arts",
+        "developer": "Motive Studios",
+        "canonStatus": "Canon",
+        "imageUrl": "/games/squadrons-g.jpg",
+        "platforms": [
+            "PC",
+            "PlayStation 4",
+            "Xbox One"
+        ],
+        "relations": [],
+        "description": "Star Wars: Squadrons immerses players in intense multiplayer space dogfights and a gripping single-player campaign set after The Rise of Skywalker. Pilot customizable starfighters for the New Republic or Imperial Remnant, mastering flight mechanics, team tactics, and capital ship assaults. The story follows pilot Emma 'Valkyrie' versus Baron 'Hathcock' in a tale of rivalry and redemption. Realistic cockpit views, upgrade systems, and VR support enhance authenticity. Competitive modes and fleet battles capture the thrill of X-Wing vs TIE Fighter skirmishes, making it essential for fans craving authentic Star Wars aerial combat in canon continuity. (approx. 485 characters)"
+    },
+    {
+        "id": "star-wars-battlefront-ii-2017",
+        "type": "video game",
+        "title": "Star Wars Battlefront II",
+        "releaseDate": "2017-11-17",
+        "status": "released",
+        "genre": "Multiplayer Shooter, Action",
+        "publisher": "Electronic Arts",
+        "developer": "DICE",
+        "canonStatus": "Canon",
+        "imageUrl": "/games/battlefront-2-g.jpg",
+        "platforms": [
+            "PC",
+            "PlayStation 4",
+            "Xbox One"
+        ],
+        "relations": [
+            {
+                "relatedId": "star-wars-battlefront-2015",
+                "type": "sequel"
+            }
+        ],
+        "description": "Star Wars Battlefront II delivers massive multiplayer battles across iconic planets, with a canon single-player campaign starring Iden Versio of Inferno Squad. From Naboo to Starkiller Base, command heroes like Vader and Rey in 40-player modes, starfighter combat, and ground assaults. Progression system unlocks troops, vehicles, and boosts, while co-op missions and arcade modes add variety. The story explores Imperial loyalty turning to rebellion, bridging sequels with deep lore. Epic scale, authentic sound design, and constant updates make it a definitive multiplayer Star Wars experience blending spectacle and strategy. (approx. 475 characters)"
+    },
+    {
+        "id": "star-wars-knights-of-the-old-republic",
+        "type": "video game",
+        "title": "Star Wars: Knights of the Old Republic",
+        "releaseDate": "2003-07-15",
+        "status": "released",
+        "genre": "Action RPG",
+        "publisher": "LucasArts",
+        "developer": "BioWare",
+        "canonStatus": "Legends",
+        "imageUrl": "/games/kotor-g.jpg",
+        "platforms": [
+            "PC",
+            "Xbox"
+        ],
+        "relations": [
+            {
+                "relatedId": "star-wars-knights-of-the-old-republic-ii-the-sith-lords",
+                "type": "sequel"
+            }
+        ],
+        "description": "Star Wars: Knights of the Old Republic (KOTOR) is a legendary RPG set 4,000 years before the films, where players shape a hero's path as Jedi or Sith amid a galactic war. Explore planets like Taris and Dantooine, recruit companions like Carth and Bastila, and make moral choices affecting alignment and story. Iconic turn-based combat, deep dialogue trees, and romance options deliver replayability. Reviving isometric RPGs with Star Wars flair, it weaves epic tales of betrayal, ancient Sith threats, and Force mastery, cementing its status as one of gaming's greatest narratives and influencing modern titles. (approx. 505 characters)"
+    },
+    {
+        "id": "star-wars-knights-of-the-old-republic-ii-the-sith-lords",
+        "type": "video game",
+        "title": "Star Wars: Knights of the Old Republic II: The Sith Lords",
+        "releaseDate": "2004-12-06",
+        "status": "released",
+        "genre": "Action RPG",
+        "publisher": "LucasArts",
+        "developer": "Obsidian Entertainment",
+        "canonStatus": "Legends",
+        "imageUrl": "/games/kotor-2-g.jpg",
+        "platforms": [
+            "PC",
+            "Xbox"
+        ],
+        "relations": [
+            {
+                "relatedId": "star-wars-knights-of-the-old-republic",
+                "type": "prequel"
+            }
+        ],
+        "description": "KOTOR II expands the saga with exiled Jedi Meetra Surik (The Exile), exploring philosophy, influence, and Sith remnants post-Malak's defeat. Deeper companion stories, influence system shaping personalities, and prestige classes add layers to RPG mechanics. Planets like Nar Shaddaa and Onderon host faction wars and moral dilemmas. Despite rushed release, restored content mod unlocks full vision of Obsidian's narrative genius on Force nature and gray morality. Praised for writing and reactivity, it deepens Legends lore on Old Republic era, offering profound character arcs and tactical combat in a galaxy scarred by endless war. (approx. 510 characters)"
+    },
+    {
+        "id": "star-wars-republic-commando",
+        "type": "video game",
+        "title": "Star Wars: Republic Commando",
+        "releaseDate": "2005-02-28",
+        "status": "released",
+        "genre": "FPS, Tactical Shooter",
+        "publisher": "LucasArts",
+        "developer": "LucasArts",
+        "canonStatus": "Legends",
+        "imageUrl": "/games/republic-commando-g.jpg",
+        "platforms": [
+            "PC",
+            "Xbox",
+            "PlayStation 4"
+        ],
+        "relations": [],
+        "description": "Republic Commando puts players in command of Delta Squad, elite clone commandos executing high-risk missions during the Clone Wars. Issue orders to AI teammates via intuitive commands, breach doors, and use squad tactics against droids on Geonosis, Kashyyyk, and more. Realistic squad banter, helmet HUD, and moral choices highlight brotherhood and war's brutality. Tactical cover, grenades, and weapon variety demand strategy over run-and-gun. A cult classic for its immersion and clone perspective, it humanizes faceless troopers in Legends, influencing modern squad shooters with gritty storytelling and intense firefights. (approx. 490 characters)"
+    },
+    {
+        "id": "star-wars-the-force-unleashed",
+        "type": "video game",
+        "title": "Star Wars: The Force Unleashed",
+        "releaseDate": "2008-09-16",
+        "status": "released",
+        "genre": "Action-Adventure",
+        "publisher": "LucasArts",
+        "developer": "LucasArts",
+        "canonStatus": "Legends",
+        "imageUrl": "/games/the-force-unleashed-g.jpg",
+        "platforms": [
+            "PC",
+            "PlayStation 3",
+            "Xbox 360",
+            "Wii",
+            "PlayStation 2"
+        ],
+        "relations": [
+            {
+                "relatedId": "star-wars-the-force-unleashed-ii",
+                "type": "sequel"
+            }
+        ],
+        "description": "The Force Unleashed stars Starkiller, Vader's secret apprentice, on a path of destruction and discovery between Revenge of the Sith and A New Hope. Wield devastating Force powers like lightning grip and repulse in cinematic combat across levels like Death Star and Hoth. Train with Jedi masters, face Marek's destiny, and alter history with choices. Destructible environments, combo system, and epic boss fights defined next-gen action. Though Legends, its spectacle and 'what if' story expanded dark side lore, inspiring canon echoes and cementing its legacy as a bold, force-fueled power fantasy. (approx. 485 characters)"
+    },
+    {
+        "id": "star-wars-the-force-unleashed-ii",
+        "type": "video game",
+        "title": "Star Wars: The Force Unleashed II",
+        "releaseDate": "2010-10-26",
+        "status": "released",
+        "genre": "Action-Adventure",
+        "publisher": "LucasArts",
+        "developer": "LucasArts",
+        "canonStatus": "Legends",
+        "imageUrl": "/games/the-force-unleashed-2-g.jpg",
+        "platforms": [
+            "PC",
+            "PlayStation 3",
+            "Xbox 360",
+            "Wii"
+        ],
+        "relations": [
+            {
+                "relatedId": "star-wars-the-force-unleashed",
+                "type": "prequel"
+            }
+        ],
+        "description": "Force Unleashed II clones Starkiller's template for a new apprentice escaping Kamino labs, grappling with identity and Vader's manipulations pre-Hoth. Enhanced Force fury mode unleashes destruction, dual sabers, and mind-trick powers amplify spectacle. Story delves into clone madness, Juno Eclipse romance, and rebellion origins. Improved AI, larger battles, and heroic moments build on original's ambition. As Legends pinnacle of over-the-top action, it questions Force nature through rage and loyalty, delivering cathartic duels and setpieces that remain thrilling, despite narrative familiarity. (approx. 475 characters)"
+    },
+    {
+        "id": "star-wars-jedi-knight-dark-forces-ii",
+        "type": "video game",
+        "title": "Star Wars Jedi Knight: Dark Forces II",
+        "releaseDate": "1997-10-09",
+        "status": "released",
+        "genre": "FPS, Action-Adventure",
+        "publisher": "LucasArts",
+        "developer": "Raven Software",
+        "canonStatus": "Legends",
+        "imageUrl": "/games/dark-forces-2-g.jpg",
+        "platforms": [
+            "PC"
+        ],
+        "relations": [
+            {
+                "relatedId": "star-wars-jedi-knight-ii-jedi-outcast",
+                "type": "sequel"
+            }
+        ],
+        "description": "Jedi Knight: Dark Forces II follows Kyle Katarn from mercenary to Jedi, uncovering Dark Jedi conspiracy post-Endor. Toggle lightsaber and guns in revolutionary combat, choose light/dark paths affecting endings and powers. Expansive levels blend puzzles, secrets, and multiplayer deathmatches. Force powers like grip and lightning add depth to Doom-like engine. Pioneering moral choice in Star Wars FPS, it launched enduring series, influencing soul-reaping narratives and lightsaber duels in Legends era. Timeless mod scene keeps it alive for retro fans seeking origin of Kyle's saga. (approx. 480 characters)"
+    },
+    {
+        "id": "star-wars-jedi-knight-ii-jedi-outcast",
+        "type": "video game",
+        "title": "Star Wars Jedi Knight II: Jedi Outcast",
+        "releaseDate": "2002-03-26",
+        "status": "released",
+        "genre": "FPS, Action",
+        "publisher": "LucasArts",
+        "developer": "Raven Software",
+        "canonStatus": "Legends",
+        "imageUrl": "/games/jedi-knight-g.jpg",
+        "platforms": [
+            "PC",
+            "Xbox",
+            "PlayStation 4"
+        ],
+        "relations": [
+            {
+                "relatedId": "star-wars-jedi-knight-dark-forces-ii",
+                "type": "prequel"
+            },
+            {
+                "relatedId": "star-wars-jedi-knight-jedi-academy",
+                "type": "sequel"
+            }
+        ],
+        "description": "Jedi Outcast reunites Kyle Katarn with lightsaber prowess against Imperial Remnant cult. Seamless gun-to-Force transitions, acrobatic duels, and multiplayer arenas defined FPS evolution. Story spans Nar Shaddaa dives to Cairn fortress, with puzzles and boss fights. Single-player bots and moddable Jedi Academy multiplayer spawned communities. Acclaimed for level design, AI, and Jan Ors partnership, it peaked Jedi Knight formula in Legends, blending shooter grit with Jedi fantasy. Essential for lightsaber combat origins and enduring online legacy. (approx. 460 characters)"
+    },
+    {
+        "id": "star-wars-jedi-knight-jedi-academy",
+        "type": "video game",
+        "title": "Star Wars Jedi Knight: Jedi Academy",
+        "releaseDate": "2003-09-16",
+        "status": "released",
+        "genre": "FPS, Action",
+        "publisher": "LucasArts",
+        "developer": "Raven Software",
+        "canonStatus": "Legends",
+        "imageUrl": "/games/jedi-academy-g.jpg",
+        "platforms": [
+            "PC",
+            "Xbox",
+            "PlayStation 4"
+        ],
+        "relations": [
+            {
+                "relatedId": "star-wars-jedi-knight-ii-jedi-outcast",
+                "type": "prequel"
+            }
+        ],
+        "description": "Jedi Academy lets players create Jaden Korr at Luke's academy, mastering dual/triple sabers against cultist threats. Mission-based campaign spans Tatooine to Vjun, with nonlinear level choice and Force upgrades. Iconic multiplayer features stance system, bot duels, and siege mode. Customizable movesets and siege gameplay innovated Star Wars PvP. Fan-favorite for accessibility, mod support like Movie Battles, it concluded Jedi Knight trilogy triumphantly in Legends, emphasizing student growth and epic confrontations. Timeless for saber enthusiasts. (approx. 470 characters)"
+    },
+    {
+        "id": "star-wars-battlefront-2004",
+        "type": "video game",
+        "title": "Star Wars: Battlefront",
+        "releaseDate": "2004-09-21",
+        "status": "released",
+        "genre": "Multiplayer Shooter",
+        "publisher": "LucasArts",
+        "developer": "Pandemic Studios",
+        "canonStatus": "Legends",
+        "imageUrl": "/games/battlefront-old-g.jpg",
+        "platforms": [
+            "PC",
+            "PlayStation 2",
+            "Xbox"
+        ],
+        "relations": [
+            {
+                "relatedId": "star-wars-battlefront-ii-2005",
+                "type": "sequel"
+            }
+        ],
+        "description": "Battlefront pioneered massive 64-player battles across Hoth, Tatooine, and Endor, capturing Battlefield essence in Star Wars. Instant action drops players as troopers, pilots, or heroes in conquest mode. Vehicles like AT-ATs and starfighters add chaos. Simple pick-up-and-play multiplayer fostered LAN parties and clans. Though light on single-player, Galactic Conquest added strategy. Revived franchise multiplayer legacy in Legends, influencing modern titles with scale and accessibility. Nostalgic cornerstone for squad-based galactic warfare. (approx. 455 characters)"
+    },
+    {
+        "id": "star-wars-battlefront-ii-2005",
+        "type": "video game",
+        "title": "Star Wars: Battlefront II",
+        "releaseDate": "2005-11-01",
+        "status": "released",
+        "genre": "Multiplayer Shooter",
+        "publisher": "LucasArts",
+        "developer": "Pandemic Studios",
+        "canonStatus": "Legends",
+        "imageUrl": "/games/battlefront-2-old-g.jpg",
+        "platforms": [
+            "PC",
+            "PlayStation 2",
+            "Xbox",
+            "PSP"
+        ],
+        "relations": [
+            {
+                "relatedId": "star-wars-battlefront-2004",
+                "type": "prequel"
+            }
+        ],
+        "description": "Battlefront II elevates predecessor with space battles, hero assault, and single-player campaign as 501st Legion from Naboo to Coruscant. Seamless ground-to-space transitions, unlockable voices, and expanded maps like Utapau deliver peak multiplayer mayhem. Hero combat with Vader and Yoda adds flair. Galactic Conquest campaigns simulate war. Definitive Legends entry, its polish and variety set benchmarks for Star Wars shooters, with remasters keeping split-screen alive for generations of fans reliving clone wars and Imperial marches. (approx. 465 characters)"
+    },
+    {
+        "id": "star-wars-empire-at-war",
+        "type": "video game",
+        "title": "Star Wars: Empire at War",
+        "releaseDate": "2006-02-16",
+        "status": "released",
+        "genre": "Real-Time Strategy",
+        "publisher": "LucasArts",
+        "developer": "Petroglyph Games",
+        "canonStatus": "Legends",
+        "imageUrl": "/games/empire-at-war-g.jpg",
+        "platforms": [
+            "PC"
+        ],
+        "relations": [
+            {
+                "relatedId": "star-wars-empire-at-war-forces-of-corruption",
+                "type": "sequel"
+            }
+        ],
+        "description": "Empire at War offers grand RTS across ground skirmishes and orbital fleet clashes in Galactic Conquest mode spanning original trilogy. Command Star Destroyers, build Death Stars, and conquer sectors as Empire or Rebels. Detailed units, heroes like Vader, and destructible environments immerse in macro strategy. Expansion Forces of Corruption adds underworld intrigue. Timeless for scale and authenticity, it captures Star Wars epic warfare in Legends, with mods extending to sequels and clones. Essential for armchair admirals. (approx. 455 characters)"
+    },
+    {
+        "id": "star-wars-rogue-squadron-ii-rogue-leader",
+        "type": "video game",
+        "title": "Star Wars: Rogue Squadron II: Rogue Leader",
+        "releaseDate": "2001-11-12",
+        "status": "released",
+        "genre": "Flight Action",
+        "publisher": "LucasArts",
+        "developer": "Factor 5",
+        "canonStatus": "Legends",
+        "imageUrl": "/games/rogue-squadron-2-g.jpg",
+        "platforms": [
+            "GameCube"
+        ],
+        "relations": [
+            {
+                "relatedId": "star-wars-rogue-squadron",
+                "type": "sequel"
+            }
+        ],
+        "description": "Rogue Leader showcases GameCube launch glory with stunning starfighter missions recreating Hoth assault and Death Star trench run. Pilot X-Wings, Y-Wings in 3D rail-shooter style with bomb drops and dogfights. Medal system unlocks content, co-op adds replay. Technical marvel for visuals and sound, it honored Luke's squadron in Legends, blending arcade thrill with cinematic fidelity. Influential flight sim that defined console space combat. (approx. 420 characters)"
+    },
+    {
+        "id": "star-wars-x-wing",
+        "type": "video game",
+        "title": "Star Wars: X-Wing",
+        "releaseDate": "1993-02-19",
+        "status": "released",
+        "genre": "Space Flight Simulator",
+        "publisher": "LucasArts",
+        "developer": "Totally Games",
+        "canonStatus": "Legends",
+        "imageUrl": "/games/x-wing-g.jpg",
+        "platforms": [
+            "PC"
+        ],
+        "relations": [
+            {
+                "relatedId": "star-wars-tie-fighter",
+                "type": "other"
+            }
+        ],
+        "description": "X-Wing launched sim genre with authentic Rebel pilot campaigns from Obi-Wan's rescue to Endor. Manage shields, lasers in six missions per tour, upgrade squadron. Cutscenes and voice acting immersed in lore. Expansions added B-Wing and Defender missions. Pioneering Star Wars flight in Legends, its depth and authenticity birthed enduring series, modded eternally for modern play. Cornerstone of galactic ace simulation. (approx. 435 characters)"
+    },
+    {
+        "id": "star-wars-tie-fighter",
+        "type": "video game",
+        "title": "Star Wars: TIE Fighter",
+        "releaseDate": "1994-07-19",
+        "status": "released",
+        "genre": "Space Flight Simulator",
+        "publisher": "LucasArts",
+        "developer": "Totally Games",
+        "canonStatus": "Legends",
+        "imageUrl": "/games/tie-fighter-g.jpg",
+        "platforms": [
+            "PC"
+        ],
+        "relations": [
+            {
+                "relatedId": "star-wars-x-wing",
+                "type": "other"
+            }
+        ],
+        "description": "TIE Fighter flips perspective to Imperial ace, rising ranks with advanced fighters against Rebel scum. Deeper simulation, medals, and branching tours culminate in Emperor's Hammer. Expansions explore Defender prototype and alien incursions. Superior to X-Wing in polish and story, it humanized Imperials in Legends, offering thrilling dogfights and loyalty narrative. Benchmark sim with lasting fan remasters. (approx. 425 characters)"
+    },
+    {
+        "id": "star-wars-dark-forces",
+        "type": "video game",
+        "title": "Star Wars: Dark Forces",
+        "releaseDate": "1995-02-15",
+        "status": "released",
+        "genre": "FPS",
+        "publisher": "LucasArts",
+        "developer": "LucasArts",
+        "canonStatus": "Legends",
+        "imageUrl": "/games/dark-forces-g.jpg",
+        "platforms": [
+            "PC",
+            "PlayStation"
+        ],
+        "relations": [
+            {
+                "relatedId": "star-wars-jedi-knight-dark-forces-ii",
+                "type": "prequel"
+            }
+        ],
+        "description": "Dark Forces casts Kyle Katarn as merc thwarting Dark Trooper project in Doom-inspired levels. Jumping, swimming, immersive tech introduced 3D FPS to Star Wars. Story missions across Sewers to Executor, with live-action cutscenes. Precursor to Jedi Knight, it established Kyle in Legends with solid shooting and secrets. Retro gem modded for widescreen. (approx. 410 characters)"
+    },
+    {
+        "id": "star-wars-shadows-of-the-empire",
+        "type": "video game",
+        "title": "Star Wars: Shadows of the Empire",
+        "releaseDate": "1996-11-19",
+        "status": "released",
+        "genre": "Action-Adventure, Rail Shooter",
+        "publisher": "LucasArts",
+        "developer": "LucasArts",
+        "canonStatus": "Legends",
+        "imageUrl": "/games/shadows-of-the-empire-g.jpg",
+        "platforms": [
+            "Nintendo 64",
+            "PC"
+        ],
+        "relations": [],
+        "description": "Shadows of the Empire fills ESB-ROTJ gap as Dash Rendar, rivaling Han in bounty hunts and Hoth defense. Varied gameplay: on-rails shooting, behind-view flying, platforming. Iconic Boba duel and Slave I piloting. Multimedia tie-in expanded Legends with crimelord intrigue. N64 showcase for action diversity and narrative ambition. Cult favorite for filling beloved void. (approx. 420 characters)"
+    },
+    {
+        "id": "star-wars-bounty-hunter",
+        "type": "video game",
+        "title": "Star Wars: Bounty Hunter",
+        "releaseDate": "2002-11-19",
+        "status": "released",
+        "genre": "Action-Adventure",
+        "publisher": "LucasArts",
+        "developer": "LucasArts",
+        "canonStatus": "Legends",
+        "imageUrl": "/games/bounty-hunter-g.jpg",
+        "platforms": [
+            "PlayStation 2",
+            "GameCube"
+        ],
+        "relations": [],
+        "description": "Bounty Hunter prequels Jango Fett's Episode II capture, jetpacking through seedy underworlds like Outland Transit Station. Dual weapons, missile lock-ons, and grapple hook fuel aggressive play. Multiple paths, bounties, and Slave I dogfights. Dark tale of Mandalorian ruthlessness in Legends, revealing Jango's code and Komari Voss betrayal. Underrated gem for fluid combat and Fett fantasy. (approx. 430 characters)"
+    },
+    {
+        "id": "star-wars-galactic-racer",
+        "type": "video game",
+        "title": "Star Wars: Galactic Racer",
+        "releaseDate": "2026",
+        "status": "not released",
+        "genre": "Racing, Action",
+        "publisher": "Secret Mode",
+        "developer": "Fuse Games",
+        "canonStatus": "Canon",
+        "imageUrl": "/games/galactic-racer-g.jpg",
+        "platforms": [
+            "PC",
+            "PlayStation 5",
+            "Xbox Series X|S"
+        ],
+        "relations": [],
+        "description": "Star Wars: Galactic Racer revives podracing spirit post-Jakku with high-octane speeder races across junkyard worlds and neon circuits. Customize vehicles, unleash boosts amid hazards, rival Sebulba in multiplayer chaos. Story mode weaves underworld stakes and canon ties. Arcade thrills meet modern visuals for 1-12 players, delivering adrenaline and Star Wars vehicular mayhem in fresh canon era. (approx. 420 characters)"
+    },
+    {
+        "id": "star-wars-zero-company",
+        "type": "video game",
+        "title": "Star Wars: Zero Company",
+        "releaseDate": "2026",
+        "status": "not released",
+        "genre": "Turn-Based Tactics, Strategy",
+        "publisher": "Electronic Arts",
+        "developer": "Bit Reactor",
+        "canonStatus": "Canon",
+        "imageUrl": "/games/zero-company-g.jpg",
+        "platforms": [
+            "PC",
+            "PlayStation 5",
+            "Xbox Series X|S"
+        ],
+        "relations": [],
+        "description": "Star Wars: Zero Company deploys players as Republic squad leaders in Clone Wars turn-based tactics akin to XCOM. Customize clones, manage permadeath risks, tactical positioning against droid hordes. Branching campaigns explore brotherhood and Jedi oversight. Deep strategy, squad progression, and authentic battles enrich prequel canon with ground-level war tales. (approx. 410 characters)"
+    },
+    {
+        "id": "star-wars-eclipse",
+        "type": "video game",
+        "title": "Star Wars Eclipse",
+        "releaseDate": "2026",
+        "status": "not released",
+        "genre": "Action-Adventure, RPG",
+        "publisher": "Quantic Dream",
+        "developer": "Quantic Dream",
+        "canonStatus": "Canon",
+        "imageUrl": "/games/eclipse-g.jpg",
+        "platforms": [
+            "PC",
+            "PlayStation 5",
+            "Xbox Series X|S"
+        ],
+        "relations": [],
+        "description": "Eclipse charts High Republic era's shadows with multiple protagonists in narrative-driven adventure. Branching stories, cinematic choices, and faction intrigue unfold amid golden age's underbelly. Fluid combat, exploration, and moral quandaries promise Quantic Dream's interactive drama in untouched canon timeline. Epic scope awaits. (approx. 400 characters)"
+    },
+    {
+        "id": "star-wars-battlefront-2015",
+        "type": "video game",
+        "title": "Star Wars Battlefront",
+        "releaseDate": "2015-11-17",
+        "status": "released",
+        "genre": "Multiplayer Shooter",
+        "publisher": "Electronic Arts",
+        "developer": "DICE",
+        "canonStatus": "Canon",
+        "imageUrl": "/games/battlefront-g.jpg",
+        "platforms": [
+            "PC",
+            "PlayStation 4",
+            "Xbox One"
+        ],
+        "relations": [
+            {
+                "relatedId": "star-wars-battlefront-ii-2017",
+                "type": "prequel"
+            }
+        ],
+        "description": "Battlefront (2015) launches visceral 40-player wars on iconic locales like Endor and Hoth with hero hunters and walker assaults. Levolution destructibility, dynamic weather, and starfighter squads immerse in spectacle. DLC expands eras. Polished multiplayer foundation for canon revival, prioritizing fun over progression. Visual feast for galactic clashes. (approx. 410 characters)"
+    },
+    {
+        "id": "star-wars-the-old-republic",
+        "type": "video game",
+        "title": "Star Wars: The Old Republic",
+        "releaseDate": "2011-12-20",
+        "status": "released",
+        "genre": "MMORPG",
+        "publisher": "Electronic Arts",
+        "developer": "BioWare",
+        "canonStatus": "Legends",
+        "imageUrl": "/games/the-old-republic-g.jpg",
+        "platforms": [
+            "PC"
+        ],
+        "relations": [
+            {
+                "relatedId": "star-wars-knights-of-the-old-republic-ii-the-sith-lords",
+                "type": "other"
+            }
+        ],
+        "description": "The Old Republic MMO chronicles Sith Empire-Revised Republic war 300 years post-KOTOR, with class stories rivaling single-player RPGs. Choose Jedi Knight, Smuggler, etc., in voiced narratives, flashpoints, operations. Expansions like Knights of the Fallen Empire shift to story-driven. Massive worlds, legacy system link families. Enduring Legends hub for Old Republic lore and lightsaber PvP. (approx. 420 characters)"
+    },
+    {
+        "id": "star-wars-episode-i-racer",
+        "type": "video game",
+        "title": "Star Wars Episode I: Racer",
+        "releaseDate": "1999-05-19",
+        "status": "released",
+        "genre": "Racing",
+        "publisher": "LucasArts",
+        "developer": "LucasArts",
+        "canonStatus": "Legends",
+        "imageUrl": "/games/racer-g.jpg",
+        "platforms": [
+            "PC",
+            "Nintendo 64",
+            "Game Boy Color",
+            "Nintendo Switch",
+            "PlayStation 4"
+        ],
+        "relations": [],
+        "description": "Episode I: Racer translates The Phantom Menace's iconic Boonta Eve Classic into a full-blown racing experience with over 25 pilots and 21 tracks across alien worlds. Upgrade engines, repulsors, and cooling systems between races to gain competitive edge. Anakin Skywalker leads the roster alongside fan favorites like Sebulba and Gasgano. Blistering speeds, exotic environments, and tight handling make it a timeless arcade racer, remastered for modern platforms. Its arcade legacy and faithful podracer fantasy ensure it remains the definitive Star Wars racing experience in Legends continuity. (approx. 495 characters)"
+    },
+    {
+        "id": "star-wars-starfighter",
+        "type": "video game",
+        "title": "Star Wars: Starfighter",
+        "releaseDate": "2001-02-19",
+        "status": "released",
+        "genre": "Flight Action",
+        "publisher": "LucasArts",
+        "developer": "LucasArts",
+        "canonStatus": "Legends",
+        "imageUrl": "/games/starfighter-g.jpg",
+        "platforms": [
+            "PlayStation 2",
+            "Xbox",
+            "PC"
+        ],
+        "relations": [
+            {
+                "relatedId": "star-wars-jedi-starfighter",
+                "type": "sequel"
+            }
+        ],
+        "description": "Starfighter follows three pilots — mercenary Rhys Dallows, smuggler Vana Sage, and Naboo guard Nym — through the events surrounding The Phantom Menace's Trade Federation blockade. Rail-assisted dogfights blend arcade accessibility with cinematic flair across space and atmospheric battles. Secondary objectives, cooperative missions, and bonus ships add replayability. A PS2 launch title showcasing prequel-era combat from fresh perspectives, it enriched Legends with ground-level heroism outside Jedi ranks. (approx. 465 characters)"
+    },
+    {
+        "id": "star-wars-jedi-starfighter",
+        "type": "video game",
+        "title": "Star Wars: Jedi Starfighter",
+        "releaseDate": "2002-03-11",
+        "status": "released",
+        "genre": "Flight Action",
+        "publisher": "LucasArts",
+        "developer": "LucasArts",
+        "canonStatus": "Legends",
+        "imageUrl": "/games/jedi-starfighter-g.jpg",
+        "platforms": [
+            "PlayStation 2",
+            "Xbox"
+        ],
+        "relations": [
+            {
+                "relatedId": "star-wars-starfighter",
+                "type": "prequel"
+            }
+        ],
+        "description": "Jedi Starfighter expands its predecessor with Adi Gallia piloting the Force-powered Jedi Starfighter alongside returning Nym during the Clone Wars' early days. Unique Force abilities like shockwave and shield burst diversify aerial combat beyond standard blasters. Cooperative multiplayer, branching mission paths, and unlockable craft deepen replay. Set against Geonosis and Karthakk system battles, it bridged Attack of the Clones with exciting flight action, offering a Jedi's aerial perspective rarely explored in Legends gaming. (approx. 475 characters)"
+    },
+    {
+        "id": "star-wars-the-clone-wars-2002",
+        "type": "video game",
+        "title": "Star Wars: The Clone Wars",
+        "releaseDate": "2002-05-14",
+        "status": "released",
+        "genre": "Action, Vehicle Combat",
+        "publisher": "LucasArts",
+        "developer": "Pandemic Studios",
+        "canonStatus": "Legends",
+        "imageUrl": "/games/the-clone-wars-g.jpg",
+        "platforms": [
+            "GameCube",
+            "PlayStation 2",
+            "Xbox"
+        ],
+        "relations": [],
+        "description": "The Clone Wars puts players in command of Republic vehicles — gunships, speeders, and AT-TEs — across sprawling ground battles on Geonosis, Rhen Var, and beyond. Mission objectives range from convoy escorts to base assaults, with three playable Jedi commanders: Obi-Wan, Anakin, and Mace Windu. Multiplayer supports four-player split-screen chaos. Released alongside Attack of the Clones, it captured the scale of prequel warfare in Legends, offering a tank-action perspective distinct from Battlefront's infantry focus. (approx. 480 characters)"
+    },
+    {
+        "id": "star-wars-knights-of-the-old-republic-remake",
+        "type": "video game",
+        "title": "Star Wars: Knights of the Old Republic Remake",
+        "releaseDate": "TBA",
+        "status": "not released",
+        "genre": "Action RPG",
+        "publisher": "Sony Interactive Entertainment",
+        "developer": "Aspyr / Saber Interactive",
+        "canonStatus": "Legends",
+        "imageUrl": "/games/kotor-remake-g.jpg",
+        "platforms": [
+            "PC",
+            "PlayStation 5"
+        ],
+        "relations": [
+            {
+                "relatedId": "star-wars-knights-of-the-old-republic",
+                "type": "other"
+            }
+        ],
+        "description": "A ground-up remake of BioWare's legendary 2003 RPG, rebuilding Revan's saga with modern visuals, reworked combat, and expanded accessibility while preserving the original's iconic story, companions, and moral choices. Developed amid turbulent studio transitions, the project remains one of gaming's most anticipated remakes. Fans hope for restored cut content, voiced protagonists, and real-time combat alongside faithful narrative recreation. Set in the same Legends continuity as the original, it aims to introduce the Old Republic's golden age to a new generation of players. (approx. 490 characters)"
+    },
+    {
+        "id": "star-wars-demolition",
+        "type": "video game",
+        "title": "Star Wars: Demolition",
+        "releaseDate": "1999-11-17",
+        "status": "released",
+        "genre": "Vehicle Combat",
+        "publisher": "LucasArts",
+        "developer": "Luxoflux",
+        "canonStatus": "Legends",
+        "imageUrl": "/games/demolition-g.jpg",
+        "platforms": [
+            "PlayStation",
+            "Dreamcast"
+        ],
+        "relations": [],
+        "description": "Demolition reimagines Star Wars as a vehicular combat arena game akin to Twisted Metal, pitting iconic characters like Boba Fett and Aurra Sing against each other in Jabba-sponsored destruction derbies. Ten playable vehicles with unique weapons battle across Tatooine, Hoth, and other arenas. Colorful roster, fast-paced chaos, and character-specific storylines make it a quirky Legends curiosity. A deliberately absurd departure from traditional Star Wars gameplay, remembered fondly for its campy charm and competitive couch multiplayer. (approx. 465 characters)"
+    },
+    {
+        "id": "star-wars-the-phantom-menace",
+        "type": "video game",
+        "title": "Star Wars: The Phantom Menace",
+        "releaseDate": "1999-05-18",
+        "status": "released",
+        "genre": "Action, adventure",
+        "publisher": "LucasArts",
+        "developer": "Big Ape Productions",
+        "canonStatus": "Legends",
+        "imageUrl": "/games/the-phantom-menace-g.jpg",
+        "platforms": [
+            "PlayStation",
+            "Windows"
+        ],
+        "relations": [],
+        "description": "The plot closely follows that of the film, although it expands on some minor events that were not present in the original film, or shows them from a different character's point of view. For example, it follows Queen Amidala (Grey DeLisle) and Captain Panaka's (Jeff Coopwood) journey on Coruscant during Anakin Skywalker's (Jake Lloyd) interview in the Jedi Temple—something that is never shown or mentioned in the film since the film follows Anakin's point of view. It mainly surrounds Jedi Master Qui-Gon Jinn (James Warwick) and his apprentice, Obi-Wan Kenobi (Scott Cleverdon). The story features several boss fights, such as a Tusken Raider Chieftain, Jabba's Pit Beast, and Sith Lord Darth Maul (Gregg Berger)."
+    },
+    {
+        "id": "star-wars-revenge-of-the-sith",
+        "type": "video game",
+        "title": "Star Wars: Revenge Of The Sith",
+        "releaseDate": "2005-05-05",
+        "status": "released",
+        "genre": "Action",
+        "publisher": "LucasArts",
+        "developer": "The Collective",
+        "canonStatus": "Legends",
+        "imageUrl": "/games/revenge-of-the-sith-g.jpg",
+        "platforms": [
+            "PlayStation 2",
+            "XBOX",
+            "Nintendo DS",
+            "Game Boy Advance"
+        ],
+        "relations": [],
+        "description": "Anakin Skywalker and Obi-Wan Kenobi arrive on board the Invisible Hand, the Separatist flagship of General Grievous, who has kidnapped Supreme Chancellor Palpatine above Coruscant. After battling droids in the main hangar bay and ascending the elevators, the duo arrives at the general's quarters, where Palpatine is being held. However, they are then confronted by Grievous' master Count Dooku and in the ensuing duel, Obi-Wan is knocked out and Anakin, in violation of Jedi teachings, brutally kills Dooku by running him through with his lightsaber. The pair then escapes with Palpatine but are recaptured and brought before Grievous on the ship's bridge. They escape as the badly damaged ship capsizes in orbit and fight off Grievous' bodyguards while the general escapes. Anakin manages to save everyone by crashing the ship on Coruscant."
+    }
+]

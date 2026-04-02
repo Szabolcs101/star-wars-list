@@ -1,0 +1,62 @@
+[
+  {
+    "id": "u1",
+    "email": "demo@starwars.hu",
+    "password": "123456",
+    "name": "Luke Skywalker"
+  },
+  {
+    "id": "u2",
+    "email": "test@starwars.hu",
+    "password": "asdfgh",
+    "name": "Darth Vader"
+  },
+  {
+    "id": "u3",
+    "email": "leia@starwars.hu",
+    "password": "leia123",
+    "name": "Leia Organa"
+  },
+  {
+    "id": "u4",
+    "email": "han@starwars.hu",
+    "password": "falcon",
+    "name": "Han Solo"
+  },
+  {
+    "id": "u5",
+    "email": "yoda@starwars.hu",
+    "password": "force",
+    "name": "Yoda"
+  },
+  {
+    "id": "u6",
+    "email": "obiwan@starwars.hu",
+    "password": "kenobi",
+    "name": "Obi-Wan Kenobi"
+  },
+  {
+    "id": "u7",
+    "email": "anakin@starwars.hu",
+    "password": "chosen1",
+    "name": "Anakin Skywalker"
+  },
+  {
+    "id": "u8",
+    "email": "chewie@starwars.hu",
+    "password": "roar",
+    "name": "Chewbacca"
+  },
+  {
+    "id": "u9",
+    "email": "palpatine@starwars.hu",
+    "password": "empire",
+    "name": "Emperor Palpatine"
+  },
+  {
+    "id": "u10",
+    "email": "boba@starwars.hu",
+    "password": "bounty",
+    "name": "Boba Fett"
+  }
+]

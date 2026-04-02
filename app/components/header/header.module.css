@@ -1,0 +1,157 @@
+.header {
+    display: flex;
+    align-items: center;
+    gap: 1.875rem;
+    border-bottom: 1px solid #f1cb00;
+    padding: 0.5rem;
+    font-weight: bold;
+    position: sticky;
+    top: 0;
+    background-color: var(--background);
+    z-index: 10;
+}
+
+.menuRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-width: 15.625rem;
+}
+
+.rightRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    width: 100%;
+}
+
+.headerRow {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.icon {
+    width: 2rem;
+    fill: var(--font-highlighted);
+}
+
+.logo {
+    width: 4rem;
+    fill: var(--font-highlighted);
+}
+
+.navBar {
+    display: flex;
+    font-weight: bold;
+    color: var(--font-highlighted);
+    font-size: 0.85rem;
+    letter-spacing: 0.05rem;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.navBarItem:hover, .icon:hover {
+    cursor: pointer;
+    color: orange;
+}
+
+.icon:hover, .searchIcon:hover {
+    cursor: pointer;
+    fill: orange;
+}
+
+.fullLogo:hover .logo, .fullLogo:hover .logoText {
+    fill: orange;
+    color: orange;
+}
+
+.fullLogo:hover {
+    cursor: pointer;
+}
+
+.loginButton {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.searchBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--font-highlighted);
+    margin-right: 1rem;
+    color: var(--font-footer);
+}
+
+.searchBar:hover {
+    border: 2px solid orange;
+}
+
+.fullLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--font-highlighted);
+}
+
+.logoText {
+    font-size: 1.25rem;
+}
+
+.desktop {
+    display: contents;
+}
+
+.mobile {
+    display: none;
+}
+
+@media (max-width: 1024px) {
+  .header {
+    margin: 0;
+    gap: 0.5rem;
+    flex-direction: column;
+  }
+
+  .headerRow, .rightRow, .menuRow {
+    justify-content: center;
+  }
+
+  .rightRow {
+    scale: 0.8;
+  }
+}
+
+@media (max-width: 480px) {
+    .navBar {
+        justify-content: space-evenly;
+    }
+    
+    .loginButton {
+        margin-left: 1rem;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        width: 100%;
+        justify-content: space-around;
+    }
+}

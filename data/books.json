@@ -1,0 +1,1044 @@
+[
+    {
+        "id": "darth-bane-path-of-destruction",
+        "type": "book",
+        "title": "Star Wars: Darth Bane: Path of Destruction",
+        "releaseDate": "2006-09-26",
+        "status": "released",
+        "canonStatus": "legends",
+        "genre": "Science Fiction, Adventure, Dark Fantasy",
+        "author": "Drew Karpyshyn",
+        "publisher": "Del Rey",
+        "pageNumber": 400,
+        "imageUrl": "/books/bane-1-b.jpg",
+        "characters": [
+            "darth-bane",
+            "cognus",
+            "githany",
+            "kas'im",
+            "qordis",
+            "sirak",
+            "zannah"
+        ],
+        "relations": [
+            {
+                "relatedId": "darth-bane-rule-of-two",
+                "type": "sequel"
+            }
+        ],
+        "description": "Set a thousand years before the rise of Darth Vader, this novel follows Dessel, a cortosis miner who joins the Sith after a life of hardship. Under the tutelage of the Brotherhood of Darkness, he becomes Bane, embracing the dark side's true power. Rejecting the infighting of many Sith, he learns ancient secrets and destroys the Brotherhood to establish the Rule of Two: one master and one apprentice. Bane's journey explores ambition, betrayal, and the essence of Sith philosophy in a galaxy recovering from war."
+    },
+    {
+        "id": "darth-bane-rule-of-two",
+        "type": "book",
+        "title": "Star Wars: Darth Bane: Rule of Two",
+        "releaseDate": "2007-12-26",
+        "status": "released",
+        "canonStatus": "legends",
+        "genre": "Science Fiction, Adventure, Dark Fantasy",
+        "author": "Drew Karpyshyn",
+        "publisher": "Del Rey",
+        "pageNumber": 352,
+        "imageUrl": "/books/bane-2-b.jpg",
+        "characters": [
+            "darth-bane",
+            "darth-zannah",
+            "lucia",
+            "set-harth",
+            "the-huntress",
+            "johun-othone"
+        ],
+        "relations": [
+            {
+                "relatedId": "darth-bane-path-of-destruction",
+                "type": "prequel"
+            },
+            {
+                "relatedId": "darth-bane-dynasty-of-evil",
+                "type": "sequel"
+            }
+        ],
+        "description": "Years after establishing the Rule of Two, Darth Bane trains his apprentice, the young and talented Darth Zannah. While Bane seeks ways to cheat death through ancient sorcery and orbalisks, Zannah hones her dark powers. They face Jedi hunters and internal doubts as Bane's body weakens from his symbiotic armor. The story delves into the master-apprentice dynamic, testing loyalty and the future of the Sith order in a time of fragile peace after the Jedi-Sith wars."
+    },
+    {
+        "id": "darth-bane-dynasty-of-evil",
+        "type": "book",
+        "title": "Star Wars: Darth Bane: Dynasty of Evil",
+        "releaseDate": "2009-08-25",
+        "status": "released",
+        "canonStatus": "legends",
+        "genre": "Science Fiction, Adventure, Dark Fantasy",
+        "author": "Drew Karpyshyn",
+        "publisher": "Del Rey",
+        "pageNumber": 304,
+        "imageUrl": "/books/bane-3-b.jpg",
+        "characters": [
+            "darth-bane",
+            "darth-zannah",
+            "lucia",
+            "serroco",
+            "set-harth",
+            "kaan"
+        ],
+        "relations": [
+            {
+                "relatedId": "darth-bane-rule-of-two",
+                "type": "prequel"
+            }
+        ],
+        "description": "Decades into the Rule of Two, an aging Darth Bane, plagued by orbalisks and seeking immortality, hunts for the ancient dark side ritual on Prakith. His apprentice Zannah, now powerful, faces her own challenges from a potential successor and Jedi pursuers. The novel builds to a climactic confrontation where master and apprentice test each other in a battle that will decide the Sith's future path. It concludes the trilogy with themes of legacy, power, and the eternal struggle between master and apprentice."
+    },
+    {
+        "id": "darth-plagueis",
+        "type": "book",
+        "title": "Star Wars: Darth Plagueis",
+        "releaseDate": "2012-01-10",
+        "status": "released",
+        "canonStatus": "legends",
+        "genre": "Science Fiction, Political Thriller, Adventure",
+        "author": "James Luceno",
+        "publisher": "Del Rey",
+        "pageNumber": 379,
+        "imageUrl": "/books/plagueis-b.jpg",
+        "characters": [
+            "darth-plagueis",
+            "darth-sidious",
+            "darth-tenebrous",
+            "qui-gon-jinn",
+            "dooku",
+            "sifo-dyas",
+            "palpatine"
+        ],
+        "relations": [],
+        "description": "This Legends novel chronicles the rise of Darth Plagueis the Wise, a Muun Sith Lord obsessed with manipulating midi-chlorians to conquer death. Training under Darth Tenebrous, Plagueis forms a partnership with the ambitious Senator Palpatine, whom he grooms as Darth Sidious. Together they orchestrate galactic events, influencing the Trade Federation, Naboo crisis, and Sith Grand Plan. The book explores Sith intrigue, science, and politics leading up to The Phantom Menace, revealing how Plagueis and Sidious shaped the Empire's foundations."
+    },
+    {
+        "id": "thrawn",
+        "type": "book",
+        "title": "Star Wars: Thrawn",
+        "releaseDate": "2017-04-11",
+        "status": "released",
+        "canonStatus": "canon",
+        "genre": "Science Fiction, Military, Adventure",
+        "author": "Timothy Zahn",
+        "publisher": "Del Rey",
+        "pageNumber": 427,
+        "imageUrl": "/books/thrawn-b.jpg",
+        "characters": [
+            "thrawn",
+            "eli-vanto",
+            "arihnda-pryce",
+            "governor-tarkin",
+            "vah'nya",
+            "captain-parck"
+        ],
+        "relations": [
+            {
+                "relatedId": "thrawn-alliances",
+                "type": "sequel"
+            }
+        ],
+        "description": "In the expanding Empire, Mitth'raw'nuruodo—known as Thrawn—is discovered in the Unknown Regions by Imperial forces. A brilliant Chiss tactician, he rises through the ranks despite xenophobia. Assisted by his loyal aide Eli Vanto, Thrawn combats threats like pirates and insurgents while navigating Imperial politics. The novel details his early campaigns, strategic genius, and growing alliance with key figures, setting the stage for his role as Grand Admiral and his unique approach to warfare and art as a weapon."
+    },
+    {
+        "id": "thrawn-alliances",
+        "type": "book",
+        "title": "Star Wars: Thrawn: Alliances",
+        "releaseDate": "2018-07-24",
+        "status": "released",
+        "canonStatus": "canon",
+        "genre": "Science Fiction, Military, Adventure",
+        "author": "Timothy Zahn",
+        "publisher": "Del Rey",
+        "pageNumber": 390,
+        "imageUrl": "/books/thrawn-alliances-b.jpg",
+        "characters": [
+            "thrawn",
+            "darth-vader",
+            "eli-vanto",
+            "anakin-skywalker",
+            "padmé-amidala",
+            "governor-pryce"
+        ],
+        "relations": [
+            {
+                "relatedId": "thrawn",
+                "type": "prequel"
+            },
+            {
+                "relatedId": "thrawn-treason",
+                "type": "sequel"
+            }
+        ],
+        "description": "Alternating between past and present, Thrawn is forced to ally with Darth Vader on a mission to investigate a threat in the Unknown Regions. Flashbacks reveal Thrawn's earlier collaboration with Anakin Skywalker during the Clone Wars to rescue Padmé. Both timelines showcase Thrawn's tactical brilliance against cunning foes. The story deepens Thrawn's loyalty to the Empire and his complex relationship with Vader, highlighting parallels between Anakin and Thrawn's strategic minds in different eras of galactic conflict."
+    },
+    {
+        "id": "lost-stars",
+        "type": "book",
+        "title": "Star Wars: Lost Stars",
+        "releaseDate": "2015-09-04",
+        "status": "released",
+        "canonStatus": "canon",
+        "genre": "Science Fiction, Romance, Adventure",
+        "author": "Claudia Gray",
+        "publisher": "Disney-Lucasfilm Press",
+        "pageNumber": 551,
+        "imageUrl": "/books/lost-stars-b.jpg",
+        "characters": [
+            "ciena-ree",
+            "thane-kyrell",
+            "nash-windrider",
+            "dalven-kyrell",
+            "jude-edivon",
+            "thane's-family",
+            "leia-organa"
+        ],
+        "relations": [],
+        "description": "Childhood friends Ciena Ree and Thane Kyrell from the planet Jelucan join the Imperial Academy, dreaming of glory. As the Galactic Civil War erupts, their paths diverge: Ciena remains loyal to the Empire while Thane questions its tyranny after witnessing atrocities. Spanning from before A New Hope to after Return of the Jedi, the novel follows their star-crossed romance amid epic battles like Yavin, Hoth, and Endor. It explores duty, love, and redemption in a galaxy torn by war."
+    },
+    {
+        "id": "light-of-the-jedi",
+        "type": "book",
+        "title": "Star Wars: The High Republic: Light of the Jedi",
+        "releaseDate": "2021-01-05",
+        "status": "released",
+        "canonStatus": "canon",
+        "genre": "Science Fiction, Adventure, Space Opera",
+        "author": "Charles Soule",
+        "publisher": "Del Rey",
+        "pageNumber": 426,
+        "imageUrl": "/books/light-of-the-jedi-b.jpg",
+        "characters": [
+            "avar-kriss",
+            "bell-zettifar",
+            "loden-greatstorm",
+            "elzar-mann",
+            "marchion-ro",
+            "sskeer",
+            "stellan-gios"
+        ],
+        "relations": [
+            {
+                "relatedId": "the-rising-storm",
+                "type": "sequel"
+            }
+        ],
+        "description": "Set 200 years before The Phantom Menace, during the High Republic era, the Jedi thrive as guardians of peace. A massive hyperspace disaster—the Great Hyperspace Disaster—threatens countless lives when debris rains across the galaxy. Jedi like Avar Kriss lead daring rescues using the Force in harmony. Meanwhile, the secretive Nihil marauders exploit the chaos. The novel introduces this golden age of Jedi exploration and unity while hinting at emerging darkness that challenges the Republic's stability."
+    },
+    {
+        "id": "the-rising-storm",
+        "type": "book",
+        "title": "Star Wars: The High Republic: The Rising Storm",
+        "releaseDate": "2021-06-29",
+        "status": "released",
+        "canonStatus": "canon",
+        "genre": "Science Fiction, Adventure, Thriller",
+        "author": "Cavan Scott",
+        "publisher": "Del Rey",
+        "pageNumber": 448,
+        "imageUrl": "/books/the-rising-storm-b.jpg",
+        "characters": [
+            "avar-kriss",
+            "bell-zettifar",
+            "elzar-mann",
+            "marchion-ro",
+            "stellan-gios",
+            "lourna-dee",
+            "loden-greatstorm"
+        ],
+        "relations": [
+            {
+                "relatedId": "light-of-the-jedi",
+                "type": "prequel"
+            },
+            {
+                "relatedId": "the-fallen-star",
+                "type": "sequel"
+            }
+        ],
+        "description": "The Republic celebrates the Starlight Beacon and galactic fair on Valo, but the Nihil, led by the cunning Marchion Ro, launch a devastating attack. Jedi heroes including Avar Kriss and Elzar Mann fight to protect innocents amid escalating terror. The assault exposes vulnerabilities in Jedi unity and Republic confidence. Personal struggles, grief, and the temptation of the dark side emerge as the Jedi confront a more organized threat, marking a turning point in the High Republic's golden era toward inevitable conflict."
+    },
+    {
+        "id": "the-fallen-star",
+        "type": "book",
+        "title": "Star Wars: The High Republic: The Fallen Star",
+        "releaseDate": "2022-01-04",
+        "status": "released",
+        "canonStatus": "canon",
+        "genre": "Science Fiction, Adventure, Tragedy",
+        "author": "Claudia Gray",
+        "publisher": "Del Rey",
+        "pageNumber": 336,
+        "imageUrl": "/books/the-fallen-star-b.jpg",
+        "characters": [
+            "avar-kriss",
+            "bell-zettifar",
+            "elzar-mann",
+            "stellan-gios",
+            "marchion-ro",
+            "lourna-dee",
+            "keeve-trennis"
+        ],
+        "relations": [
+            {
+                "relatedId": "the-rising-storm",
+                "type": "prequel"
+            }
+        ],
+        "description": "The Starlight Beacon, symbol of hope, faces destruction as Marchion Ro's Nihil infiltrate and sabotage it from within. Jedi Masters and Padawans battle to save the station and its refugees while dealing with betrayal and loss. Avar Kriss, Elzar Mann, and others confront personal demons and the limits of the Force. The fall of the Beacon shifts the High Republic era into decline, showcasing heroism, sacrifice, and the growing shadow over the Jedi Order in this pivotal, emotional chapter."
+    },
+    {
+        "id": "darth-vader-dark-lord-of-the-sith",
+        "type": "comic",
+        "title": "Star Wars: Darth Vader: Dark Lord of the Sith",
+        "releaseDate": "2017-06-14",
+        "status": "released",
+        "canonStatus": "canon",
+        "genre": "Science Fiction, Dark Fantasy, Action",
+        "author": "Charles Soule",
+        "publisher": "Marvel Comics",
+        "pageNumber": 36,
+        "imageUrl": "/books/vader-dark-lord-of-the-sith-b.jpg",
+        "characters": [
+            "darth-vader",
+            "emperor-palpatine",
+            "jocasta-nu",
+            "kirak-infil'a",
+            "momin",
+            "sabé",
+            "almec"
+        ],
+        "relations": [],
+        "description": "Immediately after Revenge of the Sith, the newly suited Darth Vader hunts surviving Jedi and solidifies his role as the Emperor's enforcer. Tasked with building his fortress on Mustafar, Vader faces trials that test his loyalty and power. He acquires a castle infused with dark side energy and confronts his past through visions. The comic explores Vader's internal torment, his quest for more power, and the Empire's early consolidation in a series blending action, horror, and tragedy."
+    },
+    {
+        "id": "thrawn-treason",
+        "type": "book",
+        "title": "Star Wars: Thrawn: Treason",
+        "releaseDate": "2019-07-23",
+        "status": "released",
+        "canonStatus": "canon",
+        "genre": "Science Fiction, Military, Adventure",
+        "author": "Timothy Zahn",
+        "publisher": "Del Rey",
+        "pageNumber": 464,
+        "imageUrl": "/books/thrawn-treason-b.jpg",
+        "characters": [
+            "thrawn",
+            "eli-vanto",
+            "darth-vader",
+            "director-krennic",
+            "governor-pryce",
+            "anakin-skywalker"
+        ],
+        "relations": [
+            {
+                "relatedId": "thrawn-alliances",
+                "type": "prequel"
+            }
+        ],
+        "description": "Grand Admiral Thrawn is summoned to an isolated Imperial research station to investigate a threat to the Empire's secret weapons project. Darth Vader joins him, and tensions rise as old alliances and betrayals surface. Meanwhile, Governor Pryce faces rebellion on Lothal. The novel culminates in a high-stakes confrontation that tests Thrawn's loyalty, strategic mind, and the fragile balance of power within the Empire, bridging his rise to the events of Star Wars Rebels."
+    },
+    {
+        "id": "tarkin",
+        "type": "book",
+        "title": "Star Wars: Tarkin",
+        "releaseDate": "2014-11-04",
+        "status": "released",
+        "canonStatus": "canon",
+        "genre": "Science Fiction, Political Thriller, Adventure",
+        "author": "James Luceno",
+        "publisher": "Del Rey",
+        "pageNumber": 275,
+        "imageUrl": "/books/tarkin-b.jpg",
+        "characters": [
+            "wilhuff-tarkin",
+            "darth-vader",
+            "emperor-palpatine",
+            "mon-mothma",
+            "jan-dodonna",
+            "tarkin's-family"
+        ],
+        "relations": [],
+        "description": "Five years after Revenge of the Sith, Governor Tarkin and Darth Vader pursue rebels who stole from the Empire. The story alternates between Tarkin's rise through the Imperial ranks and his current mission to crush dissent. It delves into Tarkin's ruthless philosophy, his relationship with Vader and Palpatine, and the construction of the Death Star, painting a portrait of ambition and tyranny in the early Empire."
+    },
+    {
+        "id": "bloodline",
+        "type": "book",
+        "title": "Star Wars: Bloodline",
+        "releaseDate": "2016-03-08",
+        "status": "released",
+        "canonStatus": "canon",
+        "genre": "Science Fiction, Political Drama, Adventure",
+        "author": "Claudia Gray",
+        "publisher": "Disney-Lucasfilm Press",
+        "pageNumber": 352,
+        "imageUrl": "/books/bloodline-b.jpg",
+        "characters": [
+            "leia-organa",
+            "han-solo",
+            "ben-solo",
+            "ransolm-casterfo",
+            "lady-carise-sindian",
+            "senator-nix-card"
+        ],
+        "relations": [],
+        "description": "Six years before The Force Awakens, Senator Leia Organa faces a political crisis when her father's identity as Darth Vader is revealed. Struggling to maintain alliances in the New Republic Senate, Leia uncovers a conspiracy tied to the rising First Order. With allies like Ransolm Casterfo, she navigates betrayal and isolation, highlighting the personal cost of her leadership and the seeds of galactic division."
+    },
+    {
+        "id": "master-and-apprentice",
+        "type": "book",
+        "title": "Star Wars: Master & Apprentice",
+        "releaseDate": "2019-04-16",
+        "status": "released",
+        "canonStatus": "canon",
+        "genre": "Science Fiction, Adventure, Drama",
+        "author": "Claudia Gray",
+        "publisher": "Del Rey",
+        "pageNumber": 384,
+        "imageUrl": "/books/master-and-apprentice-b.jpg",
+        "characters": [
+            "qui-gon-jinn",
+            "obi-wan-kenobi",
+            "rael-averross",
+            "fanry",
+            "cerenya",
+            "dooku"
+        ],
+        "relations": [],
+        "description": "Set years before The Phantom Menace, Qui-Gon Jinn and young Obi-Wan Kenobi are sent to Pijal to prevent a crisis involving a royal heir and corporate interests. Qui-Gon grapples with prophecies, his strained relationship with the Jedi Council, and doubts about the Order's future. The mission tests master and apprentice bonds while foreshadowing greater galactic changes and Qui-Gon's independent path."
+    },
+    {
+        "id": "dark-disciple",
+        "type": "book",
+        "title": "Star Wars: Dark Disciple",
+        "releaseDate": "2015-07-07",
+        "status": "released",
+        "canonStatus": "canon",
+        "genre": "Science Fiction, Adventure, Tragedy",
+        "author": "Christie Golden",
+        "publisher": "Del Rey",
+        "pageNumber": 336,
+        "imageUrl": "/books/dark-disciple-b.jpg",
+        "characters": [
+            "asajj-ventress",
+            "quinlan-vos",
+            "count-dooku",
+            "yoda",
+            "obi-wan-kenobi",
+            "anakin-skywalker"
+        ],
+        "relations": [],
+        "description": "During the Clone Wars, the Jedi Council recruits former Sith assassin Asajj Ventress and Jedi Quinlan Vos to assassinate Count Dooku. Vos, struggling with the dark side, partners with Ventress in a dangerous mission filled with betrayal and moral ambiguity. The novel explores redemption, the cost of war, and the blurred lines between light and dark in a gripping tale adapted from unproduced Clone Wars episodes."
+    },
+    {
+        "id": "brotherhood",
+        "type": "book",
+        "title": "Star Wars: Brotherhood",
+        "releaseDate": "2022-04-12",
+        "status": "released",
+        "canonStatus": "canon",
+        "genre": "Science Fiction, Adventure, Drama",
+        "author": "Mike Chen",
+        "publisher": "Random House Worlds",
+        "pageNumber": 352,
+        "imageUrl": "/books/brotherhood-b.jpg",
+        "characters": [
+            "anakin-skywalker",
+            "obi-wan-kenobi",
+            "padmé-amidala",
+            "asajj-ventress",
+            "count-dooku",
+            "rex"
+        ],
+        "relations": [],
+        "description": "Early in the Clone Wars, Anakin Skywalker is knighted and assigned to protect his secret wife, Padmé, amid rising Separatist threats on Cato Neimoidia. Obi-Wan Kenobi joins to investigate a conspiracy. The story examines the evolving brotherhood between Anakin and Obi-Wan, Anakin's internal conflicts with attachment, and the strains of war on personal relationships in the galaxy."
+    },
+    {
+        "id": "a-new-dawn",
+        "type": "book",
+        "title": "Star Wars: A New Dawn",
+        "releaseDate": "2014-09-02",
+        "status": "released",
+        "canonStatus": "canon",
+        "genre": "Science Fiction, Adventure",
+        "author": "John Jackson Miller",
+        "publisher": "Del Rey",
+        "pageNumber": 400,
+        "imageUrl": "/books/a-new-dawn-b.jpg",
+        "characters": [
+            "kanan-jarrus",
+            "hera-syndulla",
+            "zaluna-myder",
+            "count-vidian",
+            "skelly"
+        ],
+        "relations": [],
+        "description": "Set before Star Wars Rebels, former Jedi Padawan Kanan Jarrus hides from the Empire as a freighter pilot. He crosses paths with rebel operative Hera Syndulla during an Imperial mining operation gone wrong. Together they confront corporate greed and Imperial oppression, sparking the early Rebellion. The novel introduces key characters and themes of hope and resistance in the dark times after Order 66."
+    },
+    {
+        "id": "lords-of-the-sith",
+        "type": "book",
+        "title": "Star Wars: Lords of the Sith",
+        "releaseDate": "2015-04-28",
+        "status": "released",
+        "canonStatus": "canon",
+        "genre": "Science Fiction, Action, Dark Fantasy",
+        "author": "Paul S. Kemp",
+        "publisher": "Del Rey",
+        "pageNumber": 320,
+        "imageUrl": "/books/lords-of-the-sith-b.jpg",
+        "characters": [
+            "darth-vader",
+            "emperor-palpatine",
+            "cham-syndulla",
+            "isval",
+            "cikatro-vizago"
+        ],
+        "relations": [],
+        "description": "Shortly after Revenge of the Sith, Darth Vader and Emperor Palpatine are ambushed by rebels led by Twi'lek freedom fighter Cham Syndulla. Stranded and hunted, the Sith Lords unleash their fury to survive and crush the uprising. The story showcases Vader's rage, Palpatine's cunning, and the early sparks of rebellion against the Empire in a brutal, action-packed tale."
+    },
+    {
+        "id": "thrawn-ascendancy-chaos-rising",
+        "type": "book",
+        "title": "Star Wars: Thrawn Ascendancy: Chaos Rising",
+        "releaseDate": "2020-09-01",
+        "status": "released",
+        "canonStatus": "canon",
+        "genre": "Science Fiction, Military, Adventure",
+        "author": "Timothy Zahn",
+        "publisher": "Del Rey",
+        "pageNumber": 432,
+        "imageUrl": "/books/chaos-rising-b.jpg",
+        "characters": [
+            "thrawn",
+            "thalias",
+            "che'ri",
+            "ar'alani",
+            "senior-captain-khresh"
+        ],
+        "relations": [
+            {
+                "relatedId": "thrawn",
+                "type": "prequel"
+            }
+        ],
+        "description": "In the Chiss Ascendancy of the Unknown Regions, young Mitth'raw'nuruodo—Thrawn—rises as a warrior amid threats from aggressor species. With sky-walker navigator Che'ri and caregiver Thalias, he navigates political intrigue and battles to protect his people. The novel reveals Thrawn's origins, tactical brilliance, and the cultural forces shaping him before his Imperial career."
+    },
+    {
+        "id": "heir-to-the-empire",
+        "type": "book",
+        "title": "Star Wars: Heir to the Empire",
+        "releaseDate": "1991-05-01",
+        "status": "released",
+        "canonStatus": "legends",
+        "genre": "Science Fiction, Adventure, Space Opera",
+        "author": "Timothy Zahn",
+        "publisher": "Bantam Spectra",
+        "pageNumber": 416,
+        "imageUrl": "/books/heir-to-the-empire-b.jpg",
+        "characters": [
+            "luke-skywalker",
+            "leia-organa-solo",
+            "han-solo",
+            "grand-admiral-thrawn",
+            "mara-jade",
+            "joruus-c'baoth"
+        ],
+        "relations": [
+            {
+                "relatedId": "dark-force-rising",
+                "type": "sequel"
+            }
+        ],
+        "description": "Five years after Return of the Jedi, the New Republic faces a brilliant Imperial strategist: Grand Admiral Thrawn. With a hidden fleet and cloned Jedi Master Joruus C'baoth, Thrawn launches a campaign to reclaim the galaxy. Luke, Leia, Han, and new ally Mara Jade confront this threat, exploring legacy, the Force, and the ongoing struggle between good and evil in the post-Empire era."
+    },
+    {
+        "id": "the-old-republic-revan",
+        "type": "book",
+        "title": "Star Wars: The Old Republic: Revan",
+        "releaseDate": "2011-11-15",
+        "status": "released",
+        "canonStatus": "legends",
+        "genre": "Science Fiction, Adventure, Fantasy",
+        "author": "Drew Karpyshyn",
+        "publisher": "Del Rey",
+        "pageNumber": 320,
+        "imageUrl": "/books/revan-b.jpg",
+        "characters": [
+            "revan",
+            "bastila-shan",
+            "meetra-surik",
+            "scourge",
+            "t3-m4",
+            "darth-nyriss"
+        ],
+        "relations": [],
+        "description": "Bridging the events of Knights of the Old Republic and Knights of the Old Republic II, this novel follows the legendary Jedi Revan after his redemption. Captured by the Sith Emperor, Revan endures imprisonment and torture while his mind resists domination. Years later, the Exile Meetra Surik seeks him out to stop an ancient threat. The story explores Revan's fate, the Mandalorian Wars' aftermath, and the rise of new darkness in the galaxy, connecting game lore with deeper character insights."
+    },
+    {
+        "id": "the-old-republic-deceived",
+        "type": "book",
+        "title": "Star Wars: The Old Republic: Deceived",
+        "releaseDate": "2011-03-22",
+        "status": "released",
+        "canonStatus": "legends",
+        "genre": "Science Fiction, Action, Dark Fantasy",
+        "author": "Paul S. Kemp",
+        "publisher": "Del Rey",
+        "pageNumber": 304,
+        "imageUrl": "/books/deceived-b.jpg",
+        "characters": [
+            "darth-malgus",
+            "aryn-leneer",
+            "zeerid-ard",
+            "adraas",
+            "vincente-raine",
+            "eleena-daru"
+        ],
+        "relations": [],
+        "description": "During the Great Galactic War, Sith Lord Darth Malgus leads the brutal sacking of Coruscant, striking at the heart of the Republic and Jedi Order. As the Jedi Temple burns, a young Jedi Knight named Aryn Leneer seeks vengeance for her master's death. Meanwhile, smuggler Zeerid Ard gets entangled in the chaos. The novel captures the raw fury of war, betrayal, and the personal toll on both sides in this intense tie-in to the SWTOR era."
+    },
+    {
+        "id": "the-old-republic-fatal-alliance",
+        "type": "book",
+        "title": "Star Wars: The Old Republic: Fatal Alliance",
+        "releaseDate": "2010-07-20",
+        "status": "released",
+        "canonStatus": "legends",
+        "genre": "Science Fiction, Thriller, Adventure",
+        "author": "Sean Williams",
+        "publisher": "Del Rey",
+        "pageNumber": 464,
+        "imageUrl": "/books/fatal-alliance-b.jpg",
+        "characters": [
+            "satele-shan",
+            "darth-malgus",
+            "jet-nebula",
+            "ailyn-vel",
+            "dao-stryver",
+            "gnost-dural"
+        ],
+        "relations": [],
+        "description": "A diverse group of characters—a Jedi, a Sith, a smuggler, a bounty hunter, and others—converge on a mysterious ancient artifact that could shift the balance of the Cold War between Republic and Empire. Alliances form and shatter as they race to claim or destroy it. The story weaves intrigue, combat, and moral ambiguity in the tense pre-SWTOR period, highlighting how personal agendas clash with galactic powers."
+    },
+    {
+        "id": "the-old-republic-annihilation",
+        "type": "book",
+        "title": "Star Wars: The Old Republic: Annihilation",
+        "releaseDate": "2012-11-13",
+        "status": "released",
+        "canonStatus": "legends",
+        "genre": "Science Fiction, Military, Adventure",
+        "author": "Drew Karpyshyn",
+        "publisher": "Del Rey",
+        "pageNumber": 336,
+        "imageUrl": "/books/annihilation-b.jpg",
+        "characters": [
+            "theron-shan",
+            "gnost-dural",
+            "teff'ith",
+            "darth-karrid",
+            "jacen-caedus"
+        ],
+        "relations": [],
+        "description": "Republic agent Theron Shan, son of Jedi Grand Master Satele Shan, leads a covert strike team to destroy an Imperial superweapon in Sith space. Facing overwhelming odds and personal demons, Theron must outwit cunning Sith forces. The novel delivers high-stakes espionage, space battles, and family tensions in the ongoing conflict of the Old Republic era."
+    },
+    {
+        "id": "knight-errant",
+        "type": "book",
+        "title": "Star Wars: Knight Errant",
+        "releaseDate": "2011-01-25",
+        "status": "released",
+        "canonStatus": "legends",
+        "genre": "Science Fiction, Adventure, Action",
+        "author": "John Jackson Miller",
+        "publisher": "Del Rey",
+        "pageNumber": 368,
+        "imageUrl": "/books/knight-errant-b.jpg",
+        "characters": [
+            "kerra-holt",
+            "chag-garon",
+            "jarrow-rusher",
+            "daiman",
+            "odion"
+        ],
+        "relations": [],
+        "description": "A thousand years before the movies, in a fractured galaxy where Sith warlords rule petty kingdoms, Jedi Knight Kerra Holt goes undercover to rescue children enslaved by a mad Sith Lord. Teaming with mercenaries and navigating treacherous alliances, she fights to bring light to dark times. The story emphasizes lone heroism, moral complexity, and the chaos of the pre-Rule of Two Sith era."
+    },
+    {
+        "id": "red-harvest",
+        "type": "book",
+        "title": "Star Wars: Red Harvest",
+        "releaseDate": "2010-12-28",
+        "status": "released",
+        "canonStatus": "legends",
+        "genre": "Science Fiction, Horror, Thriller",
+        "author": "Joe Schreiber",
+        "publisher": "Del Rey",
+        "pageNumber": 272,
+        "imageUrl": "/books/red-harvest-b.jpg",
+        "characters": [
+            "roan-shryne",
+            "darth-scabrous",
+            "xat-hracken",
+            "trace",
+            "ra'at"
+        ],
+        "relations": [],
+        "description": "At a remote Sith academy on Odacer-Faustin, a forbidden experiment unleashes a deadly virus that turns victims into ravenous zombies. A lone Jedi infiltrator and surviving students battle the spreading plague amid blizzards and betrayal. This horror-infused tale stands out for its gore, tension, and exploration of Sith alchemy gone horribly wrong in the Old Republic era."
+    },
+    {
+        "id": "dawn-of-the-jedi-into-the-void",
+        "type": "book",
+        "title": "Star Wars: Dawn of the Jedi - Into the Void",
+        "releaseDate": "2013-02-26",
+        "status": "released",
+        "canonStatus": "legends",
+        "genre": "Science Fiction, Adventure, Exploration",
+        "author": "Tim Lebbon",
+        "publisher": "Del Rey",
+        "pageNumber": 336,
+        "imageUrl": "/books/into-the-void-b.jpg",
+        "characters": [
+            "lanoree-brock",
+            "dalien-brock",
+            "tre-sana",
+            "damaya",
+            "master-dar'nala"
+        ],
+        "relations": [],
+        "description": "Set over 25,000 years before the films, in the dawn of Jedi history, Je'daii ranger Lanoree Brock hunts her brother who has turned to the dark side and threatens the balance of the Force. Journeying across primitive worlds, she confronts ancient evils and family tragedy. The novel introduces the Je'daii Order's philosophy of balance between light and dark in an untamed galaxy."
+    },
+    {
+        "id": "star-wars-2015",
+        "type": "comic",
+        "title": "Star Wars (2015)",
+        "releaseDate": "2015-01-14",
+        "status": "released",
+        "canonStatus": "canon",
+        "genre": "Science Fiction, Adventure, Action",
+        "author": "Jason Aaron, Kieron Gillen et al.",
+        "publisher": "Marvel Comics",
+        "pageNumber": 40,
+        "imageUrl": "/books/star-wars-2015-b.jpg",
+        "characters": [
+            "luke-skywalker",
+            "leia-organa",
+            "han-solo",
+            "chewbacca",
+            "darth-vader",
+            "doctor-aphra",
+            "sana-starros"
+        ],
+        "relations": [],
+        "description": "Set between A New Hope and The Empire Strikes Back, this flagship series follows the main heroes of the Rebellion as they evade the Empire after destroying the Death Star. Luke trains in the Force, Leia leads resistance efforts, and Han deals with bounties and old debts. Interwoven adventures introduce new allies and villains, including the archaeologist Doctor Aphra and her murderous droids. The run explores classic Star Wars themes of hope, friendship, and rebellion against tyranny in epic, character-driven stories."
+    },
+    {
+        "id": "darth-vader-2015",
+        "type": "comic",
+        "title": "Star Wars: Darth Vader (2015)",
+        "releaseDate": "2015-02-04",
+        "status": "released",
+        "canonStatus": "canon",
+        "genre": "Science Fiction, Dark Fantasy, Action",
+        "author": "Kieron Gillen",
+        "publisher": "Marvel Comics",
+        "pageNumber": 20,
+        "imageUrl": "/books/vader-2015-b.jpg",
+        "characters": [
+            "darth-vader",
+            "doctor-aphra",
+            "darth-sidious",
+            "triple-zero",
+            "beetee",
+            "cylo",
+            "tarkin"
+        ],
+        "relations": [],
+        "description": "Immediately after A New Hope, Darth Vader hunts the pilot who destroyed the Death Star while facing scrutiny from Emperor Palpatine. He allies with rogue archaeologist Doctor Aphra and her deadly droids for black ops missions. Vader builds a secret army on Geonosis and uncovers conspiracies within the Empire. The series delves into Vader's rage, cunning, and isolation, blending horror, intrigue, and high-stakes action in one of the most acclaimed canon Vader stories."
+    },
+    {
+        "id": "darth-vader-2020",
+        "type": "comic",
+        "title": "Star Wars: Darth Vader (2020)",
+        "releaseDate": "2020-12-02",
+        "status": "released",
+        "canonStatus": "canon",
+        "genre": "Science Fiction, Dark Fantasy, Thriller",
+        "author": "Greg Pak",
+        "publisher": "Marvel Comics",
+        "pageNumber": 53,
+        "imageUrl": "/books/vader-2020-b.jpg",
+        "characters": [
+            "darth-vader",
+            "luke-skywalker",
+            "sabé",
+            "ochi-of-bestoon",
+            "darth-sidious",
+            "padmé-amidala"
+        ],
+        "relations": [
+            {
+                "relatedId": "darth-vader-dark-lord-of-the-sith",
+                "type": "other"
+            }
+        ],
+        "description": "Set between The Empire Strikes Back and Return of the Jedi, Vader obsesses over finding Luke after the Bespin revelation. He hunts those who hid his son, confronts ghosts of his past including Padmé's handmaiden Sabé, and clashes with the Emperor's schemes. The run mixes intense lightsaber duels, political intrigue, and emotional depth as Vader grapples with his fractured identity and the pull of the light side amid his dark lord duties."
+    },
+    {
+        "id": "doctor-aphra-2016",
+        "type": "comic",
+        "title": "Star Wars: Doctor Aphra (2016)",
+        "releaseDate": "2016-12-07",
+        "status": "released",
+        "canonStatus": "canon",
+        "genre": "Science Fiction, Adventure, Comedy",
+        "author": "Kieron Gillen, Si Spurrier",
+        "publisher": "Marvel Comics",
+        "pageNumber": 23,
+        "imageUrl": "/books/doctor-aphra-2016-b.jpg",
+        "characters": [
+            "doctor-aphra",
+            "triple-zero",
+            "beetee",
+            "sana-starros",
+            "black-krrsantan",
+            "luke-skywalker"
+        ],
+        "relations": [],
+        "description": "Following her adventures with Darth Vader, rogue archaeologist Doctor Chelli Lona Aphra scavenges ancient artifacts while dodging bounty hunters, ex-lovers, and Imperial forces. With murderous droids Triple-Zero and Beetee, she embarks on heists across the galaxy. The series blends humor, moral ambiguity, and high-octane action, showcasing Aphra's wit, greed, and reluctant heroism in a fun, irreverent take on the Star Wars universe."
+    },
+    {
+        "id": "poe-dameron",
+        "type": "comic",
+        "title": "Star Wars: Poe Dameron",
+        "releaseDate": "2016-04-06",
+        "status": "released",
+        "canonStatus": "canon",
+        "genre": "Science Fiction, Adventure, Action",
+        "author": "Charles Soule",
+        "publisher": "Marvel Comics",
+        "pageNumber": 27,
+        "imageUrl": "/books/poe-dameron-b.jpg",
+        "characters": [
+            "poe-dameron",
+            "bb-8",
+            "black-squadron",
+            "general-leia-organa",
+            "agent-terex",
+            "kazuda-xiono"
+        ],
+        "relations": [],
+        "description": "Bridging The Force Awakens and The Last Jedi, ace pilot Poe Dameron leads Black Squadron on daring missions for the Resistance. He hunts for Lor San Tekka's map while clashing with First Order agent Terex. The comic explores Poe's leadership, loyalty to Leia, and growth from hotshot flyer to key strategist, packed with dogfights, espionage, and team dynamics in the escalating war against the First Order."
+    },
+    {
+        "id": "bounty-hunters-2020",
+        "type": "comic",
+        "title": "Star Wars: Bounty Hunters (2020)",
+        "releaseDate": "2020-12-09",
+        "status": "released",
+        "canonStatus": "canon",
+        "genre": "Science Fiction, Action, Thriller",
+        "author": "Ethan Sacks",
+        "publisher": "Marvel Comics",
+        "pageNumber": 30,
+        "imageUrl": "/books/bounty-hunters-b.jpg",
+        "characters": [
+            "beilert-valance",
+            "boba-fett",
+            "bossk",
+            "dengar",
+            "cadeliah",
+            "t'onga's-crew"
+        ],
+        "relations": [],
+        "description": "In the criminal underworld between The Empire Strikes Back and Return of the Jedi, cyborg hunter Beilert Valance and his allies pursue high-stakes bounties. They cross paths with Boba Fett and other iconic hunters amid betrayals and chases. The series delivers gritty action, moral gray areas, and deep dives into the galaxy's scum and villainy, expanding on bounty hunter lore with intense, character-focused stories."
+    },
+    {
+        "id": "the-high-republic-adventures",
+        "type": "comic",
+        "title": "Star Wars: The High Republic Adventures",
+        "releaseDate": "2022-02-02",
+        "status": "released",
+        "canonStatus": "canon",
+        "genre": "Science Fiction, Adventure, All-Ages",
+        "author": "Daniel José Older et al.",
+        "publisher": "Dark Horse Comics",
+        "pageNumber": 35,
+        "imageUrl": "/books/high-republic-adventures-b.jpg",
+        "characters": [
+            "lula-talisola",
+            "farzala-tarent",
+            "qort",
+            "sav-malagán",
+            "marchion-ro",
+            "jedi-younglings"
+        ],
+        "relations": [
+            {
+                "relatedId": "light-of-the-jedi",
+                "type": "other"
+            }
+        ],
+        "description": "During the High Republic era, young Jedi Padawans from the Jedi outpost on Trymant IV face the rising threat of the Nihil marauders. They embark on quests of friendship, discovery, and bravery while the galaxy celebrates peace. The series captures youthful adventure, teamwork, and the Jedi ideals in a lighter, all-ages tone, complementing the adult novels with stories of hope and emerging darkness."
+    },
+    {
+        "id": "darth-maul-son-of-dathomir",
+        "type": "comic",
+        "title": "Star Wars: Darth Maul - Son of Dathomir",
+        "releaseDate": "2014-08-13",
+        "status": "released",
+        "canonStatus": "canon",
+        "genre": "Science Fiction, Action, Dark Fantasy",
+        "author": "Jeremy Barlow",
+        "publisher": "Dark Horse Comics",
+        "pageNumber": 21,
+        "imageUrl": "/books/son-of-dathomir-b.jpg",
+        "characters": [
+            "darth-maul",
+            "mother-talzin",
+            "count-dooku",
+            "general-grievous",
+            "darth-sidious",
+            "obi-wan-kenobi"
+        ],
+        "relations": [],
+        "description": "During the Clone Wars, after his survival in The Phantom Menace, Darth Maul builds a criminal empire with the Shadow Collective. Betrayed by his former master Darth Sidious, he seeks revenge alongside his Nightsister mother Talzin. The comic, based on unproduced Clone Wars episodes, features brutal battles, Sith intrigue, and Maul's relentless quest for power in a dark, action-packed tale."
+    },
+    {
+        "id": "star-wars-legacy-2006",
+        "type": "comic",
+        "title": "Star Wars: Legacy",
+        "releaseDate": "2006-06-07",
+        "status": "released",
+        "canonStatus": "legends",
+        "genre": "Science Fiction, Adventure, Space Opera",
+        "author": "John Ostrander",
+        "publisher": "Dark Horse Comics",
+        "pageNumber": 32,
+        "imageUrl": "/books/legacy-b.jpg",
+        "characters": [
+            "cade-skywalker",
+            "darth-krayt",
+            "roan-fel",
+            "mara-jade-skywalker",
+            "luke-skywalker",
+            "jedi-exiles"
+        ],
+        "relations": [],
+        "description": "Over 130 years after Return of the Jedi, the galaxy is ruled by a new Sith Empire under Darth Krayt. Cade Skywalker, a descendant of Luke, turns his back on the Force after tragedy but is drawn back into the fight against the Sith. The series reimagines classic elements with fresh twists, epic battles, and themes of legacy, redemption, and rebellion in a dystopian future."
+    },
+    {
+        "id": "queens-shadow",
+        "type": "book",
+        "title": "Star Wars: Queen's Shadow",
+        "releaseDate": "2019-03-05",
+        "status": "released",
+        "canonStatus": "canon",
+        "genre": "Science Fiction, Political Drama, Adventure",
+        "author": "E. K. Johnston",
+        "publisher": "Disney-Lucasfilm Press",
+        "pageNumber": 345,
+        "imageUrl": "/books/queens-shadow-b.jpg",
+        "characters": [
+            "padmé-amidala",
+            "sabé",
+            "dormé",
+            "cordé",
+            "captain-typho",
+            "rush-clovis"
+        ],
+        "relations": [],
+        "description": "Immediately after the events of The Phantom Menace, Padmé Amidala transitions from Queen of Naboo to Senator in the Galactic Republic. The young leader builds new alliances, navigates the corruption of Coruscant, and forges deep friendships with her handmaidens. The story explores her growth into a skilled politician while staying true to her ideals, laying the foundation for her role in the years leading up to the Clone Wars."
+    },
+    {
+        "id": "queens-hope",
+        "type": "book",
+        "title": "Star Wars: Queen's Hope",
+        "releaseDate": "2022-04-05",
+        "status": "released",
+        "canonStatus": "canon",
+        "genre": "Science Fiction, Romance, Drama",
+        "author": "E. K. Johnston",
+        "publisher": "Disney-Lucasfilm Press",
+        "pageNumber": 320,
+        "imageUrl": "/books/queens-hope-b.jpg",
+        "characters": [
+            "padmé-amidala",
+            "anakin-skywalker",
+            "sabé",
+            "dormé",
+            "cordé",
+            "captain-typho"
+        ],
+        "relations": [],
+        "description": "In the early days of the Clone Wars, Padmé's secret marriage to Anakin Skywalker becomes an even greater risk as the galaxy burns. The novel follows her political battles in the Senate while her loyal handmaidens work behind the scenes to protect her secret. It delves into themes of loyalty, love, sacrifice, and the personal toll of war on those closest to power."
+    },
+    {
+        "id": "catalyst-a-rogue-one-novel",
+        "type": "book",
+        "title": "Star Wars: Catalyst - A Rogue One Novel",
+        "releaseDate": "2016-11-15",
+        "status": "released",
+        "canonStatus": "canon",
+        "genre": "Science Fiction, Thriller, Adventure",
+        "author": "James Luceno",
+        "publisher": "Del Rey",
+        "pageNumber": 352,
+        "imageUrl": "/books/catalyst-b.jpg",
+        "characters": [
+            "galen-erso",
+            "lyra-erso",
+            "jyn-erso",
+            "orson-krennic",
+            "saw-gerrera"
+        ],
+        "relations": [],
+        "description": "A direct prequel to Rogue One: A Star Wars Story. Brilliant scientist Galen Erso and his family are drawn into the Empire's secret weapons program by his old friend Orson Krennic. As Galen's research is twisted into the foundation of the Death Star, his wife Lyra tries to protect their daughter Jyn. The novel traces the moral descent of a scientist and the personal tragedy that sets Jyn on the path to becoming a rebel."
+    },
+    {
+        "id": "most-wanted",
+        "type": "book",
+        "title": "Star Wars: Most Wanted",
+        "releaseDate": "2018-05-25",
+        "status": "released",
+        "canonStatus": "canon",
+        "genre": "Science Fiction, Action, Crime",
+        "author": "Rae Carson",
+        "publisher": "Disney-Lucasfilm Press",
+        "pageNumber": 368,
+        "imageUrl": "/books/most-wanted-b.jpg",
+        "characters": [
+            "han-solo",
+            "qi'ra",
+            "dryden-vos",
+            "tobias-beckett",
+            "l3-37"
+        ],
+        "relations": [],
+        "description": "A prequel to Solo: A Star Wars Story, this novel follows young Han Solo and Qi'ra as they attempt to escape the crime-ridden streets of Corellia. A high-stakes heist goes wrong, forcing them apart and sending Han down the path that will eventually make him the captain of the Millennium Falcon. The story explores friendship, betrayal, ambition, and survival in the galaxy's underworld."
+    },
+    {
+        "id": "ahsoka-book",
+        "type": "book",
+        "title": "Star Wars: Ahsoka",
+        "releaseDate": "2016-10-11",
+        "status": "released",
+        "canonStatus": "canon",
+        "genre": "Science Fiction, Adventure, Coming-of-Age",
+        "author": "E. K. Johnston",
+        "publisher": "Disney-Lucasfilm Press",
+        "pageNumber": 400,
+        "imageUrl": "/books/ahsoka-b.jpg",
+        "characters": [
+            "ahsoka-tano",
+            "bail-organa",
+            "kaeden-larte",
+            "miara-larte",
+            "the-sixth-brother"
+        ],
+        "relations": [],
+        "description": "After surviving Order 66, Ahsoka Tano hides from the Empire on a remote farming planet, trying to live a quiet life. But her past and her connection to the Force refuse to let her stay hidden. When an Inquisitor arrives, Ahsoka is forced to confront her identity and decide whether she will take up the fight against the Empire. The novel explores survival, identity, and the first steps toward joining the growing Rebellion."
+    }
+]

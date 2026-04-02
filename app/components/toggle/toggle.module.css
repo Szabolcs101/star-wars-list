@@ -1,0 +1,27 @@
+.panel {
+    display: flex;
+    border: 1px solid darkred;
+    background-color: red;
+    border-radius: 2px;
+    padding: 0.125rem;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+
+    &[data-pressed] {
+        color: var(--color-gray-900);
+    }
+}
+
+.button:hover {
+    background-color: darkred;
+}
+
+.icon {
+    width: 1.5rem;
+    height: 1.5rem;
+}

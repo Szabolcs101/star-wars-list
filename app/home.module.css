@@ -1,0 +1,13 @@
+.page {
+    margin: var(--vertical-margin-default) var(--side-margin-default);
+    display: flex;
+    gap: 5rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 1080px) {
+    .page {
+        margin: var(--vertical-margin-default) 50px;
+    }
+}

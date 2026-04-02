@@ -1,0 +1,1790 @@
+[
+  {
+    "id": "admiral-ackbar",
+    "name": "Admiral Ackbar",
+    "description": "Mon Calamari admiral and skilled fleet commander of the Rebel Alliance. Famous for leading the assault on the second Death Star and his iconic warning: 'It's a trap!'",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "return-of-the-jedi"
+    ]
+  },
+  {
+    "id": "agent-kallus",
+    "name": "Agent Kallus",
+    "description": "Imperial Security Bureau agent who initially hunted the Ghost crew, later became a Rebel spy known as Fulcrum.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "star-wars-rebels-s1",
+      "star-wars-rebels-s2",
+      "star-wars-rebels-s3",
+      "star-wars-rebels-s4"
+    ]
+  },
+  {
+    "id": "agent-terex",
+    "name": "Agent Terex",
+    "description": "First Order security bureau officer and former stormtrooper. Pursued Poe Dameron and Black Squadron.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "poe-dameron"
+    ]
+  },
+  {
+    "id": "ahsoka-tano",
+    "name": "Ahsoka Tano",
+    "description": "Former Jedi Padawan of Anakin Skywalker. Force-user who fought against the Empire and later aided Mandalorians in the New Republic era.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "mandalorian-grogu",
+      "star-wars-the-clone-wars-s1",
+      "star-wars-the-clone-wars-s2",
+      "star-wars-the-clone-wars-s3",
+      "star-wars-the-clone-wars-s4",
+      "star-wars-the-clone-wars-s5",
+      "star-wars-the-clone-wars-s7",
+      "star-wars-rebels-s2",
+      "star-wars-rebels-s4",
+      "the-mandalorian-s2",
+      "ahsoka"
+    ]
+  },
+  {
+    "id": "almec",
+    "name": "Almec",
+    "description": "Former Prime Minister of Mandalore who collaborated with Darth Maul's Shadow Collective.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "darth-vader-dark-lord-of-the-sith"
+    ]
+  },
+  {
+    "id": "anakin-skywalker",
+    "name": "Anakin Skywalker",
+    "description": "Powerful Jedi who turned to the dark side and became Darth Vader. Central figure connecting the prequel and original trilogies.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "attack-of-the-clones",
+      "phantom-menace",
+      "revenge-of-the-sith",
+      "star-wars-the-clone-wars-s1",
+      "star-wars-the-clone-wars-s2",
+      "star-wars-the-clone-wars-s3",
+      "star-wars-the-clone-wars-s4",
+      "star-wars-the-clone-wars-s5",
+      "star-wars-the-clone-wars-s6",
+      "star-wars-the-clone-wars-s7",
+      "maul-shadow-lord",
+      "star-wars-episode-i-racer",
+      "star-wars-the-clone-wars-2002",
+      "star-wars-revenge-of-the-sith",
+      "thrawn-alliances",
+      "dark-disciple",
+      "brotherhood",
+      "queens-hope"
+    ]
+  },
+  {
+    "id": "ar-alani",
+    "name": "Ar'alani",
+    "description": "Admiral of the Chiss Ascendancy Defense Fleet and close ally of Thrawn. A skilled and respected commander in the Unknown Regions.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "thrawn-ascendancy-chaos-rising"
+    ]
+  },
+  {
+    "id": "arihnda-pryce",
+    "name": "Arihnda Pryce",
+    "description": "Governor of Lothal and Imperial political operative. Allied with Thrawn against the Ghost rebel crew.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "thrawn",
+      "thrawn-alliances",
+      "thrawn-treason"
+    ]
+  },
+  {
+    "id": "aryn-leneer",
+    "name": "Aryn Leneer",
+    "description": "Jedi Knight who sought revenge after her master was killed during the sacking of Coruscant by Darth Malgus.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "the-old-republic-deceived"
+    ]
+  },
+  {
+    "id": "asajj-ventress",
+    "name": "Asajj Ventress",
+    "description": "Dark side assassin and apprentice of Count Dooku. Skilled lightsaber duelist and former Nightsister.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "star-wars-the-clone-wars-s1",
+      "star-wars-the-clone-wars-s2",
+      "star-wars-the-clone-wars-s3",
+      "maul-shadow-lord",
+      "dark-disciple",
+      "brotherhood"
+    ]
+  },
+  {
+    "id": "avar-kriss",
+    "name": "Avar Kriss",
+    "description": "Heroic Jedi Master of the High Republic era, known for her unique ability to sense the Force as music. Led the response to the Great Hyperspace Disaster.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "light-of-the-jedi",
+      "the-rising-storm",
+      "the-fallen-star"
+    ]
+  },
+  {
+    "id": "bail-organa",
+    "name": "Bail Organa",
+    "description": "Senator of Alderaan, early Rebel founder and adoptive father of Leia Organa.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "revenge-of-the-sith",
+      "obi-wan-kenobi-s1",
+      "ahsoka"
+    ]
+  },
+  {
+    "id": "barriss-offee",
+    "name": "Barriss Offee",
+    "description": "Jedi Padawan who secretly bombed the Jedi Temple and framed Ahsoka Tano, disillusioned with the Order.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "star-wars-the-clone-wars-s5"
+    ]
+  },
+  {
+    "id": "bastila-shan",
+    "name": "Bastila Shan",
+    "description": "Gifted Jedi with the rare ability of Battle Meditation. Companion and love interest of Revan during the Jedi Civil War.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "the-old-republic-revan"
+    ]
+  },
+  {
+    "id": "baylan-skoll",
+    "name": "Baylan Skoll",
+    "description": "Former Jedi Knight turned mercenary. Seeks ancient power beyond the known galaxy.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "ahsoka"
+    ]
+  },
+  {
+    "id": "baze-malbus",
+    "name": "Baze Malbus",
+    "description": "Heavy weapons specialist and guardian from Jedha. Member of Rogue One team that stole the Death Star plans.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "rogue-one"
+    ]
+  },
+  {
+    "id": "beilert-valance",
+    "name": "Beilert Valance",
+    "description": "Cyborg bounty hunter with a complicated moral code. Once an Imperial stormtrooper, he became a hunter known for both ruthlessness and unexpected acts of heroism.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "bounty-hunters-2020"
+    ]
+  },
+  {
+    "id": "bell-zettifar",
+    "name": "Bell Zettifar",
+    "description": "Jedi Padawan during the High Republic era who faced personal loss and emerged as a key hero against the Nihil threat.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "light-of-the-jedi",
+      "the-rising-storm",
+      "the-fallen-star"
+    ]
+  },
+  {
+    "id": "ben-solo",
+    "name": "Ben Solo",
+    "description": "Son of Han Solo and Leia Organa. Seduced to the dark side and became Kylo Ren, leader of the Knights of Ren.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "bloodline"
+    ]
+  },
+  {
+    "id": "black-krrsantan",
+    "name": "Black Krrsantan",
+    "description": "Fearsome Wookiee bounty hunter who worked for Jabba the Hutt and later crossed paths with Doctor Aphra.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "doctor-aphra-2016"
+    ]
+  },
+  {
+    "id": "bo-katan-kryze",
+    "name": "Bo-Katan Kryze",
+    "description": "Mandalorian warrior and leader. Helps Din Djarin and Grogu in the post-Empire era.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "mandalorian-grogu",
+      "star-wars-the-clone-wars-s4",
+      "star-wars-the-clone-wars-s7",
+      "the-mandalorian-s2",
+      "the-mandalorian-s3"
+    ]
+  },
+  {
+    "id": "boba-fett",
+    "name": "Boba Fett",
+    "description": "Legendary Mandalorian bounty hunter, clone of Jango Fett. Known for his armor and ruthless efficiency.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "attack-of-the-clones",
+      "empire-strikes-back",
+      "the-mandalorian-s2",
+      "the-book-of-boba-fett",
+      "star-wars-demolition",
+      "bounty-hunters-2020"
+    ]
+  },
+  {
+    "id": "bodhi-rook",
+    "name": "Bodhi Rook",
+    "description": "Imperial pilot who defected to the Rebellion. Key member of Rogue One.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "rogue-one"
+    ]
+  },
+  {
+    "id": "bossk",
+    "name": "Bossk",
+    "description": "Trandoshan bounty hunter known for hunting Wookiees. Worked alongside Boba Fett on several occasions.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "bounty-hunters-2020"
+    ]
+  },
+  {
+    "id": "beetee",
+    "name": "BT-1 (Beetee)",
+    "description": "Assassin droid disguised as an astromech, modeled after R2-D2. Partner of Triple-Zero and Doctor Aphra.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "darth-vader-2015",
+      "doctor-aphra-2016"
+    ]
+  },
+  {
+    "id": "c-3po",
+    "name": "C-3PO",
+    "description": "Golden protocol droid fluent in over six million forms of communication. Long-time companion of R2-D2.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "a-new-hope",
+      "empire-strikes-back",
+      "return-of-the-jedi",
+      "revenge-of-the-sith",
+      "the-force-awakens",
+      "the-last-jedi",
+      "the-rise-of-skywalker"
+    ]
+  },
+  {
+    "id": "cad-bane",
+    "name": "Cad Bane",
+    "description": "Ruthless Duros bounty hunter feared across the galaxy. Frequently hired by the Separatists and crime lords during the Clone Wars.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "star-wars-the-clone-wars-s2"
+    ]
+  },
+  {
+    "id": "cade-skywalker",
+    "name": "Cade Skywalker",
+    "description": "Descendant of Luke Skywalker living over 130 years after Return of the Jedi. A former Jedi turned bounty hunter.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "star-wars-legacy-2006"
+    ]
+  },
+  {
+    "id": "captain-rex",
+    "name": "Captain Rex",
+    "description": "Clone trooper captain and loyal commander in the 501st Legion. One of Anakin Skywalker's most trusted soldiers during the Clone Wars.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "star-wars-the-clone-wars-s1",
+      "star-wars-the-clone-wars-s2",
+      "star-wars-the-clone-wars-s3",
+      "star-wars-the-clone-wars-s4",
+      "star-wars-the-clone-wars-s5",
+      "star-wars-the-clone-wars-s6",
+      "star-wars-the-clone-wars-s7",
+      "brotherhood"
+    ]
+  },
+  {
+    "id": "captain-typho",
+    "name": "Captain Typho",
+    "description": "Head of security for Senator Padmé Amidala, nephew of Captain Panaka.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "queens-shadow",
+      "queens-hope"
+    ]
+  },
+  {
+    "id": "cassian-andor",
+    "name": "Cassian Andor",
+    "description": "Rebel intelligence officer and leader of the Rogue One mission to steal Death Star plans.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "rogue-one",
+      "andor-s1",
+      "andor-s2"
+    ]
+  },
+  {
+    "id": "cham-syndulla",
+    "name": "Cham Syndulla",
+    "description": "Twi'lek freedom fighter and father of Hera Syndulla. Led resistance against the Empire on Ryloth.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "lords-of-the-sith"
+    ]
+  },
+  {
+    "id": "chancellor-palpatine",
+    "name": "Chancellor Palpatine",
+    "description": "Deceptive politician who became Emperor Palpatine and orchestrated the fall of the Republic.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "attack-of-the-clones",
+      "star-wars-the-clone-wars-s6",
+      "star-wars-revenge-of-the-sith"
+    ]
+  },
+  {
+    "id": "che-ri",
+    "name": "Che'ri",
+    "description": "Young Chiss sky-walker with Force-like navigational abilities. Bonded with her caregiver Thalias.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "thrawn-ascendancy-chaos-rising"
+    ]
+  },
+  {
+    "id": "chewbacca",
+    "name": "Chewbacca",
+    "description": "Loyal Wookiee co-pilot of the Millennium Falcon. Lifelong friend of Han Solo.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "a-new-hope",
+      "empire-strikes-back",
+      "return-of-the-jedi",
+      "solo",
+      "the-force-awakens",
+      "the-last-jedi",
+      "the-rise-of-skywalker",
+      "star-wars-2015"
+    ]
+  },
+  {
+    "id": "chirrut-imwe",
+    "name": "Chirrut Îmwe",
+    "description": "Blind warrior monk devoted to the Force. Member of Rogue One team.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "rogue-one"
+    ]
+  },
+  {
+    "id": "ciena-ree",
+    "name": "Ciena Ree",
+    "description": "Imperial officer from Jelucan who remained loyal to the Empire throughout the Galactic Civil War. Childhood friend and love interest of Thane Kyrell.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "lost-stars"
+    ]
+  },
+  {
+    "id": "cognus",
+    "name": "Cognus",
+    "description": "Sith apprentice who succeeded Darth Zannah, continuing the Rule of Two lineage.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "darth-bane-path-of-destruction"
+    ]
+  },
+  {
+    "id": "corde",
+    "name": "Cordé",
+    "description": "One of Padmé Amidala's handmaidens who served as her decoy and died in her place.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "queens-shadow",
+      "queens-hope"
+    ]
+  },
+  {
+    "id": "count-dooku",
+    "name": "Count Dooku",
+    "description": "Former Jedi Master turned Sith Lord. Leader of the Separatists during the Clone Wars.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "attack-of-the-clones",
+      "revenge-of-the-sith",
+      "star-wars-the-clone-wars-s1",
+      "maul-shadow-lord",
+      "star-wars-revenge-of-the-sith",
+      "dark-disciple",
+      "brotherhood",
+      "darth-maul-son-of-dathomir"
+    ]
+  },
+  {
+    "id": "count-vidian",
+    "name": "Count Vidian",
+    "description": "Ruthless Imperial efficiency expert and cyborg who oversaw resource extraction operations.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "a-new-dawn"
+    ]
+  },
+  {
+    "id": "crosshair",
+    "name": "Crosshair",
+    "description": "Elite sniper of Clone Force 99 whose inhibitor chip made him loyal to the Empire, creating conflict with his squad.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "star-wars-the-bad-batch-s1",
+      "star-wars-the-bad-batch-s2",
+      "star-wars-the-bad-batch-s3"
+    ]
+  },
+  {
+    "id": "darth-bane",
+    "name": "Darth Bane",
+    "description": "Sith Lord who destroyed the Brotherhood of Darkness and established the Rule of Two: one master and one apprentice. Founded the Sith lineage that would eventually produce Darth Sidious.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "darth-bane-path-of-destruction",
+      "darth-bane-rule-of-two",
+      "darth-bane-dynasty-of-evil"
+    ]
+  },
+  {
+    "id": "darth-krayt",
+    "name": "Darth Krayt",
+    "description": "Sith Lord and founder of the One Sith who conquered the galaxy over 130 years after Return of the Jedi.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "star-wars-legacy-2006"
+    ]
+  },
+  {
+    "id": "darth-malgus",
+    "name": "Darth Malgus",
+    "description": "Fearsome Sith Lord who led the brutal sacking of Coruscant during the Great Galactic War. Known for his raw power and unorthodox views on the Sith Empire.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "the-old-republic-deceived",
+      "the-old-republic-fatal-alliance"
+    ]
+  },
+  {
+    "id": "darth-maul",
+    "name": "Darth Maul",
+    "description": "Sith apprentice with double-bladed lightsaber. Served Darth Sidious in the prequel era.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "phantom-menace",
+      "star-wars-the-clone-wars-s3",
+      "star-wars-the-clone-wars-s4",
+      "star-wars-the-clone-wars-s7",
+      "star-wars-rebels-s3",
+      "maul-shadow-lord",
+      "star-wars-the-phantom-menace",
+      "darth-maul-son-of-dathomir"
+    ]
+  },
+  {
+    "id": "darth-plagueis",
+    "name": "Darth Plagueis",
+    "description": "Muun Sith Lord obsessed with manipulating midi-chlorians to conquer death. Master of Darth Sidious and architect of the Sith Grand Plan.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "darth-plagueis"
+    ]
+  },
+  {
+    "id": "darth-sidious",
+    "name": "Darth Sidious",
+    "description": "Secret identity of Chancellor/Emperor Palpatine. Master manipulator behind the Clone Wars.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "phantom-menace",
+      "darth-vader-2015",
+      "darth-maul-son-of-dathomir",
+      "darth-plagueis"
+    ]
+  },
+  {
+    "id": "darth-tenebrous",
+    "name": "Darth Tenebrous",
+    "description": "Sith Master who trained Darth Plagueis. A Bith scientist who sought to manipulate midi-chlorians and achieve immortality through his apprentice.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "darth-plagueis"
+    ]
+  },
+  {
+    "id": "darth-vader",
+    "name": "Darth Vader",
+    "description": "Iconic Sith Lord, formerly Anakin Skywalker. Enforcer of the Galactic Empire.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "a-new-hope",
+      "empire-strikes-back",
+      "return-of-the-jedi",
+      "revenge-of-the-sith",
+      "rogue-one",
+      "star-wars-rebels-s2",
+      "obi-wan-kenobi-s1",
+      "star-wars-battlefront-ii-2017",
+      "star-wars-the-force-unleashed",
+      "thrawn-alliances",
+      "thrawn-treason",
+      "tarkin",
+      "lords-of-the-sith",
+      "darth-vader-dark-lord-of-the-sith",
+      "darth-vader-2015",
+      "darth-vader-2020",
+      "star-wars-2015"
+    ]
+  },
+  {
+    "id": "darth-zannah",
+    "name": "Darth Zannah",
+    "description": "Apprentice of Darth Bane, skilled in Sith sorcery and deception. Destined to one day challenge her master for the title of Dark Lord.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "darth-bane-rule-of-two",
+      "darth-bane-dynasty-of-evil"
+    ]
+  },
+  {
+    "id": "dedra-meero",
+    "name": "Dedra Meero",
+    "description": "Ambitious ISB supervisor determined to uncover and crush the growing Rebel network.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "andor-s1",
+      "andor-s2"
+    ]
+  },
+  {
+    "id": "dengar",
+    "name": "Dengar",
+    "description": "Corellian bounty hunter with a cybernetic skull. One of the hunters hired by Darth Vader to find the Millennium Falcon.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "bounty-hunters-2020"
+    ]
+  },
+  {
+    "id": "din-djarin-the-mandalorian",
+    "name": "Din Djarin (The Mandalorian)",
+    "description": "Bounty hunter following the Mandalorian way. Protector of Grogu in the New Republic era.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "mandalorian-grogu",
+      "the-mandalorian-s1",
+      "the-mandalorian-s2",
+      "the-mandalorian-s3",
+      "the-book-of-boba-fett"
+    ]
+  },
+  {
+    "id": "doctor-aphra",
+    "name": "Doctor Aphra",
+    "description": "Rogue archaeologist and scoundrel who briefly worked for Darth Vader. Known for her wit, greed, and morally ambiguous adventures across the galaxy.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "darth-vader-2015",
+      "doctor-aphra-2016",
+      "star-wars-2015"
+    ]
+  },
+  {
+    "id": "dorme",
+    "name": "Dormé",
+    "description": "One of Padmé Amidala's loyal handmaidens, serving as her decoy and confidante during her time as Senator.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "queens-shadow",
+      "queens-hope"
+    ]
+  },
+  {
+    "id": "dryden-vos",
+    "name": "Dryden Vos",
+    "description": "High-ranking criminal syndicate leader encountered by young Han Solo.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "solo"
+    ]
+  },
+  {
+    "id": "echo",
+    "name": "Echo",
+    "description": "Clone trooper who survived capture and cybernetic modification. Joined Clone Force 99 as a valued member.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "star-wars-the-bad-batch-s1",
+      "star-wars-the-bad-batch-s2",
+      "star-wars-the-bad-batch-s3"
+    ]
+  },
+  {
+    "id": "eli-vanto",
+    "name": "Eli Vanto",
+    "description": "Imperial officer and loyal aide to Grand Admiral Thrawn. Later sent as an envoy to the Chiss Ascendancy.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "thrawn",
+      "thrawn-alliances",
+      "thrawn-treason"
+    ]
+  },
+  {
+    "id": "elzar-mann",
+    "name": "Elzar Mann",
+    "description": "Bold and unconventional Jedi Master of the High Republic era. Close friend of Avar Kriss who struggled with the temptations of the dark side.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "light-of-the-jedi",
+      "the-rising-storm",
+      "the-fallen-star"
+    ]
+  },
+  {
+    "id": "emperor-palpatine",
+    "name": "Emperor Palpatine",
+    "description": "The Dark Lord of the Sith who ruled the Galactic Empire for decades.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "empire-strikes-back",
+      "return-of-the-jedi",
+      "the-rise-of-skywalker",
+      "tarkin",
+      "lords-of-the-sith",
+      "darth-vader-dark-lord-of-the-sith",
+      "darth-vader-2020"
+    ]
+  },
+  {
+    "id": "enfys-nest",
+    "name": "Enfys Nest",
+    "description": "Leader of the Cloud-Riders marauder gang. Crossed paths with young Han Solo.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "solo"
+    ]
+  },
+  {
+    "id": "ezra-bridger",
+    "name": "Ezra Bridger",
+    "description": "Force-sensitive orphan from Lothal who became a Jedi rebel fighter under Kanan Jarrus's guidance.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "star-wars-rebels-s1",
+      "star-wars-rebels-s2",
+      "star-wars-rebels-s3",
+      "star-wars-rebels-s4",
+      "ahsoka"
+    ]
+  },
+  {
+    "id": "farzala-tarent",
+    "name": "Farzala Tarent",
+    "description": "Jedi Padawan during the High Republic era, member of the young Jedi crew facing the Nihil.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "the-high-republic-adventures"
+    ]
+  },
+  {
+    "id": "fennec-shand",
+    "name": "Fennec Shand",
+    "description": "Elite mercenary and assassin. Close ally of Boba Fett after he saved her life on Tatooine.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "the-mandalorian-s2",
+      "the-book-of-boba-fett"
+    ]
+  },
+  {
+    "id": "finn",
+    "name": "Finn",
+    "description": "Former stormtrooper who defected to the Resistance. Key hero of the sequel trilogy.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "the-force-awakens",
+      "the-last-jedi",
+      "the-rise-of-skywalker"
+    ]
+  },
+  {
+    "id": "fives",
+    "name": "Fives (CT-5555)",
+    "description": "Clone trooper of the 501st Legion who uncovered the conspiracy behind the inhibitor chips and Order 66.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "star-wars-the-clone-wars-s6"
+    ]
+  },
+  {
+    "id": "galen-erso",
+    "name": "Galen Erso",
+    "description": "Scientist forced to design the Death Star. Father of Jyn Erso.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "rogue-one",
+      "catalyst-a-rogue-one-novel"
+    ]
+  },
+  {
+    "id": "general-grievous",
+    "name": "General Grievous",
+    "description": "Cyborg Separatist general who hunted Jedi during the Clone Wars.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "revenge-of-the-sith",
+      "star-wars-the-clone-wars-s4",
+      "maul-shadow-lord",
+      "star-wars-revenge-of-the-sith",
+      "darth-maul-son-of-dathomir"
+    ]
+  },
+  {
+    "id": "githany",
+    "name": "Githany",
+    "description": "Former Jedi who joined the Sith Brotherhood of Darkness. A deadly warrior and seductress who crossed paths with Darth Bane.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "darth-bane-path-of-destruction"
+    ]
+  },
+  {
+    "id": "gnost-dural",
+    "name": "Gnost-Dural",
+    "description": "Kel Dor Jedi Master and historian who chronicled the Great Galactic War.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "the-old-republic-fatal-alliance",
+      "the-old-republic-annihilation"
+    ]
+  },
+  {
+    "id": "grand-admiral-thrawn",
+    "name": "Grand Admiral Thrawn",
+    "description": "Brilliant Chiss Imperial strategist who nearly crushed the early Rebellion. Returned as a major threat in the New Republic era.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "star-wars-rebels-s2",
+      "star-wars-rebels-s3",
+      "star-wars-rebels-s4",
+      "ahsoka",
+      "thrawn",
+      "thrawn-alliances",
+      "thrawn-treason",
+      "thrawn-ascendancy-chaos-rising"
+    ]
+  },
+  {
+    "id": "grand-moff-tarkin",
+    "name": "Grand Moff Tarkin",
+    "description": "High-ranking Imperial officer who oversaw the Death Star project.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "a-new-hope",
+      "tarkin",
+      "darth-vader-2015"
+    ]
+  },
+  {
+    "id": "grogu",
+    "name": "Grogu",
+    "description": "Force-sensitive child of Yoda's species. Protected by the Mandalorian.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "mandalorian-grogu",
+      "the-mandalorian-s1",
+      "the-mandalorian-s2",
+      "the-mandalorian-s3",
+      "the-book-of-boba-fett"
+    ]
+  },
+  {
+    "id": "han-solo",
+    "name": "Han Solo",
+    "description": "Smuggler turned Rebel hero. Captain of the Millennium Falcon.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "a-new-hope",
+      "empire-strikes-back",
+      "return-of-the-jedi",
+      "solo",
+      "the-force-awakens",
+      "bloodline",
+      "most-wanted",
+      "star-wars-2015"
+    ]
+  },
+  {
+    "id": "hera-syndulla",
+    "name": "Hera Syndulla",
+    "description": "Twi'lek pilot and leader of the Ghost rebel crew. One of the Rebellion's most skilled commanders.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "star-wars-rebels-s1",
+      "star-wars-rebels-s2",
+      "star-wars-rebels-s3",
+      "star-wars-rebels-s4",
+      "ahsoka",
+      "a-new-dawn"
+    ]
+  },
+  {
+    "id": "hunter",
+    "name": "Hunter",
+    "description": "Leader of Clone Force 99 (Bad Batch). Possesses enhanced tactical senses and serves as the squad's field commander.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "star-wars-the-bad-batch-s1",
+      "star-wars-the-bad-batch-s2",
+      "star-wars-the-bad-batch-s3"
+    ]
+  },
+  {
+    "id": "jabba-the-hutt",
+    "name": "Jabba the Hutt",
+    "description": "Notorious crime lord on Tatooine. Captor of Han Solo.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "return-of-the-jedi",
+      "star-wars-demolition"
+    ]
+  },
+  {
+    "id": "jan-dodonna",
+    "name": "Jan Dodonna",
+    "description": "Rebel Alliance general who planned the attack on the Death Star at the Battle of Yavin.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "tarkin"
+    ]
+  },
+  {
+    "id": "jango-fett",
+    "name": "Jango Fett",
+    "description": "Notorious bounty hunter and template for the clone army.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "attack-of-the-clones",
+      "star-wars-bounty-hunter"
+    ]
+  },
+  {
+    "id": "jannah",
+    "name": "Jannah",
+    "description": "Former stormtrooper who joined the Resistance. Fought in the final battle against Palpatine.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "the-rise-of-skywalker"
+    ]
+  },
+  {
+    "id": "jar-jar-binks",
+    "name": "Jar Jar Binks",
+    "description": "Gungan representative who helped the Jedi on Naboo.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "phantom-menace"
+    ]
+  },
+  {
+    "id": "jocasta-nu",
+    "name": "Jocasta Nu",
+    "description": "Chief Librarian of the Jedi Archives. Survived Order 66 and worked to preserve Jedi knowledge against the Empire.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "darth-vader-dark-lord-of-the-sith"
+    ]
+  },
+  {
+    "id": "johun-othone",
+    "name": "Johun Othone",
+    "description": "Jedi Knight and survivor of the Ruusan campaign who pursued Darth Bane.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "darth-bane-rule-of-two"
+    ]
+  },
+  {
+    "id": "joruus-cbaoth",
+    "name": "Joruus C'baoth",
+    "description": "Insane clone of Jedi Master Jorus C'baoth. Served Grand Admiral Thrawn and sought to control Luke Skywalker.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "heir-to-the-empire"
+    ]
+  },
+  {
+    "id": "jyn-erso",
+    "name": "Jyn Erso",
+    "description": "Rebel leader who stole the Death Star plans in Rogue One.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "rogue-one",
+      "catalyst-a-rogue-one-novel"
+    ]
+  },
+  {
+    "id": "k-2so",
+    "name": "K-2SO",
+    "description": "Reprogrammed Imperial security droid. Sarcastic member of Rogue One.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "rogue-one",
+      "andor-s2"
+    ]
+  },
+  {
+    "id": "kaeden-larte",
+    "name": "Kaeden Larte",
+    "description": "Farmer and friend of Ahsoka Tano during her exile after Order 66. Helped draw Ahsoka back into the fight.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "ahsoka"
+    ]
+  },
+  {
+    "id": "kanan-jarrus",
+    "name": "Kanan Jarrus",
+    "description": "Jedi survivor of Order 66 who mentored Ezra Bridger. Leader of the Ghost rebel cell.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "star-wars-rebels-s1",
+      "star-wars-rebels-s2",
+      "star-wars-rebels-s3",
+      "star-wars-rebels-s4",
+      "a-new-dawn"
+    ]
+  },
+  {
+    "id": "kas-im",
+    "name": "Kas'im",
+    "description": "Twi'lek Sith weapons master of the Brotherhood of Darkness. Trained Darth Bane in lightsaber combat.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "darth-bane-path-of-destruction"
+    ]
+  },
+  {
+    "id": "keeve-trennis",
+    "name": "Keeve Trennis",
+    "description": "Newly knighted Jedi during the High Republic era. Faced the Nihil threat and personal trials of faith in the Force.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "the-fallen-star"
+    ]
+  },
+  {
+    "id": "kerra-holt",
+    "name": "Kerra Holt",
+    "description": "Jedi Knight operating alone in Sith-controlled space a thousand years before the films.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "knight-errant"
+    ]
+  },
+  {
+    "id": "kirak-infila",
+    "name": "Kirak Infil'a",
+    "description": "Jedi Master who survived Order 66. Confronted Darth Vader in a fierce duel.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "darth-vader-dark-lord-of-the-sith"
+    ]
+  },
+  {
+    "id": "kylo-ren",
+    "name": "Kylo Ren",
+    "description": "Dark side warrior and leader of the Knights of Ren. Son of Han and Leia.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "the-force-awakens",
+      "the-last-jedi",
+      "the-rise-of-skywalker"
+    ]
+  },
+  {
+    "id": "l3-37",
+    "name": "L3-37",
+    "description": "Self-made droid and co-pilot during Han Solo's early adventures.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "solo",
+      "most-wanted"
+    ]
+  },
+  {
+    "id": "lando-calrissian",
+    "name": "Lando Calrissian",
+    "description": "Smuggler, gambler and administrator of Cloud City. Later joined the Rebellion.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "empire-strikes-back",
+      "return-of-the-jedi",
+      "solo",
+      "the-rise-of-skywalker"
+    ]
+  },
+  {
+    "id": "leia-organa",
+    "name": "Leia Organa",
+    "description": "Princess, general and leader of the Resistance. Daughter of Anakin Skywalker.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "a-new-hope",
+      "empire-strikes-back",
+      "return-of-the-jedi",
+      "the-force-awakens",
+      "the-last-jedi",
+      "the-rise-of-skywalker",
+      "obi-wan-kenobi-s1",
+      "bloodline",
+      "lost-stars",
+      "star-wars-2015",
+      "poe-dameron"
+    ]
+  },
+  {
+    "id": "loden-greatstorm",
+    "name": "Loden Greatstorm",
+    "description": "Twi'lek Jedi Master and mentor during the High Republic era. Captured by the Nihil during the Great Hyperspace Disaster.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "light-of-the-jedi",
+      "the-rising-storm"
+    ]
+  },
+  {
+    "id": "kaan",
+    "name": "Lord Kaan",
+    "description": "Leader of the Brotherhood of Darkness and Sith Lord who clashed with Darth Bane.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "darth-bane-dynasty-of-evil"
+    ]
+  },
+  {
+    "id": "momin",
+    "name": "Lord Momin",
+    "description": "Ancient Sith sculptor whose spirit was preserved in his helmet. Aided Darth Vader in constructing his fortress on Mustafar.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "darth-vader-dark-lord-of-the-sith"
+    ]
+  },
+  {
+    "id": "scourge",
+    "name": "Lord Scourge",
+    "description": "Sith Lord who allied with Revan and Meetra Surik against the Sith Emperor in the Old Republic era.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "the-old-republic-revan"
+    ]
+  },
+  {
+    "id": "lourna-dee",
+    "name": "Lourna Dee",
+    "description": "Tempest Runner of the Nihil marauders. A cunning and ruthless Twi'lek criminal leader.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "the-rising-storm",
+      "the-fallen-star"
+    ]
+  },
+  {
+    "id": "luke-skywalker",
+    "name": "Luke Skywalker",
+    "description": "Jedi hero who helped destroy the Empire. Son of Anakin Skywalker.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "a-new-hope",
+      "empire-strikes-back",
+      "return-of-the-jedi",
+      "the-force-awakens",
+      "the-last-jedi",
+      "mandalorian-grogu",
+      "darth-vader-2020",
+      "star-wars-2015"
+    ]
+  },
+  {
+    "id": "lula-talisola",
+    "name": "Lula Talisola",
+    "description": "Young Jedi Padawan during the High Republic era who faced the Nihil threat alongside her fellow students.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "the-high-republic-adventures"
+    ]
+  },
+  {
+    "id": "luthen-rael",
+    "name": "Luthen Rael",
+    "description": "Galactic antiques dealer who secretly masterminded early Rebel recruitment networks against the Empire.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "andor-s1",
+      "andor-s2"
+    ]
+  },
+  {
+    "id": "lyra-erso",
+    "name": "Lyra Erso",
+    "description": "Wife of scientist Galen Erso and mother of Jyn Erso. A determined woman who tried to protect her family from Imperial manipulation.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "catalyst-a-rogue-one-novel"
+    ]
+  },
+  {
+    "id": "mace-windu",
+    "name": "Mace Windu",
+    "description": "Powerful Jedi Master and member of the Jedi Council.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "attack-of-the-clones",
+      "phantom-menace",
+      "revenge-of-the-sith",
+      "maul-shadow-lord",
+      "star-wars-the-clone-wars-2002"
+    ]
+  },
+  {
+    "id": "mara-jade",
+    "name": "Mara Jade",
+    "description": "Former Emperor's Hand and elite assassin who was ordered to kill Luke Skywalker. Later became a Jedi Master.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "heir-to-the-empire",
+      "star-wars-legacy-2006"
+    ]
+  },
+  {
+    "id": "marchion-ro",
+    "name": "Marchion Ro",
+    "description": "Cunning and ruthless Eye of the Nihil marauders. Orchestrated devastating attacks against the High Republic.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "light-of-the-jedi",
+      "the-rising-storm",
+      "the-fallen-star",
+      "the-high-republic-adventures"
+    ]
+  },
+  {
+    "id": "meetra-surik",
+    "name": "Meetra Surik (The Exile)",
+    "description": "Exiled Jedi Knight who reconnected with the Force and confronted the Sith Triumvirate. Sought Revan in the Old Republic era.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "the-old-republic-revan"
+    ]
+  },
+  {
+    "id": "moff-gideon",
+    "name": "Moff Gideon",
+    "description": "Imperial warlord and commander of an Imperial remnant. Sought Grogu for his Force-sensitive blood.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "the-mandalorian-s1",
+      "the-mandalorian-s2",
+      "the-mandalorian-s3"
+    ]
+  },
+  {
+    "id": "mon-mothma",
+    "name": "Mon Mothma",
+    "description": "Senator of Chandrila and co-founder of the Rebel Alliance. Risked everything to fund the early Rebellion.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "andor-s1",
+      "andor-s2",
+      "tarkin"
+    ]
+  },
+  {
+    "id": "mother-talzin",
+    "name": "Mother Talzin",
+    "description": "Powerful Nightsister shaman and matriarch of the Dathomir witches. Master of dark magick.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "star-wars-the-clone-wars-s3",
+      "star-wars-the-clone-wars-s4",
+      "darth-maul-son-of-dathomir"
+    ]
+  },
+  {
+    "id": "nash-windrider",
+    "name": "Nash Windrider",
+    "description": "Imperial officer and friend of Ciena Ree, deeply loyal to the Empire throughout the Galactic Civil War.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "lost-stars"
+    ]
+  },
+  {
+    "id": "obi-wan-kenobi",
+    "name": "Obi-Wan Kenobi",
+    "description": "Wise Jedi Master who trained Anakin Skywalker and later Luke Skywalker.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "a-new-hope",
+      "attack-of-the-clones",
+      "phantom-menace",
+      "revenge-of-the-sith",
+      "star-wars-the-clone-wars-s1",
+      "star-wars-the-clone-wars-s2",
+      "star-wars-the-clone-wars-s3",
+      "star-wars-the-clone-wars-s4",
+      "star-wars-the-clone-wars-s5",
+      "star-wars-the-clone-wars-s7",
+      "obi-wan-kenobi-s1",
+      "maul-shadow-lord",
+      "star-wars-the-clone-wars-2002",
+      "star-wars-revenge-of-the-sith",
+      "star-wars-the-phantom-menace",
+      "dark-disciple",
+      "brotherhood",
+      "master-and-apprentice",
+      "darth-maul-son-of-dathomir"
+    ]
+  },
+  {
+    "id": "ochi-of-bestoon",
+    "name": "Ochi of Bestoon",
+    "description": "Sith assassin and loyalist who served Emperor Palpatine. Hunted the family of Rey on Jakku.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "darth-vader-2020"
+    ]
+  },
+  {
+    "id": "omega",
+    "name": "Omega",
+    "description": "Unmodified female clone of Jango Fett with a pure genetic template. Adopted by Clone Force 99 as their own.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "star-wars-the-bad-batch-s1",
+      "star-wars-the-bad-batch-s2",
+      "star-wars-the-bad-batch-s3"
+    ]
+  },
+  {
+    "id": "orson-krennic",
+    "name": "Orson Krennic",
+    "description": "Director of the Death Star project. Antagonist in Rogue One.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "rogue-one",
+      "thrawn-treason",
+      "catalyst-a-rogue-one-novel"
+    ]
+  },
+  {
+    "id": "padme-amidala",
+    "name": "Padmé Amidala",
+    "description": "Queen and later Senator of Naboo. Secret wife of Anakin Skywalker.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "attack-of-the-clones",
+      "phantom-menace",
+      "revenge-of-the-sith",
+      "star-wars-the-phantom-menace",
+      "thrawn-alliances",
+      "brotherhood",
+      "darth-vader-2020",
+      "queens-shadow",
+      "queens-hope"
+    ]
+  },
+  {
+    "id": "plo-koon",
+    "name": "Plo Koon",
+    "description": "Kel Dor Jedi Master and member of the Jedi High Council. Famed for his bond with clone troopers.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "star-wars-the-clone-wars-s1",
+      "star-wars-the-clone-wars-s2",
+      "star-wars-the-clone-wars-s5"
+    ]
+  },
+  {
+    "id": "poe-dameron",
+    "name": "Poe Dameron",
+    "description": "Skilled Resistance pilot and commander. Key figure in the fight against the First Order.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "the-force-awakens",
+      "the-last-jedi",
+      "the-rise-of-skywalker",
+      "poe-dameron"
+    ]
+  },
+  {
+    "id": "princess-leia-organa",
+    "name": "Princess Leia Organa",
+    "description": "See Leia Organa (same character, earlier title used in some films).",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "a-new-hope"
+    ]
+  },
+  {
+    "id": "qi-ra",
+    "name": "Qi'ra",
+    "description": "Former love interest of Han Solo. Became a high-ranking criminal operative.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "solo",
+      "most-wanted"
+    ]
+  },
+  {
+    "id": "qordis",
+    "name": "Qordis",
+    "description": "Head of the Sith Academy on Korriban and member of the Brotherhood of Darkness.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "darth-bane-path-of-destruction"
+    ]
+  },
+  {
+    "id": "qort",
+    "name": "Qort",
+    "description": "Jedi Padawan during the High Republic era, known for wearing a helmet made from a Trandoshan skull.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "the-high-republic-adventures"
+    ]
+  },
+  {
+    "id": "queen-padme-amidala",
+    "name": "Queen Padmé Amidala",
+    "description": "See Padmé Amidala (same character, earlier title used in Episode I).",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "phantom-menace"
+    ]
+  },
+  {
+    "id": "qui-gon-jinn",
+    "name": "Qui-Gon Jinn",
+    "description": "Maverick Jedi Master who discovered Anakin Skywalker and believed him to be the Chosen One. Trained Obi-Wan Kenobi.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "master-and-apprentice",
+      "darth-plagueis"
+    ]
+  },
+  {
+    "id": "quinlan-vos",
+    "name": "Quinlan Vos",
+    "description": "Unorthodox Jedi Master with the rare ability to read memories through touch. Partnered with Asajj Ventress on a dangerous mission during the Clone Wars.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "dark-disciple"
+    ]
+  },
+  {
+    "id": "r2-d2",
+    "name": "R2-D2",
+    "description": "Astromech droid famous for bravery and resourcefulness across the saga.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "a-new-hope",
+      "empire-strikes-back",
+      "return-of-the-jedi",
+      "revenge-of-the-sith",
+      "the-force-awakens",
+      "the-last-jedi",
+      "the-rise-of-skywalker"
+    ]
+  },
+  {
+    "id": "rael-averross",
+    "name": "Rael Averross",
+    "description": "Jedi Knight and former Padawan of Count Dooku. Served as regent of Pijal and old friend of Qui-Gon Jinn.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "master-and-apprentice"
+    ]
+  },
+  {
+    "id": "ransolm-casterfo",
+    "name": "Ransolm Casterfo",
+    "description": "New Republic senator and unlikely ally of Leia Organa. An Imperial memorabilia collector whose loyalty was ultimately tested.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "bloodline"
+    ]
+  },
+  {
+    "id": "reva",
+    "name": "Reva (Third Sister)",
+    "description": "Former Jedi youngling who became an Inquisitor seeking revenge on Darth Vader for the massacre at the Temple.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "obi-wan-kenobi-s1"
+    ]
+  },
+  {
+    "id": "revan",
+    "name": "Revan",
+    "description": "Legendary Jedi Knight turned Sith Lord and back again. Central figure of the Old Republic era whose choices shaped the fate of the galaxy.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "the-old-republic-revan"
+    ]
+  },
+  {
+    "id": "rey",
+    "name": "Rey",
+    "description": "Force-sensitive scavenger who became a Jedi. Central hero of the sequel trilogy.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "the-force-awakens",
+      "the-last-jedi",
+      "the-rise-of-skywalker",
+      "star-wars-battlefront-ii-2017"
+    ]
+  },
+  {
+    "id": "rose-tico",
+    "name": "Rose Tico",
+    "description": "Resistance mechanic and fighter. Joined the fight against the First Order.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "the-last-jedi"
+    ]
+  },
+  {
+    "id": "rotta-the-hutt",
+    "name": "Rotta the Hutt",
+    "description": "Huttlet child involved in early Mandalorian & Grogu adventures.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "mandalorian-grogu"
+    ]
+  },
+  {
+    "id": "sabine-wren",
+    "name": "Sabine Wren",
+    "description": "Mandalorian warrior, artist and explosives expert. Member of the Ghost crew and wielder of the Darksaber.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "star-wars-rebels-s1",
+      "star-wars-rebels-s2",
+      "star-wars-rebels-s3",
+      "star-wars-rebels-s4",
+      "ahsoka"
+    ]
+  },
+  {
+    "id": "sabe",
+    "name": "Sabé",
+    "description": "Padmé Amidala's most trusted handmaiden and decoy. Later crossed paths with Darth Vader while seeking the truth about Padmé's death.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "darth-vader-dark-lord-of-the-sith",
+      "darth-vader-2020",
+      "queens-shadow",
+      "queens-hope"
+    ]
+  },
+  {
+    "id": "sana-starros",
+    "name": "Sana Starros",
+    "description": "Smuggler who claimed to be Han Solo's wife. Later became an ally of the Rebellion.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "star-wars-2015",
+      "doctor-aphra-2016"
+    ]
+  },
+  {
+    "id": "satele-shan",
+    "name": "Satele Shan",
+    "description": "Legendary Jedi Grand Master during the Old Republic era and descendant of Bastila Shan. Led the Jedi Order through the Great Galactic War.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "the-old-republic-fatal-alliance"
+    ]
+  },
+  {
+    "id": "savage-opress",
+    "name": "Savage Opress",
+    "description": "Nightbrother warrior and brother of Darth Maul. Empowered by Mother Talzin to serve as Dooku's apprentice.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "star-wars-the-clone-wars-s3",
+      "star-wars-the-clone-wars-s4",
+      "star-wars-the-clone-wars-s5"
+    ]
+  },
+  {
+    "id": "saw-gerrera",
+    "name": "Saw Gerrera",
+    "description": "Extremist rebel leader and freedom fighter. Led a partisan cell with brutal tactics the Alliance considered too extreme.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "catalyst-a-rogue-one-novel"
+    ]
+  },
+  {
+    "id": "set-harth",
+    "name": "Set Harth",
+    "description": "Rogue Jedi turned dark side user who encountered Darth Bane and Darth Zannah.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "darth-bane-rule-of-two",
+      "darth-bane-dynasty-of-evil"
+    ]
+  },
+  {
+    "id": "shin-hati",
+    "name": "Shin Hati",
+    "description": "Apprentice of Baylan Skoll and skilled dark-side fighter pursuing Ahsoka Tano.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "ahsoka"
+    ]
+  },
+  {
+    "id": "shmi-skywalker",
+    "name": "Shmi Skywalker",
+    "description": "Mother of Anakin Skywalker. Lived as a slave on Tatooine.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "phantom-menace"
+    ]
+  },
+  {
+    "id": "sifo-dyas",
+    "name": "Sifo-Dyas",
+    "description": "Jedi Master who secretly commissioned the clone army from Kamino, manipulated by Darth Sidious.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "star-wars-the-clone-wars-s6",
+      "darth-plagueis"
+    ]
+  },
+  {
+    "id": "sirak",
+    "name": "Sirak",
+    "description": "Powerful Zabrak Sith student and rival of Darth Bane at the Korriban academy.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "darth-bane-path-of-destruction"
+    ]
+  },
+  {
+    "id": "sskeer",
+    "name": "Sskeer",
+    "description": "Trandoshan Jedi Master during the High Republic era, known for his fierce combat style and troubled connection to the Force.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "light-of-the-jedi"
+    ]
+  },
+  {
+    "id": "stellan-gios",
+    "name": "Stellan Gios",
+    "description": "Respected Jedi Master and member of the Jedi Council during the High Republic era. Stationed aboard the Starlight Beacon.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "light-of-the-jedi",
+      "the-rising-storm",
+      "the-fallen-star"
+    ]
+  },
+  {
+    "id": "supreme-leader-snoke",
+    "name": "Supreme Leader Snoke",
+    "description": "Mysterious dark side leader of the First Order in the sequel trilogy.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "the-force-awakens",
+      "the-last-jedi"
+    ]
+  },
+  {
+    "id": "tech",
+    "name": "Tech",
+    "description": "The analytical genius of Clone Force 99. Skilled hacker and pilot with enhanced intelligence.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "star-wars-the-bad-batch-s1",
+      "star-wars-the-bad-batch-s2"
+    ]
+  },
+  {
+    "id": "thalias",
+    "name": "Thalias",
+    "description": "Chiss caregiver and former sky-walker who accompanied Thrawn on missions for the Chiss Ascendancy.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "thrawn-ascendancy-chaos-rising"
+    ]
+  },
+  {
+    "id": "thane-kyrell",
+    "name": "Thane Kyrell",
+    "description": "Imperial pilot who defected to the Rebellion after witnessing Imperial atrocities. Childhood friend and love interest of Ciena Ree.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "lost-stars"
+    ]
+  },
+  {
+    "id": "sixth-brother",
+    "name": "The Sixth Brother",
+    "description": "Imperial Inquisitor sent to hunt surviving Jedi. Encountered Ahsoka Tano during her exile.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "ahsoka"
+    ]
+  },
+  {
+    "id": "theron-shan",
+    "name": "Theron Shan",
+    "description": "Republic agent and son of Jedi Grand Master Satele Shan. Led covert operations against the Sith Empire.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "the-old-republic-annihilation"
+    ]
+  },
+  {
+    "id": "tobias-beckett",
+    "name": "Tobias Beckett",
+    "description": "Criminal mentor figure to young Han Solo.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "solo",
+      "most-wanted"
+    ]
+  },
+  {
+    "id": "triple-zero",
+    "name": "Triple-Zero (0-0-0)",
+    "description": "Protocol droid specializing in torture and etiquette, modeled after C-3PO. Worked with Doctor Aphra on black ops missions.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "darth-vader-2015",
+      "doctor-aphra-2016"
+    ]
+  },
+  {
+    "id": "vah-nya",
+    "name": "Vah'nya",
+    "description": "Chiss sky-walker navigator with Force-like navigational abilities, serving the Chiss Ascendancy.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "thrawn"
+    ]
+  },
+  {
+    "id": "val",
+    "name": "Val",
+    "description": "Member of Tobias Beckett's crew during the coaxium heist.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "solo"
+    ]
+  },
+  {
+    "id": "vice-admiral-holdo",
+    "name": "Vice Admiral Holdo",
+    "description": "Resistance leader who commanded during the evacuation in The Last Jedi.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "the-last-jedi"
+    ]
+  },
+  {
+    "id": "ward",
+    "name": "Ward",
+    "description": "Character appearing in The Mandalorian & Grogu film.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "mandalorian-grogu"
+    ]
+  },
+  {
+    "id": "wrecker",
+    "name": "Wrecker",
+    "description": "The enormous powerhouse of Clone Force 99. Loves explosives and has a soft spot for Omega.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "star-wars-the-bad-batch-s1",
+      "star-wars-the-bad-batch-s2",
+      "star-wars-the-bad-batch-s3"
+    ]
+  },
+  {
+    "id": "yoda",
+    "name": "Yoda",
+    "description": "Ancient Jedi Grand Master. Trained Luke Skywalker on Dagobah.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "attack-of-the-clones",
+      "empire-strikes-back",
+      "revenge-of-the-sith",
+      "the-last-jedi",
+      "star-wars-the-clone-wars-s1",
+      "star-wars-the-clone-wars-s6",
+      "maul-shadow-lord",
+      "star-wars-battlefront-ii-2005",
+      "dark-disciple"
+    ]
+  },
+  {
+    "id": "zeb-orrelios",
+    "name": "Zeb Orrelios",
+    "description": "Lasat warrior and muscle of the Ghost rebel crew. Last survivor of the Lasan massacre.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "star-wars-rebels-s1",
+      "star-wars-rebels-s2",
+      "star-wars-rebels-s3",
+      "star-wars-rebels-s4"
+    ]
+  },
+  {
+    "id": "zorii-bliss",
+    "name": "Zorii Bliss",
+    "description": "Spice runner from Kijimi. Helped the Resistance in the final battle.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "the-rise-of-skywalker"
+    ]
+  }
+]

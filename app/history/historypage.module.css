@@ -1,0 +1,64 @@
+.eraSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: var(--vertical-margin-default) var(--side-margin-default);
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.era {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.icon {
+    height: 6rem;
+    cursor: pointer;
+    fill: var(--font-secondary);
+}
+
+.icon:hover {
+    fill: orange;
+}
+
+.title {
+    color: var(--font-secondary);
+    font-weight: bold;
+}
+
+.eraWrapper {
+    margin: 0;
+    background-color: var(--background-footer);
+}
+
+.detailedSection {
+    margin: var(--vertical-margin-default) var(--side-margin-default);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.eraTitle {
+    font-weight: bold;
+    color: var(--font-secondary);
+}
+
+.description {
+    color: var(--font-secondary);
+}
+
+@media (max-width: 1024px) {
+    .eraSection, .detailedSection {
+        margin: var(--vertical-margin-default) 50px;
+    }
+
+    .title, .description, .eraTitle {
+        font-size: 0.85rem;
+    }
+}

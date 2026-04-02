@@ -1,0 +1,27 @@
+.card {
+    display: flex;
+    background-color: var(--background-footer);
+    max-width: 20rem;
+}
+
+.detailsRow {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0 1rem;
+}
+
+.relationType {
+    color: var(--font-highlighted);
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.title, .status, .name {
+    font-size: 0.9rem;
+    color: var(--font-secondary);
+}
+
+.image {
+    max-width: 5rem;
+}

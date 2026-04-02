@@ -1,0 +1,22 @@
+.container {
+    margin: var(--vertical-margin-default) var(--side-margin-default);
+}
+
+.list {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+@media (max-width: 1024px) {
+    .container {
+        margin: var(--vertical-margin-default) 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        margin: 20px 50px;
+    }
+}

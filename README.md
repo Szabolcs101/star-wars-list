@@ -1,36 +1,26 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## About the app
 
-## Getting Started
+This is a frontend hobby project written in React TypeScript (Next.js).
+The purpose of the project was for me to learn and practice React and frontend development.
+It is a website where users can search and create their own lists from various Star Wars products
+(movies, series, books, games).
 
-First, run the development server:
+WARNING: The data is stored in static JSON created by AI, so it might contain
+inaccurate/outdated information -> as mentioned before, it is a hobby project created for practice.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+User system: Login currently works with pre-created users created in users.json. To try out the app, you can login via using one of these users.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Main inspiration in terms of design/idea: anilist -> https://anilist.co/
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Install and run
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- npm install
+- npm run dev
 
-## Learn More
+## Improvements for the future
 
-To learn more about Next.js, take a look at the following resources:
+- Code refactor (make pages fully server-sided, etc)
+- Bug fix
+- Improve UI on mobile
+- Add functionality -> score system, "favorites" tab (currently only UI but no functionality)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

@@ -1,0 +1,47 @@
+.wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 620px;            
+  aspect-ratio: 620 / 320;                                  
+  overflow: hidden;               
+}
+
+.wrapper:hover .playIcon {
+  fill: red;
+}
+
+.thumbnailButton {
+  position: absolute;
+  inset: 0;
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background: transparent;
+}
+
+.thumbnailImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;         
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.playIcon {
+  width: 6rem;
+  height: 6rem;                    
+  transition: fill 0.3s ease;
+}
+
+.iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}

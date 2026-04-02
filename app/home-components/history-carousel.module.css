@@ -1,0 +1,127 @@
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 520px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.carouselWrapper {
+    position: relative;
+    height: 100%;
+    padding: 0 60px;
+}
+
+.slidesTrack {
+    display: flex;
+    height: 100%;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.7s cubic-bezier(0.32, 0.72, 0, 1);
+}
+
+.card {
+    flex: 0 0 32%;
+    height: 92%;
+    overflow: hidden;
+    transition: all 0.7s cubic-bezier(0.32, 0.72, 0, 1);
+    position: relative;
+    cursor: pointer;
+}
+
+.centerCard {
+    flex: 0 0 38%;
+    height: 100%;
+    transform: scale(1.08);
+    z-index: 10;
+}
+
+.cardImage {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.7s ease;
+}
+
+.centerCard .cardImage {
+    transform: scale(1.04);
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.25) 30%, rgba(0,0,0,0.9) 80%);
+}
+
+.cardContent {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 32px 28px;
+    color: white;
+    z-index: 2;
+}
+
+.title {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+    line-height: 1.2;
+}
+
+.summary {
+    font-size: 1.05rem;
+    opacity: 0.9;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.seeMore {
+    color: var(--font-highlighted);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.seeMore:hover {
+    color: #93c5fd;
+    text-decoration: underline;
+}
+
+.navButton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.65);
+    color: white;
+    padding: 18px;
+    border-radius: 9999px;
+    border: none;
+    cursor: pointer;
+    backdrop-filter: blur(10px);
+    z-index: 30;
+    transition: all 0.25s ease;
+}
+
+.navButton:hover {
+    background: rgba(0, 0, 0, 0.9);
+    transform: translateY(-50%) scale(1.12);
+}
+
+.navButton.left { left: 12px; }
+.navButton.right { right: 12px; }
+
+.chevron {
+    width: 1.6rem;
+    height: 1.6rem;
+}
+
+@media (max-width: 1024px) {
+    .container {
+        display: none;
+    }
+}
