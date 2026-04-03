@@ -1,6 +1,6 @@
 'use client';
 import React, { useEffect, useMemo, useState } from 'react';
-import styles from '../listpage.module.css';
+import styles from '../css-modules/listpage.module.css';
 import gamesData from '../../data/games.json';
 import CardItem from '../components/card-item/card-item';
 import FilterList from '../components/filter/filter-list/filter-list';

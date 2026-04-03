@@ -1,6 +1,6 @@
 'use client';
 import { useTheme } from 'next-themes';
-import { SvgLightModeSolid, SvgDarkModeSolid } from '../icons/icons';
+import { SvgLightModeSolid, SvgDarkModeSolid } from '../../../icons/icons';
 import styles from './theme-toggler.module.css'
 
 export default function ThemeToggler() {

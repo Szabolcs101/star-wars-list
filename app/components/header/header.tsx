@@ -1,10 +1,10 @@
-import Link from 'next/link'
-import { SvgLogoSolid, SvgSearchSolid } from '../icons/fontawesome'
-import styles from './header.module.css'
-import HamburgerMenu from '../hamburger-menu/hamburger'
-import LoginMenu from '../menu/login-menu/login-menu'
-import ListHoverMenu from '../list-hover/list-hover'
-import SearchCombobox from '../combobox/combobox'
+import Link from 'next/link';
+import { SvgLogoSolid } from '../icons/fontawesome';
+import styles from './header.module.css';
+import HamburgerMenu from './_components/hamburger-menu/hamburger';
+import LoginMenu from '../menu/login-menu/login-menu';
+import ListHoverMenu from './_components/list-hover/list-hover';
+import SearchCombobox from './_components/combobox/combobox';
 
 export default function Header() {
     return (

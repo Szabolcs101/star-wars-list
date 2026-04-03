@@ -1,7 +1,6 @@
-import React from 'react';
 import showData from '../../../data/games.json';
 import { notFound } from 'next/navigation';
-import styles from './game.module.css';
+import styles from '../../css-modules/page-detailed.module.css';
 import Image from 'next/image';
 import CardItemWide from '../../components/card-item/card-item-wide';
 import Link from 'next/link';

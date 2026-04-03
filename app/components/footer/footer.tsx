@@ -1,4 +1,4 @@
-import ThemeToggler from '../theme/theme-toggler'
+import ThemeToggler from './_components/theme/theme-toggler'
 import styles from './footer.module.css'
 
 export default function Footer() {

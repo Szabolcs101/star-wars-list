@@ -1,7 +1,7 @@
 import { Menu } from '@base-ui/react/menu';
 import styles from './hamburger.module.css';
-import { SvgBarsSolid } from '../icons/fontawesome';
-import LoginMenu from '../menu/login-menu/login-menu';
+import { SvgBarsSolid } from '../../../icons/fontawesome';
+import LoginMenu from '../../../menu/login-menu/login-menu';
 
 export default function HamburgerMenu() {
     return (

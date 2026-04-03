@@ -1,7 +1,7 @@
 import showData from '../../../data/books.json';
 import charactersData from '../../../data/characters.json';
 import { notFound } from 'next/navigation';
-import styles from './book.module.css'
+import styles from '../../css-modules/page-detailed.module.css';
 import Image from 'next/image';
 import CardItemWide from '../../components/card-item/card-item-wide';
 import Link from 'next/link';

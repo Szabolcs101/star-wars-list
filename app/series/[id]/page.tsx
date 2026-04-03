@@ -1,7 +1,7 @@
 import showData from '../../../data/series.json';
 import charactersData from '../../../data/characters.json';
 import { notFound } from 'next/navigation';
-import styles from './series.module.css';
+import styles from '../../css-modules/page-detailed.module.css';
 import Image from 'next/image';
 import CardItemWide from '../../components/card-item/card-item-wide';
 import VideoComponent from '../../components/video/video-component';

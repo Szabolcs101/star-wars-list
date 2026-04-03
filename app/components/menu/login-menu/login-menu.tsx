@@ -2,7 +2,7 @@
 import { Menu } from '@base-ui/react/menu';
 import styles from './login-menu.module.css';
 import { SvgUserSolid } from '../../icons/fontawesome';
-import { LoginDialog } from '../../dialog/login-dialog';
+import { LoginDialog } from './_components/dialog/login-dialog';
 import { useState } from 'react';
 import { useAuth } from '@/app/context/auth-context';
 

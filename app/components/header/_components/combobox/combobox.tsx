@@ -3,7 +3,7 @@ import { useCallback, useEffect, useState } from 'react';
 import { Combobox } from '@base-ui/react/combobox';
 import { useRouter } from 'next/navigation';
 import styles from './combobox.module.css';
-import { SvgSearchSolid } from '../icons/fontawesome';
+import { SvgSearchSolid } from '../../../icons/fontawesome';
 
 interface SearchItem {
     id: string;
@@ -20,10 +20,10 @@ export default function SearchCombobox() {
     useEffect(() => {
         const loadData = async () => {
             const [movies, series, games, books] = await Promise.all([
-                import('../../../data/shows.json').then(m => m.default),
-                import('../../../data/series.json').then(m => m.default),
-                import('../../../data/games.json').then(m => m.default),
-                import('../../../data/books.json').then(m => m.default),
+                import('../../../../../data/shows.json').then(m => m.default),
+                import('../../../../../data/series.json').then(m => m.default),
+                import('../../../../../data/games.json').then(m => m.default),
+                import('../../../../../data/books.json').then(m => m.default),
             ]);
 
             const combined: SearchItem[] = [

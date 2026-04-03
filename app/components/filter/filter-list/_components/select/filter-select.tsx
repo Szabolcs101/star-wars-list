@@ -1,7 +1,7 @@
 import { Select, SelectRootChangeEventDetails } from '@base-ui/react/select';
 import { Field } from '@base-ui/react/field';
 import styles from './filter-select.module.css';
-import { SvgChevronSolid } from '../../icons/fontawesome';
+import { SvgChevronSolid } from '../../../../icons/fontawesome';
 
 interface SelectOptionProps {
     label: string;

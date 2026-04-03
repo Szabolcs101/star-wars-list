@@ -1,8 +1,7 @@
-import React from 'react';
 import showData from '../../../data/shows.json';
 import charactersData from '../../../data/characters.json';
 import { notFound } from 'next/navigation';
-import styles from './movie.module.css'
+import styles from '../../css-modules/page-detailed.module.css';
 import Image from 'next/image';
 import CardItemWide from '../../components/card-item/card-item-wide';
 import VideoComponent from '../../components/video/video-component';

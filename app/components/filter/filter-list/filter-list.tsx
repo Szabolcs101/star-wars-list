@@ -1,7 +1,7 @@
 'use client';
 import styles from './filter-list.module.css'
 import { SvgChevronSolid, SvgSearchSolid, SvgXSolid } from '../../icons/fontawesome'
-import FilterSelect from '../select/filter-select';
+import FilterSelect from '../filter-list/_components/select/filter-select';
 import { useState } from 'react';
 
 interface FilterValues {

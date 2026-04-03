@@ -2,7 +2,7 @@
 import React, { useEffect, useMemo, useState } from 'react'
 import CardItem from '../components/card-item/card-item'
 import showData from '../../data/series.json'
-import styles from '../listpage.module.css';
+import styles from '../css-modules/listpage.module.css';
 import FilterList from '../components/filter/filter-list/filter-list'
 import Pagination from '../components/pagination/pagination';
 

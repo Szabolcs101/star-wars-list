@@ -2,7 +2,7 @@ import Carousel from "./home-components/carousel";
 import ContactCard from "./home-components/contact-card";
 import HistoryCarousel from "./home-components/history-carousel";
 import RandomCardRow from "./home-components/random-card-row";
-import styles from "./home.module.css";
+import styles from "./css-modules/home.module.css";
 
 export default function Home() {
     return (
