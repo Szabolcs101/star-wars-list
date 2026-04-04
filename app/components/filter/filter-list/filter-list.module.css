@@ -61,7 +61,7 @@
 
 @media (max-width: 1024px) {
     .filterListContainer {
-        margin: var(--vertical-margin-default) 50px;
+        margin: 50px 50px;
         gap: 1rem;
         justify-content: flex-start;
         flex-wrap: wrap;

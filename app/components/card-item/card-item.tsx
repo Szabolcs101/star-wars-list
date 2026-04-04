@@ -1,10 +1,9 @@
-import React from 'react'
 import Image from 'next/image';
-import styles from './card-item.module.css'
+import styles from './card-item.module.css';
 import Link from 'next/link';
 
 interface CardItemProps {
-    id: string;
+    id: string | number;
     imageUrl: string;
     title: string;
     href: string;

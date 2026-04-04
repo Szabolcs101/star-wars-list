@@ -87,6 +87,13 @@
     width: 1rem;
 }
 
+.noList {
+    display: flex;
+    justify-content: center;
+    padding-top: 10rem;
+    padding-bottom: 20rem;
+}
+
 @media (max-width: 1024px) {
     .page {
         margin: var(--vertical-margin-default) 50px;

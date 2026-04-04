@@ -45,5 +45,10 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column; 
     font-family: "Montserrat", "Montserrat Fallback";
-} 
+    min-height: 100vh;
+    height: 100%;
+    margin: 0;
+}
