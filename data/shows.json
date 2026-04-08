@@ -259,7 +259,7 @@
         "director": "Rian Johnson",
         "runtime": 152,
         "imageUrl": "/movies/the-last-jedi-m.jpeg",
-        "trailerUrl": "https://www.youtube.com/watch?v=Qd6nLM2QlWw",
+        "trailerUrl": "https://www.youtube.com/watch?v=Q0CbN8sfihY",
         "characters": [
             "rey",
             "luke-skywalker",
@@ -279,10 +279,6 @@
             {
                 "relatedId": "the-rise-of-skywalker",
                 "type": "sequel"
-            },
-            {
-                "relatedId": "the-force-awakens",
-                "type": "other"
             }
         ],
         "description": "The FIRST ORDER reigns. Having decimated the peaceful Republic, Supreme Leader Snoke now commands the last of the Imperial forces in a merciless campaign to crush the growing Resistance and end the light of the Jedi forever. Rey has found the vanished Luke Skywalker on the remote planet of Ahch-To, but he refuses to teach her the ways of the Force. Meanwhile, the Resistance prepares for a desperate stand against the First Order's fleet.... Rey trains with Luke Skywalker to confront the First Order, while Leia leads the Resistance's evacuation. Kylo Ren seeks Rey's help to rule, but conflicts arise as old alliances fracture and new Force connections are revealed. The film explores themes of failure and legacy in the ongoing war."

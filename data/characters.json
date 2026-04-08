@@ -1786,5 +1786,59 @@
     "relations": [
       "the-rise-of-skywalker"
     ]
+  },
+  {
+    "id": "mae-aniseya",
+    "name": "Mae Aniseya",
+    "description": "Spice runner from Kijimi. Helped the Resistance in the final battle.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "the-acolyte-s1"
+    ]
+  },
+  {
+    "id": "qimir",
+    "name": "Qimir",
+    "description": "Spice runner from Kijimi. Helped the Resistance in the final battle.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "the-acolyte-s1"
+    ]
+  },
+  {
+    "id": "sol",
+    "name": "Sol",
+    "description": "Spice runner from Kijimi. Helped the Resistance in the final battle.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "the-acolyte-s1"
+    ]
+  },
+  {
+    "id": "osha-aniyesa",
+    "name": "Osha Aniyesa",
+    "description": "Spice runner from Kijimi. Helped the Resistance in the final battle.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "the-acolyte-s1"
+    ]
+  },
+  {
+    "id": "vernestra-rwoh",
+    "name": "Vernesta Rhow",
+    "description": "Spice runner from Kijimi. Helped the Resistance in the final battle.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "the-acolyte-s1"
+    ]
+  },
+  {
+    "id": "yord-fandar",
+    "name": "Yord Fandar",
+    "description": "Spice runner from Kijimi. Helped the Resistance in the final battle.",
+    "imageurl": "/placeholder.svg",
+    "relations": [
+      "the-acolyte-s1"
+    ]
   }
 ]
