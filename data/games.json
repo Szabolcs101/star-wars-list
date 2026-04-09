@@ -10,13 +10,7 @@
         "developer": "Respawn Entertainment",
         "canonStatus": "Canon",
         "imageUrl": "/games/jedi-fallen-order-g.jpg",
-        "platforms": [
-            "PC",
-            "PlayStation 4",
-            "PlayStation 5",
-            "Xbox One",
-            "Xbox Series X|S"
-        ],
+        "platforms": "PC, PlayStation 4, PlayStation 5, Xbox One, Xbox Series X|S",
         "relations": [
             {
                 "relatedId": "star-wars-jedi-survivor",
@@ -36,11 +30,7 @@
         "developer": "Respawn Entertainment",
         "canonStatus": "Canon",
         "imageUrl": "/games/jedi-survivor-g.jpg",
-        "platforms": [
-            "PC",
-            "PlayStation 5",
-            "Xbox Series X|S"
-        ],
+        "platforms": "PC, PlayStation 5, Xbox Series X|S",
         "relations": [
             {
                 "relatedId": "star-wars-jedi-fallen-order",
@@ -64,11 +54,7 @@
         "developer": "Respawn Entertainment",
         "canonStatus": "Canon",
         "imageUrl": "/games/jedi-3-g.jpg",
-        "platforms": [
-            "PC",
-            "PlayStation 5",
-            "Xbox Series X|S"
-        ],
+        "platforms": "PC, PlayStation 5, Xbox Series X|S",
         "relations": [
             {
                 "relatedId": "star-wars-jedi-survivor",
@@ -88,11 +74,7 @@
         "developer": "Massive Entertainment",
         "canonStatus": "Canon",
         "imageUrl": "/games/outlaws-g.jpg",
-        "platforms": [
-            "PC",
-            "PlayStation 5",
-            "Xbox Series X|S"
-        ],
+        "platforms": "PC, PlayStation 5, Xbox Series X|S",
         "relations": [],
         "description": "Star Wars Outlaws takes place between The Empire Strikes Back and Return of the Jedi, following scoundrel Kay Vess and her companion Nix in a high-stakes quest for freedom. Set on the galactic fringe, players engage in open-world exploration, stealth heists, space combat, speeder chases, and syndicate alliances like Crimson Dawn. The game expands the criminal underworld with new planets, factions, and dynamic choices impacting reputation and story. Blending action, adventure, and role-playing elements, it delivers a fresh rogue's perspective on the Star Wars universe, filled with betrayal, high-risk jobs, and the thrill of outrunning the Empire. (approx. 500 characters)"
     },
@@ -107,11 +89,7 @@
         "developer": "Motive Studios",
         "canonStatus": "Canon",
         "imageUrl": "/games/squadrons-g.jpg",
-        "platforms": [
-            "PC",
-            "PlayStation 4",
-            "Xbox One"
-        ],
+        "platforms": "PC, PlayStation 4, Xbox One",
         "relations": [],
         "description": "Star Wars: Squadrons immerses players in intense multiplayer space dogfights and a gripping single-player campaign set after The Rise of Skywalker. Pilot customizable starfighters for the New Republic or Imperial Remnant, mastering flight mechanics, team tactics, and capital ship assaults. The story follows pilot Emma 'Valkyrie' versus Baron 'Hathcock' in a tale of rivalry and redemption. Realistic cockpit views, upgrade systems, and VR support enhance authenticity. Competitive modes and fleet battles capture the thrill of X-Wing vs TIE Fighter skirmishes, making it essential for fans craving authentic Star Wars aerial combat in canon continuity. (approx. 485 characters)"
     },
@@ -126,11 +104,7 @@
         "developer": "DICE",
         "canonStatus": "Canon",
         "imageUrl": "/games/battlefront-2-g.jpg",
-        "platforms": [
-            "PC",
-            "PlayStation 4",
-            "Xbox One"
-        ],
+        "platforms": "PC, PlayStation 4, Xbox One",
         "relations": [
             {
                 "relatedId": "star-wars-battlefront-2015",
@@ -150,10 +124,7 @@
         "developer": "BioWare",
         "canonStatus": "Legends",
         "imageUrl": "/games/kotor-g.jpg",
-        "platforms": [
-            "PC",
-            "Xbox"
-        ],
+        "platforms": "PC, Xbox",
         "relations": [
             {
                 "relatedId": "star-wars-knights-of-the-old-republic-ii-the-sith-lords",
@@ -173,10 +144,7 @@
         "developer": "Obsidian Entertainment",
         "canonStatus": "Legends",
         "imageUrl": "/games/kotor-2-g.jpg",
-        "platforms": [
-            "PC",
-            "Xbox"
-        ],
+        "platforms": "PC, Xbox",
         "relations": [
             {
                 "relatedId": "star-wars-knights-of-the-old-republic",
@@ -196,11 +164,7 @@
         "developer": "LucasArts",
         "canonStatus": "Legends",
         "imageUrl": "/games/republic-commando-g.jpg",
-        "platforms": [
-            "PC",
-            "Xbox",
-            "PlayStation 4"
-        ],
+        "platforms": "PC, Xbox, PlayStation 4",
         "relations": [],
         "description": "Republic Commando puts players in command of Delta Squad, elite clone commandos executing high-risk missions during the Clone Wars. Issue orders to AI teammates via intuitive commands, breach doors, and use squad tactics against droids on Geonosis, Kashyyyk, and more. Realistic squad banter, helmet HUD, and moral choices highlight brotherhood and war's brutality. Tactical cover, grenades, and weapon variety demand strategy over run-and-gun. A cult classic for its immersion and clone perspective, it humanizes faceless troopers in Legends, influencing modern squad shooters with gritty storytelling and intense firefights. (approx. 490 characters)"
     },
@@ -215,13 +179,7 @@
         "developer": "LucasArts",
         "canonStatus": "Legends",
         "imageUrl": "/games/the-force-unleashed-g.jpg",
-        "platforms": [
-            "PC",
-            "PlayStation 3",
-            "Xbox 360",
-            "Wii",
-            "PlayStation 2"
-        ],
+        "platforms": "PC, PlayStation 3, Xbox 360, Wii, PlayStation 2",
         "relations": [
             {
                 "relatedId": "star-wars-the-force-unleashed-ii",
@@ -241,12 +199,7 @@
         "developer": "LucasArts",
         "canonStatus": "Legends",
         "imageUrl": "/games/the-force-unleashed-2-g.jpg",
-        "platforms": [
-            "PC",
-            "PlayStation 3",
-            "Xbox 360",
-            "Wii"
-        ],
+        "platforms": "PC, PlayStation 3, Xbox 360, Wii",
         "relations": [
             {
                 "relatedId": "star-wars-the-force-unleashed",
@@ -266,9 +219,7 @@
         "developer": "Raven Software",
         "canonStatus": "Legends",
         "imageUrl": "/games/dark-forces-2-g.jpg",
-        "platforms": [
-            "PC"
-        ],
+        "platforms": "PC",
         "relations": [
             {
                 "relatedId": "star-wars-jedi-knight-ii-jedi-outcast",
@@ -288,11 +239,7 @@
         "developer": "Raven Software",
         "canonStatus": "Legends",
         "imageUrl": "/games/jedi-knight-g.jpg",
-        "platforms": [
-            "PC",
-            "Xbox",
-            "PlayStation 4"
-        ],
+        "platforms": "PC, Xbox, PlayStation 4",
         "relations": [
             {
                 "relatedId": "star-wars-jedi-knight-dark-forces-ii",
@@ -316,11 +263,7 @@
         "developer": "Raven Software",
         "canonStatus": "Legends",
         "imageUrl": "/games/jedi-academy-g.jpg",
-        "platforms": [
-            "PC",
-            "Xbox",
-            "PlayStation 4"
-        ],
+        "platforms": "PC, Xbox, PlayStation 4",
         "relations": [
             {
                 "relatedId": "star-wars-jedi-knight-ii-jedi-outcast",
@@ -340,11 +283,7 @@
         "developer": "Pandemic Studios",
         "canonStatus": "Legends",
         "imageUrl": "/games/battlefront-old-g.jpg",
-        "platforms": [
-            "PC",
-            "PlayStation 2",
-            "Xbox"
-        ],
+        "platforms": "PC, PlayStation 2, Xbox",
         "relations": [
             {
                 "relatedId": "star-wars-battlefront-ii-2005",
@@ -364,12 +303,7 @@
         "developer": "Pandemic Studios",
         "canonStatus": "Legends",
         "imageUrl": "/games/battlefront-2-old-g.jpg",
-        "platforms": [
-            "PC",
-            "PlayStation 2",
-            "Xbox",
-            "PSP"
-        ],
+        "platforms": "PC, PlayStation 2, Xbox, PSP",
         "relations": [
             {
                 "relatedId": "star-wars-battlefront-2004",
@@ -389,9 +323,7 @@
         "developer": "Petroglyph Games",
         "canonStatus": "Legends",
         "imageUrl": "/games/empire-at-war-g.jpg",
-        "platforms": [
-            "PC"
-        ],
+        "platforms": "PC",
         "relations": [
             {
                 "relatedId": "star-wars-empire-at-war-forces-of-corruption",
@@ -411,9 +343,7 @@
         "developer": "Factor 5",
         "canonStatus": "Legends",
         "imageUrl": "/games/rogue-squadron-2-g.jpg",
-        "platforms": [
-            "GameCube"
-        ],
+        "platforms": "GameCube",
         "relations": [
             {
                 "relatedId": "star-wars-rogue-squadron",
@@ -433,9 +363,7 @@
         "developer": "Totally Games",
         "canonStatus": "Legends",
         "imageUrl": "/games/x-wing-g.jpg",
-        "platforms": [
-            "PC"
-        ],
+        "platforms": "PC",
         "relations": [
             {
                 "relatedId": "star-wars-tie-fighter",
@@ -455,9 +383,7 @@
         "developer": "Totally Games",
         "canonStatus": "Legends",
         "imageUrl": "/games/tie-fighter-g.jpg",
-        "platforms": [
-            "PC"
-        ],
+        "platforms": "PC",
         "relations": [
             {
                 "relatedId": "star-wars-x-wing",
@@ -477,10 +403,7 @@
         "developer": "LucasArts",
         "canonStatus": "Legends",
         "imageUrl": "/games/dark-forces-g.jpg",
-        "platforms": [
-            "PC",
-            "PlayStation"
-        ],
+        "platforms": "PC, PlayStation",
         "relations": [
             {
                 "relatedId": "star-wars-jedi-knight-dark-forces-ii",
@@ -500,10 +423,7 @@
         "developer": "LucasArts",
         "canonStatus": "Legends",
         "imageUrl": "/games/shadows-of-the-empire-g.jpg",
-        "platforms": [
-            "Nintendo 64",
-            "PC"
-        ],
+        "platforms": "Nintendo 64, PC",
         "relations": [],
         "description": "Shadows of the Empire fills ESB-ROTJ gap as Dash Rendar, rivaling Han in bounty hunts and Hoth defense. Varied gameplay: on-rails shooting, behind-view flying, platforming. Iconic Boba duel and Slave I piloting. Multimedia tie-in expanded Legends with crimelord intrigue. N64 showcase for action diversity and narrative ambition. Cult favorite for filling beloved void. (approx. 420 characters)"
     },
@@ -518,10 +438,7 @@
         "developer": "LucasArts",
         "canonStatus": "Legends",
         "imageUrl": "/games/bounty-hunter-g.jpg",
-        "platforms": [
-            "PlayStation 2",
-            "GameCube"
-        ],
+        "platforms": "PlayStation 2, GameCube",
         "relations": [],
         "description": "Bounty Hunter prequels Jango Fett's Episode II capture, jetpacking through seedy underworlds like Outland Transit Station. Dual weapons, missile lock-ons, and grapple hook fuel aggressive play. Multiple paths, bounties, and Slave I dogfights. Dark tale of Mandalorian ruthlessness in Legends, revealing Jango's code and Komari Voss betrayal. Underrated gem for fluid combat and Fett fantasy. (approx. 430 characters)"
     },
@@ -536,11 +453,7 @@
         "developer": "Fuse Games",
         "canonStatus": "Canon",
         "imageUrl": "/games/galactic-racer-g.jpg",
-        "platforms": [
-            "PC",
-            "PlayStation 5",
-            "Xbox Series X|S"
-        ],
+        "platforms": "PC, PlayStation 5, Xbox Series X|S",
         "relations": [],
         "description": "Star Wars: Galactic Racer revives podracing spirit post-Jakku with high-octane speeder races across junkyard worlds and neon circuits. Customize vehicles, unleash boosts amid hazards, rival Sebulba in multiplayer chaos. Story mode weaves underworld stakes and canon ties. Arcade thrills meet modern visuals for 1-12 players, delivering adrenaline and Star Wars vehicular mayhem in fresh canon era. (approx. 420 characters)"
     },
@@ -555,11 +468,7 @@
         "developer": "Bit Reactor",
         "canonStatus": "Canon",
         "imageUrl": "/games/zero-company-g.jpg",
-        "platforms": [
-            "PC",
-            "PlayStation 5",
-            "Xbox Series X|S"
-        ],
+        "platforms": "PC, PlayStation 5, Xbox Series X|S",
         "relations": [],
         "description": "Star Wars: Zero Company deploys players as Republic squad leaders in Clone Wars turn-based tactics akin to XCOM. Customize clones, manage permadeath risks, tactical positioning against droid hordes. Branching campaigns explore brotherhood and Jedi oversight. Deep strategy, squad progression, and authentic battles enrich prequel canon with ground-level war tales. (approx. 410 characters)"
     },
@@ -574,11 +483,7 @@
         "developer": "Quantic Dream",
         "canonStatus": "Canon",
         "imageUrl": "/games/eclipse-g.jpg",
-        "platforms": [
-            "PC",
-            "PlayStation 5",
-            "Xbox Series X|S"
-        ],
+        "platforms": "PC, PlayStation 5, Xbox Series X|S",
         "relations": [],
         "description": "Eclipse charts High Republic era's shadows with multiple protagonists in narrative-driven adventure. Branching stories, cinematic choices, and faction intrigue unfold amid golden age's underbelly. Fluid combat, exploration, and moral quandaries promise Quantic Dream's interactive drama in untouched canon timeline. Epic scope awaits. (approx. 400 characters)"
     },
@@ -593,11 +498,7 @@
         "developer": "DICE",
         "canonStatus": "Canon",
         "imageUrl": "/games/battlefront-g.jpg",
-        "platforms": [
-            "PC",
-            "PlayStation 4",
-            "Xbox One"
-        ],
+        "platforms": "PC, PlayStation 4, Xbox One",
         "relations": [
             {
                 "relatedId": "star-wars-battlefront-ii-2017",
@@ -617,9 +518,7 @@
         "developer": "BioWare",
         "canonStatus": "Legends",
         "imageUrl": "/games/the-old-republic-g.jpg",
-        "platforms": [
-            "PC"
-        ],
+        "platforms": "PC",
         "relations": [
             {
                 "relatedId": "star-wars-knights-of-the-old-republic-ii-the-sith-lords",
@@ -639,13 +538,7 @@
         "developer": "LucasArts",
         "canonStatus": "Legends",
         "imageUrl": "/games/racer-g.jpg",
-        "platforms": [
-            "PC",
-            "Nintendo 64",
-            "Game Boy Color",
-            "Nintendo Switch",
-            "PlayStation 4"
-        ],
+        "platforms": "PC, Nintendo 64, Game Boy Color, Nintendo Switch, PlayStation 4",
         "relations": [],
         "description": "Episode I: Racer translates The Phantom Menace's iconic Boonta Eve Classic into a full-blown racing experience with over 25 pilots and 21 tracks across alien worlds. Upgrade engines, repulsors, and cooling systems between races to gain competitive edge. Anakin Skywalker leads the roster alongside fan favorites like Sebulba and Gasgano. Blistering speeds, exotic environments, and tight handling make it a timeless arcade racer, remastered for modern platforms. Its arcade legacy and faithful podracer fantasy ensure it remains the definitive Star Wars racing experience in Legends continuity. (approx. 495 characters)"
     },
@@ -660,11 +553,7 @@
         "developer": "LucasArts",
         "canonStatus": "Legends",
         "imageUrl": "/games/starfighter-g.jpg",
-        "platforms": [
-            "PlayStation 2",
-            "Xbox",
-            "PC"
-        ],
+        "platforms": "PlayStation 2, Xbox, PC",
         "relations": [
             {
                 "relatedId": "star-wars-jedi-starfighter",
@@ -684,10 +573,7 @@
         "developer": "LucasArts",
         "canonStatus": "Legends",
         "imageUrl": "/games/jedi-starfighter-g.jpg",
-        "platforms": [
-            "PlayStation 2",
-            "Xbox"
-        ],
+        "platforms": "PlayStation 2, Xbox",
         "relations": [
             {
                 "relatedId": "star-wars-starfighter",
@@ -707,11 +593,7 @@
         "developer": "Pandemic Studios",
         "canonStatus": "Legends",
         "imageUrl": "/games/the-clone-wars-g.jpg",
-        "platforms": [
-            "GameCube",
-            "PlayStation 2",
-            "Xbox"
-        ],
+        "platforms": "GameCube, PlayStation 2, Xbox",
         "relations": [],
         "description": "The Clone Wars puts players in command of Republic vehicles — gunships, speeders, and AT-TEs — across sprawling ground battles on Geonosis, Rhen Var, and beyond. Mission objectives range from convoy escorts to base assaults, with three playable Jedi commanders: Obi-Wan, Anakin, and Mace Windu. Multiplayer supports four-player split-screen chaos. Released alongside Attack of the Clones, it captured the scale of prequel warfare in Legends, offering a tank-action perspective distinct from Battlefront's infantry focus. (approx. 480 characters)"
     },
@@ -726,10 +608,7 @@
         "developer": "Aspyr / Saber Interactive",
         "canonStatus": "Legends",
         "imageUrl": "/games/kotor-remake-g.jpg",
-        "platforms": [
-            "PC",
-            "PlayStation 5"
-        ],
+        "platforms": "PC, PlayStation 5",
         "relations": [
             {
                 "relatedId": "star-wars-knights-of-the-old-republic",
@@ -749,10 +628,7 @@
         "developer": "Luxoflux",
         "canonStatus": "Legends",
         "imageUrl": "/games/demolition-g.jpg",
-        "platforms": [
-            "PlayStation",
-            "Dreamcast"
-        ],
+        "platforms": "PlayStation, Dreamcast",
         "relations": [],
         "description": "Demolition reimagines Star Wars as a vehicular combat arena game akin to Twisted Metal, pitting iconic characters like Boba Fett and Aurra Sing against each other in Jabba-sponsored destruction derbies. Ten playable vehicles with unique weapons battle across Tatooine, Hoth, and other arenas. Colorful roster, fast-paced chaos, and character-specific storylines make it a quirky Legends curiosity. A deliberately absurd departure from traditional Star Wars gameplay, remembered fondly for its campy charm and competitive couch multiplayer. (approx. 465 characters)"
     },
@@ -767,10 +643,7 @@
         "developer": "Big Ape Productions",
         "canonStatus": "Legends",
         "imageUrl": "/games/the-phantom-menace-g.jpg",
-        "platforms": [
-            "PlayStation",
-            "Windows"
-        ],
+        "platforms": "PlayStation, Windows",
         "relations": [],
         "description": "The plot closely follows that of the film, although it expands on some minor events that were not present in the original film, or shows them from a different character's point of view. For example, it follows Queen Amidala (Grey DeLisle) and Captain Panaka's (Jeff Coopwood) journey on Coruscant during Anakin Skywalker's (Jake Lloyd) interview in the Jedi Temple—something that is never shown or mentioned in the film since the film follows Anakin's point of view. It mainly surrounds Jedi Master Qui-Gon Jinn (James Warwick) and his apprentice, Obi-Wan Kenobi (Scott Cleverdon). The story features several boss fights, such as a Tusken Raider Chieftain, Jabba's Pit Beast, and Sith Lord Darth Maul (Gregg Berger)."
     },
@@ -785,12 +658,7 @@
         "developer": "The Collective",
         "canonStatus": "Legends",
         "imageUrl": "/games/revenge-of-the-sith-g.jpg",
-        "platforms": [
-            "PlayStation 2",
-            "XBOX",
-            "Nintendo DS",
-            "Game Boy Advance"
-        ],
+        "platforms": "PlayStation 2, XBOX, Nintendo DS, Game Boy Advance",
         "relations": [],
         "description": "Anakin Skywalker and Obi-Wan Kenobi arrive on board the Invisible Hand, the Separatist flagship of General Grievous, who has kidnapped Supreme Chancellor Palpatine above Coruscant. After battling droids in the main hangar bay and ascending the elevators, the duo arrives at the general's quarters, where Palpatine is being held. However, they are then confronted by Grievous' master Count Dooku and in the ensuing duel, Obi-Wan is knocked out and Anakin, in violation of Jedi teachings, brutally kills Dooku by running him through with his lightsaber. The pair then escapes with Palpatine but are recaptured and brought before Grievous on the ship's bridge. They escape as the badly damaged ship capsizes in orbit and fight off Grievous' bodyguards while the general escapes. Anakin manages to save everyone by crashing the ship on Coruscant."
     }

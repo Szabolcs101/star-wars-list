@@ -5,6 +5,7 @@ import { SvgPlusSolid } from "@/app/components/icons/fontawesome";
 import styles from '../lists/mylist.module.css';
 import { useAuth } from "../context/auth-context";
 import { ItemStatus, useLists } from "../context/list-context";
+import UserScore from "../components/rating/user-score";
 
 type MediaItem = {
     id: string;
@@ -95,7 +96,9 @@ export default function MyMediaList({
                 <td className={styles.itemTitle}>
                     <Link href={`/${href}/${item.id}`}>{item.title}</Link>
                 </td>
-                <td className={styles.itemScore}>TODO</td>
+                <td className={styles.itemScore}>
+                    <UserScore itemId={id} />
+                </td>
                 <td className={styles.itemProgress}>
                     {showPlus ? (
                         <div className={styles.progressWrapper}>

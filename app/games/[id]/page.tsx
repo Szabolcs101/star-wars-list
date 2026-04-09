@@ -6,6 +6,8 @@ import CardItemWide from '../../components/card-item/card-item-wide';
 import Link from 'next/link';
 import ListMenu from '@/app/components/menu/menu';
 import FavoriteToggle from '@/app/components/toggle/toggle';
+import RatingSection from '@/app/components/rating/rating-section';
+import UserScore from '@/app/components/rating/user-score';
 
 interface Games {
     id: string;
@@ -18,7 +20,7 @@ interface Games {
     developer: string,
     canonStatus: string;
     imageUrl: string;
-    platforms: string[];
+    platforms: string;
     relations: Relation[];
     description: string;
 }
@@ -48,6 +50,10 @@ export default async function GamesPage({ params }: { params: Promise<{ id: stri
                     <div className={styles.headerCol}>
                         <h2 className={styles.title}>{game.title}</h2>
                         <p className={styles.description}>{game.description}</p>
+                        <div className={styles.rateRow}>
+                            <p>Rate: </p>
+                            <UserScore itemId={id} />
+                        </div>
                     </div>
                 </section>
             </div>
@@ -73,9 +79,11 @@ export default async function GamesPage({ params }: { params: Promise<{ id: stri
                     </div>
 
                     <div className={styles.detail}>
-                        <h4 className={styles.detailTitle}>Release end</h4>
+                        <h4 className={styles.detailTitle}>Platforms</h4>
                         <p className={styles.detailText}>{game.platforms}</p>
                     </div>
+
+                    <RatingSection itemId={id} />
 
                     <div className={styles.detail}>
                         <h4 className={styles.detailTitle}>Genre</h4>
@@ -123,11 +131,6 @@ export default async function GamesPage({ params }: { params: Promise<{ id: stri
                                 )
                             })}
                         </div>
-                    </section>
-
-                    <section className={styles.characters}>
-                        <h4 className={styles.title}>Characters</h4>
-                        <p>TODO</p>
                     </section>
                 </section>
             </section>

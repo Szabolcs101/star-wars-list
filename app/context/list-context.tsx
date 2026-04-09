@@ -22,6 +22,7 @@ interface ListsContextType {
     lists: UserLists;
     setStatus: (itemId: string, status: ItemStatus) => void;
     updateEntry: (itemId: string, updates: Partial<UserItemEntry>) => void;
+    updateScore: (itemId: string, score: number) => void;
     removeItem: (itemId: string) => void;
     getStatus: (itemId: string) => ItemStatus;
     getEntry: (itemId: string) => UserItemEntry | undefined;
@@ -29,6 +30,8 @@ interface ListsContextType {
     isInAnyList: (itemId: string) => boolean;
     clearAll: () => void;
     updateProgress: (itemId: string) => void;
+    getAverageScore: (itemId: string) => number;
+    getPopularity: (itemId: string) => number;
 }
 
 const ListsContext = createContext<ListsContextType | undefined>(undefined);
@@ -36,6 +39,7 @@ const ListsContext = createContext<ListsContextType | undefined>(undefined);
 export function ListProvider({ children }: { children: ReactNode }) {
     const { user } = useAuth();
     const [lists, setLists] = useState<UserLists>(DEFAULT_LISTS);
+    const [allUserLists, setAllUserLists] = useState<Record<string, UserLists>>({});
 
     const storageKey = user ? `starwars_user_items_${user.id}` : null;
 
@@ -61,6 +65,7 @@ export function ListProvider({ children }: { children: ReactNode }) {
         }
     }, [lists, storageKey]);
 
+
     const getTotalForItem = (itemId: string): number => {
         const series = seriesData.find((s: any) => s.id === itemId);
         if (series && typeof series.episodes === 'number') {
@@ -73,6 +78,68 @@ export function ListProvider({ children }: { children: ReactNode }) {
         }
 
         return 1;
+    };
+
+    useEffect(() => {
+        if (typeof window === "undefined") return;
+
+        const loadAllLists = () => {
+            const listsObj: Record<string, UserLists> = {};
+            for (let i = 0; i < localStorage.length; i++) {
+                const key = localStorage.key(i);
+                if (key?.startsWith('starwars_user_items_')) {
+                    try {
+                        const data = JSON.parse(localStorage.getItem(key)!);
+                        listsObj[key] = data;
+                    } catch (e) {
+                        console.error(`Failed to parse ${key}`);
+                    }
+                }
+            }
+            setAllUserLists(listsObj);
+        };
+
+        loadAllLists();
+
+        const handleStorageChange = (e: StorageEvent) => {
+            if (e.key?.startsWith('starwars_user_items_')) {
+                loadAllLists();
+            }
+        };
+
+        window.addEventListener('storage', handleStorageChange);
+        return () => window.removeEventListener('storage', handleStorageChange);
+    }, []);
+
+    const getAverageScore = (itemId: string): number => {
+        let total = 0;
+        let count = 0;
+
+        Object.values(allUserLists).forEach(userEntries => {
+            const entry = userEntries[itemId];
+            if (entry?.score !== undefined && entry?.status === 'finished') {
+                total += entry.score;
+                count++;
+            }
+        });
+
+        return count > 0 ? Number((total / count).toFixed(1)) : 0;
+    };
+
+    const getPopularity = (itemId: string): number => {
+        let count = 0;
+
+        Object.values(allUserLists).forEach(userEntries => {
+            const entry = userEntries[itemId];
+            if (entry?.status === 'finished') count++;
+        });
+
+        return count;
+    };
+
+    const updateScore = (itemId: string, score: number) => {
+        const clampedScore = Math.max(1, Math.min(10, score));
+        updateEntry(itemId, { score: clampedScore });
     };
 
     const setStatus = (itemId: string, status: ItemStatus) => {
@@ -182,6 +249,7 @@ export function ListProvider({ children }: { children: ReactNode }) {
         lists,
         setStatus,
         updateEntry,
+        updateScore,
         removeItem,
         getStatus,
         getEntry,
@@ -189,6 +257,8 @@ export function ListProvider({ children }: { children: ReactNode }) {
         isInAnyList,
         clearAll,
         updateProgress,
+        getAverageScore,
+        getPopularity
     };
 
     return <ListsContext.Provider value={value}>{children}</ListsContext.Provider>;

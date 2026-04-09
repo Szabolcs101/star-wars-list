@@ -8,6 +8,8 @@ import VideoComponent from '../../components/video/video-component';
 import Link from 'next/link';
 import ListMenu from '@/app/components/menu/menu';
 import FavoriteToggle from '@/app/components/toggle/toggle';
+import RatingSection from '@/app/components/rating/rating-section';
+import UserScore from '@/app/components/rating/user-score';
 
 interface Series {
     id: string;
@@ -17,7 +19,7 @@ interface Series {
     endDate: string;
     status: string;
     genre: string;
-    director: string[];
+    director: string;
     runtime: number | string;
     episodes: number;
     canonStatus: string;
@@ -55,11 +57,15 @@ export default async function SeriesPage({ params }: { params: Promise<{ id: str
                     <div className={styles.headerCol}>
                         <h2 className={styles.title}>{series.title}</h2>
                         <p className={styles.description}>{series.description}</p>
+                        <div className={styles.rateRow}>
+                            <p>Rate: </p>
+                            <UserScore itemId={id} />
+                        </div>
                     </div>
                 </section>
             </div>
             <section className={styles.listSection}>
-                <ListMenu itemId={id}/>
+                <ListMenu itemId={id} />
                 <FavoriteToggle />
             </section>
             <section className={styles.bodySection}>
@@ -93,6 +99,8 @@ export default async function SeriesPage({ params }: { params: Promise<{ id: str
                         <h4 className={styles.detailTitle}>Release end</h4>
                         <p className={styles.detailText}>{series.endDate}</p>
                     </div>
+
+                    <RatingSection itemId={id} />
 
                     <div className={styles.detail}>
                         <h4 className={styles.detailTitle}>Genre</h4>

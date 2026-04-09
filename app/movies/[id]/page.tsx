@@ -8,6 +8,8 @@ import VideoComponent from '../../components/video/video-component';
 import Link from 'next/link';
 import FavoriteToggle from '@/app/components/toggle/toggle';
 import ListMenu from '@/app/components/menu/menu';
+import RatingSection from '@/app/components/rating/rating-section';
+import UserScore from '@/app/components/rating/user-score';
 
 interface Movie {
     id: string;
@@ -52,6 +54,10 @@ export default async function MoviePage({ params }: { params: Promise<{ id: stri
                     <div className={styles.headerCol}>
                         <h2 className={styles.title}>{movie.title}</h2>
                         <p className={styles.description}>{movie.description}</p>
+                        <div className={styles.rateRow}>
+                            <p>Rate: </p>
+                            <UserScore itemId={id} />
+                        </div>
                     </div>
                 </section>
             </div>
@@ -80,6 +86,8 @@ export default async function MoviePage({ params }: { params: Promise<{ id: stri
                         <h4 className={styles.detailTitle}>Release</h4>
                         <p className={styles.detailText}>{movie.releaseDate}</p>
                     </div>
+
+                    <RatingSection itemId={id} />
 
                     <div className={styles.detail}>
                         <h4 className={styles.detailTitle}>Genre</h4>

@@ -7,9 +7,7 @@
         "endDate": "2009-03-20",
         "status": "released",
         "genre": "Science Fiction, Animation, Action, Adventure",
-        "director": [
-            "Dave Filoni"
-        ],
+        "director": "Dave Filoni",
         "runtime": 22,
         "episodes": 22,
         "canonStatus": "Canon",
@@ -40,9 +38,7 @@
         "endDate": "2010-04-30",
         "status": "released",
         "genre": "Science Fiction, Animation, Action, Adventure",
-        "director": [
-            "Dave Filoni"
-        ],
+        "director": "Dave Filoni",
         "runtime": 22,
         "episodes": 22,
         "canonStatus": "Canon",
@@ -77,9 +73,7 @@
         "endDate": "2011-04-01",
         "status": "released",
         "genre": "Science Fiction, Animation, Action, Adventure",
-        "director": [
-            "Dave Filoni"
-        ],
+        "director": "Dave Filoni",
         "runtime": 22,
         "episodes": 22,
         "canonStatus": "Canon",
@@ -114,9 +108,7 @@
         "endDate": "2012-03-16",
         "status": "released",
         "genre": "Science Fiction, Animation, Action, Adventure",
-        "director": [
-            "Dave Filoni"
-        ],
+        "director": "Dave Filoni",
         "runtime": 22,
         "episodes": 22,
         "canonStatus": "Canon",
@@ -151,9 +143,7 @@
         "endDate": "2013-03-02",
         "status": "released",
         "genre": "Science Fiction, Animation, Action, Adventure",
-        "director": [
-            "Dave Filoni"
-        ],
+        "director": "Dave Filoni",
         "runtime": 22,
         "episodes": 20,
         "canonStatus": "Canon",
@@ -188,9 +178,7 @@
         "endDate": "2014-03-07",
         "status": "released",
         "genre": "Science Fiction, Animation, Action, Adventure",
-        "director": [
-            "Dave Filoni"
-        ],
+        "director": "Dave Filoni",
         "runtime": 22,
         "episodes": 13,
         "canonStatus": "Canon",
@@ -224,9 +212,7 @@
         "endDate": "2020-05-04",
         "status": "released",
         "genre": "Science Fiction, Animation, Action, Adventure",
-        "director": [
-            "Dave Filoni"
-        ],
+        "director": "Dave Filoni",
         "runtime": 25,
         "episodes": 12,
         "canonStatus": "Canon",
@@ -256,9 +242,7 @@
         "endDate": "2015-03-07",
         "status": "released",
         "genre": "Science Fiction, Animation, Adventure",
-        "director": [
-            "Dave Filoni"
-        ],
+        "director": "Dave Filoni",
         "runtime": 22,
         "episodes": 15,
         "canonStatus": "Canon",
@@ -289,9 +273,7 @@
         "endDate": "2016-03-30",
         "status": "released",
         "genre": "Science Fiction, Animation, Adventure",
-        "director": [
-            "Dave Filoni"
-        ],
+        "director": "Dave Filoni",
         "runtime": 22,
         "episodes": 22,
         "canonStatus": "Canon",
@@ -325,9 +307,7 @@
         "endDate": "2017-03-25",
         "status": "released",
         "genre": "Science Fiction, Animation, Adventure",
-        "director": [
-            "Dave Filoni"
-        ],
+        "director": "Dave Filoni",
         "runtime": 22,
         "episodes": 22,
         "canonStatus": "Canon",
@@ -361,9 +341,7 @@
         "endDate": "2018-03-05",
         "status": "released",
         "genre": "Science Fiction, Animation, Adventure",
-        "director": [
-            "Dave Filoni"
-        ],
+        "director": "Dave Filoni",
         "runtime": 22,
         "episodes": 15,
         "canonStatus": "Canon",
@@ -393,10 +371,7 @@
         "endDate": "2021-08-13",
         "status": "released",
         "genre": "Science Fiction, Animation, Action",
-        "director": [
-            "Jennifer Corbett",
-            "Brad Rau"
-        ],
+        "director": "Jennifer Corbett, Brad Rau",
         "runtime": 25,
         "episodes": 16,
         "canonStatus": "Canon",
@@ -431,10 +406,7 @@
         "endDate": "2023-03-29",
         "status": "released",
         "genre": "Science Fiction, Animation, Action",
-        "director": [
-            "Jennifer Corbett",
-            "Brad Rau"
-        ],
+        "director": "Jennifer Corbett, Brad Rau",
         "runtime": 25,
         "episodes": 16,
         "canonStatus": "Canon",
@@ -469,10 +441,7 @@
         "endDate": "2024-05-01",
         "status": "released",
         "genre": "Science Fiction, Animation, Action",
-        "director": [
-            "Jennifer Corbett",
-            "Brad Rau"
-        ],
+        "director": "Jennifer Corbett, Brad Rau",
         "runtime": 25,
         "episodes": 15,
         "canonStatus": "Canon",
@@ -502,11 +471,7 @@
         "endDate": "2019-12-27",
         "status": "released",
         "genre": "Science Fiction, Adventure, Action",
-        "director": [
-            "Jon Favreau",
-            "Dave Filoni",
-            "Rick Famuyiwa"
-        ],
+        "director": "Jon Favreau, Dave Filoni, Rick Famuyiwa",
         "runtime": 40,
         "episodes": 8,
         "canonStatus": "Canon",
@@ -537,11 +502,7 @@
         "endDate": "2020-12-18",
         "status": "released",
         "genre": "Science Fiction, Adventure, Action",
-        "director": [
-            "Jon Favreau",
-            "Dave Filoni",
-            "Rick Famuyiwa"
-        ],
+        "director": "Jon Favreau, Dave Filoni, Rick Famuyiwa",
         "runtime": 45,
         "episodes": 8,
         "canonStatus": "Canon",
@@ -576,10 +537,7 @@
         "endDate": "2023-04-19",
         "status": "released",
         "genre": "Science Fiction, Adventure, Action",
-        "director": [
-            "Rick Famuyiwa",
-            "Bryce Dallas Howard"
-        ],
+        "director": "Rick Famuyiwa, Bryce Dallas Howard",
         "runtime": 45,
         "episodes": 8,
         "canonStatus": "Canon",
@@ -610,10 +568,7 @@
         "endDate": "2022-02-09",
         "status": "released",
         "genre": "Science Fiction, Adventure, Action",
-        "director": [
-            "Robert Rodriguez",
-            "Dave Filoni"
-        ],
+        "director": "Robert Rodriguez, Dave Filoni",
         "runtime": 45,
         "episodes": 7,
         "canonStatus": "Canon",
@@ -638,9 +593,7 @@
         "endDate": "2022-06-22",
         "status": "released",
         "genre": "Science Fiction, Adventure, Drama",
-        "director": [
-            "Deborah Chow"
-        ],
+        "director": "Deborah Chow",
         "runtime": 45,
         "episodes": 6,
         "canonStatus": "Canon",
@@ -665,9 +618,7 @@
         "endDate": "2022-11-23",
         "status": "released",
         "genre": "Science Fiction, Drama, Thriller",
-        "director": [
-            "Tony Gilroy"
-        ],
+        "director": "Tony Gilroy",
         "runtime": 40,
         "episodes": 12,
         "canonStatus": "Canon",
@@ -697,9 +648,7 @@
         "endDate": "2025-05-13",
         "status": "released",
         "genre": "Science Fiction, Drama, Thriller",
-        "director": [
-            "Tony Gilroy"
-        ],
+        "director": "Tony Gilroy",
         "runtime": 40,
         "episodes": 12,
         "canonStatus": "Canon",
@@ -728,9 +677,7 @@
         "endDate": "2023-10-03",
         "status": "released",
         "genre": "Science Fiction, Adventure, Action",
-        "director": [
-            "Dave Filoni"
-        ],
+        "director": "Dave Filoni",
         "runtime": 45,
         "episodes": 8,
         "canonStatus": "Canon",
@@ -761,9 +708,7 @@
         "endDate": "2024-07-16",
         "status": "released",
         "genre": "Science Fiction, Mystery, Action",
-        "director": [
-            "Leslye Headland"
-        ],
+        "director": "Leslye Headland",
         "runtime": 40,
         "episodes": 8,
         "canonStatus": "Canon",
@@ -788,9 +733,7 @@
         "endDate": "2025-01-14",
         "status": "released",
         "genre": "Science Fiction, Adventure",
-        "director": [
-            "Jon Watts"
-        ],
+        "director": "Jon Watts",
         "runtime": 40,
         "episodes": 8,
         "canonStatus": "Canon",
@@ -814,9 +757,7 @@
         "endDate": "2021-09-22",
         "status": "released",
         "genre": "Science Fiction, Animation, Anthology",
-        "director": [
-            "Various Japanese studios"
-        ],
+        "director": "Various Japanese studios",
         "runtime": 15,
         "episodes": 9,
         "canonStatus": "Canon",
@@ -847,9 +788,7 @@
         "endDate": "2023-05-04",
         "status": "released",
         "genre": "Science Fiction, Animation, Anthology",
-        "director": [
-            "Various global studios"
-        ],
+        "director": "Various global studios",
         "runtime": 15,
         "episodes": 9,
         "canonStatus": "Canon",
@@ -883,9 +822,7 @@
         "endDate": "2025-10-29",
         "status": "released",
         "genre": "Science Fiction, Animation, Anthology",
-        "director": [
-            "Various Japanese studios"
-        ],
+        "director": "Various Japanese studios",
         "runtime": 15,
         "episodes": 9,
         "canonStatus": "Canon",
@@ -915,9 +852,7 @@
         "endDate": "1986-12-06",
         "status": "released",
         "genre": "Animation, Adventure, Fantasy, Children",
-        "director": [
-            "Nelvana team"
-        ],
+        "director": "Nelvana team",
         "runtime": 22,
         "episodes": 26,
         "canonStatus": "Legends",
@@ -942,9 +877,7 @@
         "endDate": "2005-03-25",
         "status": "released",
         "genre": "Science Fiction, Animation, Action",
-        "director": [
-            "Genndy Tartakovsky"
-        ],
+        "director": "Genndy Tartakovsky",
         "runtime": 12,
         "episodes": 25,
         "canonStatus": "Legends",
@@ -970,9 +903,7 @@
         "endDate": "2026-04-06",
         "status": "not released",
         "genre": "Science Fiction, Animation, Action",
-        "director": [
-            "Brad Brau"
-        ],
+        "director": "Brad Brau",
         "runtime": 25,
         "episodes": 10,
         "canonStatus": "Canon",

@@ -7,6 +7,8 @@ import CardItemWide from '../../components/card-item/card-item-wide';
 import Link from 'next/link';
 import ListMenu from '@/app/components/menu/menu';
 import FavoriteToggle from '@/app/components/toggle/toggle';
+import RatingSection from '@/app/components/rating/rating-section';
+import UserScore from '@/app/components/rating/user-score';
 
 interface Book {
     id: string;
@@ -50,11 +52,15 @@ export default async function BookPage({ params }: { params: Promise<{ id: strin
                     <div className={styles.headerCol}>
                         <h2 className={styles.title}>{book.title}</h2>
                         <p className={styles.description}>{book.description}</p>
+                        <div className={styles.rateRow}>
+                            <p>Rate: </p>
+                            <UserScore itemId={id} />
+                        </div>
                     </div>
                 </section>
             </div>
             <section className={styles.listSection}>
-                <ListMenu itemId={id}/>
+                <ListMenu itemId={id} />
                 <FavoriteToggle />
             </section>
             <section className={styles.bodySection}>
@@ -73,6 +79,8 @@ export default async function BookPage({ params }: { params: Promise<{ id: strin
                         <h4 className={styles.detailTitle}>Release</h4>
                         <p className={styles.detailText}>{book.releaseDate}</p>
                     </div>
+
+                    <RatingSection itemId={id} />
 
                     <div className={styles.detail}>
                         <h4 className={styles.detailTitle}>Genre</h4>
