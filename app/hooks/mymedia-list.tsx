@@ -14,6 +14,7 @@ type MediaItem = {
     type?: string;
     pageNumber?: number;
     episodes?: number;
+    total?: number;
 };
 
 type Props = {
@@ -80,7 +81,7 @@ export default function MyMediaList({
 
         const entry = getEntry(id);
         const progress = entry?.progress ?? 0;
-        const total = getTotal(item);
+        const total = item.total ?? getTotal(item);
 
         return (
             <tr key={id} className={styles.row}>
