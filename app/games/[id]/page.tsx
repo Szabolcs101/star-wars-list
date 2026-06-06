@@ -1,4 +1,3 @@
-import showData from '../../../data/games.json';
 import { notFound } from 'next/navigation';
 import styles from '../../css-modules/page-detailed.module.css';
 import Image from 'next/image';
@@ -8,45 +7,23 @@ import ListMenu from '@/app/components/menu/menu';
 import FavoriteToggle from '@/app/components/toggle/toggle';
 import RatingSection from '@/app/components/rating/rating-section';
 import UserScore from '@/app/components/rating/user-score';
-
-interface Games {
-    id: string;
-    type: string;
-    title: string;
-    releaseDate: string;
-    status: string;
-    genre: string;
-    publisher: string;
-    developer: string,
-    canonStatus: string;
-    imageUrl: string;
-    platforms: string;
-    relations: Relation[];
-    description: string;
-}
-
-interface Relation {
-    relatedId: string;
-    type: string;
-}
+import { getGameById, getGamesByIds } from '@/lib/db/queries/games';
 
 export default async function GamesPage({ params }: { params: Promise<{ id: string }> }) {
     const { id } = await params;
-    const game = showData.find((g: Games) => g.id === id);
+    const game = await getGameById(id);
 
     if (!game) {
         notFound();
     }
 
-    const getRelatedEntity = (relatedId: string) => {
-        return showData.find((item) => item.id === relatedId) as Games | undefined;
-    }
+    const relatedItems = await getGamesByIds(game.relations.map(r => r.relatedId));
 
     return (
         <div className={styles.pageContainer}>
             <div className={styles.headerContainer}>
                 <section className={styles.headerRow}>
-                    <Image src={game.imageUrl} alt={game.title} height={327} width={218} className={styles.image} />
+                    <Image src={game.imageUrl ?? '/placeholder.svg'} alt={game.title} height={327} width={218} className={styles.image} />
                     <div className={styles.headerCol}>
                         <h2 className={styles.title}>{game.title}</h2>
                         <p className={styles.description}>{game.description}</p>
@@ -111,20 +88,18 @@ export default async function GamesPage({ params }: { params: Promise<{ id: stri
                         <h4 className={styles.title}>Relations</h4>
                         <div className={styles.relationList}>
                             {game.relations.map(relation => {
-                                const related = getRelatedEntity(relation.relatedId);
+                                const related = relatedItems.find(item => item.id === relation.relatedId);
 
-                                if (!related) {
-                                    return null;
-                                }
+                                if (!related) return null;
 
                                 return (
                                     <Link href={relation.relatedId} key={relation.relatedId}>
                                         <CardItemWide
                                             key={relation.relatedId}
                                             id={relation.relatedId}
-                                            imageUrl={related.imageUrl}
+                                            imageUrl={related.imageUrl ?? '/placeholder.svg'}
                                             title={related.title}
-                                            status={related.status}
+                                            status={related.status ?? ''}
                                             relationType={relation.type}
                                         />
                                     </Link>

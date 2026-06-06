@@ -1,10 +1,14 @@
 import MyMediaList from "@/app/hooks/mymedia-list";
-import bookData from "../../../data/books.json";
+import { getAllBooks } from "@/lib/db/queries/books";
 
-export default function MyBooksPage() {
+export default async function MyBooksPage() {
 
-    const processedData = bookData.map(item => ({
+    const books = await getAllBooks();
+
+    const processedData = books.map(item => ({
         ...item,
+        imageUrl: item.imageUrl ?? '/placeholder.svg',
+        pageNumber: item.pageNumber ?? undefined,
         total: item.pageNumber ?? 0,
     }));
 

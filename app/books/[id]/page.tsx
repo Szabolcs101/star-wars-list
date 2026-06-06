@@ -1,5 +1,3 @@
-import showData from '../../../data/books.json';
-import charactersData from '../../../data/characters.json';
 import { notFound } from 'next/navigation';
 import styles from '../../css-modules/page-detailed.module.css';
 import Image from 'next/image';
@@ -9,46 +7,23 @@ import ListMenu from '@/app/components/menu/menu';
 import FavoriteToggle from '@/app/components/toggle/toggle';
 import RatingSection from '@/app/components/rating/rating-section';
 import UserScore from '@/app/components/rating/user-score';
-
-interface Book {
-    id: string;
-    type: string;
-    title: string;
-    releaseDate: string;
-    status: string;
-    canonStatus: string;
-    genre: string;
-    author: string;
-    publisher: string;
-    pageNumber: number;
-    imageUrl: string;
-    characters: string[];
-    relations: Relation[];
-    description: string;
-}
-
-interface Relation {
-    relatedId: string;
-    type: string;
-}
+import { getBookById, getBookByIds } from '@/lib/db/queries/books';
 
 export default async function BookPage({ params }: { params: Promise<{ id: string }> }) {
     const { id } = await params;
-    const book = showData.find((m: Book) => m.id === id);
+    const book = await getBookById(id);
 
     if (!book) {
         notFound();
     }
 
-    const getRelatedEntity = (relatedId: string) => {
-        return showData.find((item) => item.id === relatedId) as Book | undefined;
-    }
+    const relatedItems = await getBookByIds(book.relations.map(r => r.relatedId))
 
     return (
         <div className={styles.pageContainer}>
             <div className={styles.headerContainer}>
                 <section className={styles.headerRow}>
-                    <Image src={book.imageUrl} alt={book.title} height={327} width={218} className={styles.image} />
+                    <Image src={book.imageUrl || '/placeholder.svg'} alt={book.title} height={327} width={218} className={styles.image} />
                     <div className={styles.headerCol}>
                         <h2 className={styles.title}>{book.title}</h2>
                         <p className={styles.description}>{book.description}</p>
@@ -108,20 +83,18 @@ export default async function BookPage({ params }: { params: Promise<{ id: strin
                         <h4 className={styles.title}>Relations</h4>
                         <div className={styles.relationList}>
                             {book.relations.map(relation => {
-                                const related = getRelatedEntity(relation.relatedId);
+                                const related = relatedItems.find(item => item.id === relation.relatedId);
 
-                                if (!related) {
-                                    return null;
-                                }
+                                if (!related) return null;
 
                                 return (
                                     <Link href={relation.relatedId} key={relation.relatedId}>
                                         <CardItemWide
                                             key={relation.relatedId}
                                             id={relation.relatedId}
-                                            imageUrl={related.imageUrl}
+                                            imageUrl={related.imageUrl ?? '/placeholder.svg'}
                                             title={related.title}
-                                            status={related.status}
+                                            status={related.status ?? ''}
                                             relationType={relation.type}
                                         />
                                     </Link>
@@ -133,20 +106,14 @@ export default async function BookPage({ params }: { params: Promise<{ id: strin
                     <section className={styles.characters}>
                         <h4 className={styles.title}>Characters</h4>
                         <div className={styles.relationList}>
-                            {book.characters.map(characterId => {
-                                const character = charactersData.find(c => c.id === characterId);
-
-                                if (!character) return null;
-
-                                return (
-                                    <CardItemWide
-                                        key={character.id}
-                                        id={character.id}
-                                        imageUrl={character.imageurl}
-                                        name={character.name}
-                                    />
-                                )
-                            })}
+                            {book.characters.map(character => (
+                                <CardItemWide
+                                    key={character.id}
+                                    id={character.id}
+                                    imageUrl={character.imageUrl ?? '/placeholder.svg'}
+                                    name={character.name}
+                                />
+                            ))}
                         </div>
                     </section>
 

@@ -1,5 +1,3 @@
-import showData from '../../../data/shows.json';
-import charactersData from '../../../data/characters.json';
 import { notFound } from 'next/navigation';
 import styles from '../../css-modules/page-detailed.module.css';
 import Image from 'next/image';
@@ -10,47 +8,25 @@ import FavoriteToggle from '@/app/components/toggle/toggle';
 import ListMenu from '@/app/components/menu/menu';
 import RatingSection from '@/app/components/rating/rating-section';
 import UserScore from '@/app/components/rating/user-score';
-
-interface Movie {
-    id: string;
-    type: string;
-    title: string;
-    releaseDate: string;
-    status: string;
-    genre: string;
-    director: string;
-    runtime: number | string;
-    imageUrl: string;
-    trailerUrl: string;
-    characters: string[];
-    relations: Relation[];
-    description: string;
-}
-
-interface Relation {
-    relatedId: string;
-    type: string;
-}
+import { getShowById, getShowByIds } from '@/lib/db/queries/shows';
 
 export default async function MoviePage({ params }: { params: Promise<{ id: string }> }) {
     const { id } = await params;
-    const movie = showData.find((m: Movie) => m.id === id);
-
-    const videoId = movie?.trailerUrl.split('v=')[1]?.split('&')[0] || '';
+    const movie = await getShowById(id);
 
     if (!movie) {
         notFound();
     }
 
-    const getRelatedEntity = (relatedId: string) => {
-        return showData.find((item) => item.id === relatedId) as Movie | undefined;
-    }
+    const videoId = movie.trailerUrl?.split('v=')[1]?.split('&')[0] || '';
+
+    const relatedItems = await getShowByIds(movie.relations.map(r => r.relatedId));
 
     return (
         <div className={styles.pageContainer}>
             <div className={styles.headerContainer}>
                 <section className={styles.headerRow}>
-                    <Image src={movie.imageUrl} alt={movie.title} height={327} width={218} className={styles.image} />
+                    <Image src={movie.imageUrl ?? '/placeholder.svg'} alt={movie.title} height={327} width={218} className={styles.image} />
                     <div className={styles.headerCol}>
                         <h2 className={styles.title}>{movie.title}</h2>
                         <p className={styles.description}>{movie.description}</p>
@@ -105,20 +81,18 @@ export default async function MoviePage({ params }: { params: Promise<{ id: stri
                         <h4 className={styles.title}>Relations</h4>
                         <div className={styles.relationList}>
                             {movie.relations.map(relation => {
-                                const related = getRelatedEntity(relation.relatedId);
+                                const related = relatedItems.find(item => item.id === relation.relatedId);
 
-                                if (!related) {
-                                    return null;
-                                }
+                                if (!related) return null;
 
                                 return (
                                     <Link href={relation.relatedId} key={relation.relatedId}>
                                         <CardItemWide
                                             key={relation.relatedId}
                                             id={relation.relatedId}
-                                            imageUrl={related.imageUrl}
+                                            imageUrl={related.imageUrl ?? '/placeholder.svg'}
                                             title={related.title}
-                                            status={related.status}
+                                            status={related.status ?? ''}
                                             relationType={relation.type}
                                         />
                                     </Link>
@@ -130,20 +104,14 @@ export default async function MoviePage({ params }: { params: Promise<{ id: stri
                     <section className={styles.characters}>
                         <h4 className={styles.title}>Characters</h4>
                         <div className={styles.relationList}>
-                            {movie.characters.map(characterId => {
-                                const character = charactersData.find(c => c.id === characterId);
-
-                                if (!character) return null;
-
-                                return (
-                                    <CardItemWide
-                                        key={character.id}
-                                        id={character.id}
-                                        imageUrl={character.imageurl}
-                                        name={character.name}
-                                    />
-                                )
-                            })}
+                            {movie.characters.map(character => (
+                                <CardItemWide
+                                    key={character.id}
+                                    id={character.id}
+                                    imageUrl={character.imageUrl ?? '/placeholder.svg'}
+                                    name={character.name}
+                                />
+                            ))}
                         </div>
                     </section>
 

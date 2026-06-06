@@ -18,25 +18,9 @@ export default function SearchCombobox() {
     const [open, setOpen] = useState(false);
 
     useEffect(() => {
-        const loadData = async () => {
-            const [movies, series, games, books] = await Promise.all([
-                import('../../../../../data/shows.json').then(m => m.default),
-                import('../../../../../data/series.json').then(m => m.default),
-                import('../../../../../data/games.json').then(m => m.default),
-                import('../../../../../data/books.json').then(m => m.default),
-            ]);
-
-            const combined: SearchItem[] = [
-                ...movies.map((item: any) => ({ id: item.id, title: item.title, type: 'movie' as const, imageUrl: item.imageUrl })),
-                ...series.map((item: any) => ({ id: item.id, title: item.title, type: 'series' as const, imageUrl: item.imageUrl })),
-                ...games.map((item: any) => ({ id: item.id, title: item.title, type: 'game' as const, imageUrl: item.imageUrl })),
-                ...books.map((item: any) => ({ id: item.id, title: item.title, type: 'book' as const, imageUrl: item.imageUrl })),
-            ];
-
-            setAllItems(combined);
-        };
-
-        loadData();
+        fetch('/api/search')
+            .then(res => res.json())
+            .then(data => setAllItems(data));
     }, []);
 
     const handleValueChange = (value: SearchItem | null) => {

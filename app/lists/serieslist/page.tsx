@@ -1,10 +1,14 @@
 import MyMediaList from "@/app/hooks/mymedia-list";
-import seriesData from "../../../data/series.json";
+import { getAllSeries } from "@/lib/db/queries/series";
 
-export default function MySeriesPage() {
+export default async function MySeriesPage() {
 
-    const processedData = seriesData.map(item => ({
+    const series = await getAllSeries();
+
+    const processedData = series.map(item => ({
     ...item,
+    imageUrl: item.imageUrl ?? '/placeholder.svg',
+    episodes: item.episodes ?? undefined,
     total: item.episodes ?? 0,
   }));
 

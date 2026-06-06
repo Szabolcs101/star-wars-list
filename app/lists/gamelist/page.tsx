@@ -1,10 +1,18 @@
 import MyMediaList from "@/app/hooks/mymedia-list";
-import gameData from "../../../data/games.json";
+import { getAllGames } from "@/lib/db/queries/games";
 
-export default function MyGamesPage() {
+export default async function MyGamesPage() {
+
+    const games = await getAllGames();
+
+    const processedData = games.map(item => ({
+        ...item,
+        imageUrl: item.imageUrl ?? '/placeholder.svg',
+    }))
+
     return (
         <MyMediaList
-            data={gameData}
+            data={processedData}
             href="games"
             allowedTypes={["video game"]}
         />

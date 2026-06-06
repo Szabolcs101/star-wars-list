@@ -42,3 +42,8 @@ next-env.d.ts
 
 # package-lock
 .package-lock.json
+
+#db
+/data/starwars.db
+/data/starwars.db-shm
+/data/starwars.db-wal

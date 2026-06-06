@@ -1,8 +1,6 @@
 "use client";
 import { createContext, useContext, useState, useEffect, ReactNode } from "react";
 import { useAuth } from "./auth-context";
-import seriesData from '../../data/series.json';
-import booksData from '../../data/books.json';
 
 export type ItemStatus = "finished" | "current" | "planned" | null;
 
@@ -66,18 +64,10 @@ export function ListProvider({ children }: { children: ReactNode }) {
     }, [lists, storageKey]);
 
 
-    const getTotalForItem = (itemId: string): number => {
-        const series = seriesData.find((s: any) => s.id === itemId);
-        if (series && typeof series.episodes === 'number') {
-            return series.episodes;
-        }
-
-        const book = booksData.find((b: any) => b.id === itemId);
-        if (book && typeof book.pageNumber === 'number') {
-            return book.pageNumber;
-        }
-
-        return 1;
+    const getTotalForItem = async (itemId: string): Promise<number> => {
+        const res = await fetch(`/api/item-total/${itemId}`);
+        const data = await res.json();
+        return data.total;
     };
 
     useEffect(() => {
@@ -142,7 +132,8 @@ export function ListProvider({ children }: { children: ReactNode }) {
         updateEntry(itemId, { score: clampedScore });
     };
 
-    const setStatus = (itemId: string, status: ItemStatus) => {
+    const setStatus = async (itemId: string, status: ItemStatus) => {
+        const total = await getTotalForItem(itemId);
         setLists((prev) => {
             if (status === null) {
                 const { [itemId]: _, ...rest } = prev;
@@ -150,7 +141,6 @@ export function ListProvider({ children }: { children: ReactNode }) {
             }
 
             const currentEntry = prev[itemId] || {};
-            const total = getTotalForItem(itemId);
 
             let newProgress = currentEntry.progress ?? 0;
 
@@ -194,12 +184,12 @@ export function ListProvider({ children }: { children: ReactNode }) {
         });
     };
 
-    const updateProgress = (itemId: string) => {
+    const updateProgress = async (itemId: string) => {
+        const total = await getTotalForItem(itemId);
         setLists((prev) => {
             const currentEntry = prev[itemId];
             if (!currentEntry) return prev;
 
-            const total = getTotalForItem(itemId);
             const currentProgress = currentEntry.progress ?? 0;
             let newProgress = currentProgress + 1;
 
