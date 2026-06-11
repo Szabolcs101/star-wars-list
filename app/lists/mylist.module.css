@@ -2,7 +2,8 @@
     margin: var(--vertical-margin-default) var(--side-margin-default);
 }
 
-.table {
+.desktopTable {
+    display: table;
     width: 100%;
     background-color: var(--background-footer);
     margin-bottom: 2rem;
@@ -11,29 +12,25 @@
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
     font-weight: bold;
 }
 
-.body {
-    display: flex;
-    flex-direction: column;
+.header > th {
+    padding: 0.75rem 0.5rem;
+    text-align: center;
 }
 
-.row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-    padding: 1rem;
-    text-align: left;
+.desktopRow {
+    display: table-row;
 }
 
-.row:hover {
+.desktopRow:hover > td {
     background-color: var(--hover-color);
+}
+
+.desktopRow > td {
+    padding: 0.75rem 0.5rem;
+    vertical-align: middle;
 }
 
 .image {
@@ -42,24 +39,34 @@
     object-fit: cover;
 }
 
-.cover {
-    max-width: 60px;
-    width: 100%;
+.cover, .itemImg {
+    width: 60px;
     padding: 0;
 }
 
 .title, .itemTitle {
-    flex: 5;
     text-align: left;
-}
-
-.itemTitle {
     padding-left: 0.95rem;
 }
 
-.score, .progress, .type, .itemScore, .itemProgress, .itemType {
-    flex: 1;
+.score, .progress, .type,
+.itemScore, .itemProgress, .itemType {
     text-align: center;
+    white-space: nowrap;
+}
+
+.progressWrapper {
+    display: flex;
+    justify-content: center;
+    gap: 0.25rem;
+}
+
+.plus {
+    width: 1rem;
+}
+
+.mobileList {
+    display: none;
 }
 
 .listType {
@@ -74,17 +81,7 @@
     justify-content: center;
     color: var(--font-secondary);
     padding-bottom: 1rem;
-    font-size: 2rem;
-}
-
-.progressWrapper {
-    display: flex;
-    justify-content: center;
-    gap: 0.25rem;
-}
-
-.plus {
-    width: 1rem;
+    font-size: 1rem;
 }
 
 .noList {
@@ -100,3 +97,64 @@
     }
 }
 
+@media (max-width: 480px) {
+    .page {
+        margin: var(--vertical-margin-default) 0;
+    }
+
+    .desktopTable {
+        display: none;
+    }
+
+    .mobileList {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        padding: 0;
+        margin: 0 0 2rem 0;
+        background-color: var(--background-footer);
+        font-size: 0.9rem;
+        color: var(--font-secondary);
+    }
+
+    .mobileRow {
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+        cursor: pointer;
+    }
+
+    .mobileRow:hover {
+        background-color: var(--hover-color);
+    }
+
+    .mobileImage {
+        width: 5rem;
+        height: 100%;
+        min-height: 5rem;
+        object-fit: cover;
+        flex-shrink: 0;
+        display: block;
+    }
+
+    .mobileContent {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex: 1;
+        padding: 0.6rem 0.75rem;
+        gap: 0.4rem;
+    }
+
+    .mobileTitle {
+        font-size: 0.9rem;
+        text-align: left;
+    }
+
+    .mobileMeta {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+}

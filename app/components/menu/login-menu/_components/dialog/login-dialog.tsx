@@ -21,7 +21,7 @@ export function LoginDialog({ open, onOpenChange }: LoginDialogProps) {
         setError('');
         setLoading(true);
 
-        const success = login(email.trim(), password);
+        const success = await login(email.trim(), password);
 
         setLoading(false);
 

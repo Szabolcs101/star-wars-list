@@ -1,11 +1,13 @@
 "use client";
 import Link from "next/link";
 import Image from "next/image";
+import { useState } from "react";
 import { SvgPlusSolid } from "@/app/components/icons/fontawesome";
 import styles from '../lists/mylist.module.css';
 import { useAuth } from "../context/auth-context";
 import { ItemStatus, useLists } from "../context/list-context";
 import UserScore from "../components/rating/user-score";
+import ListItemDialog from "../components/menu/list-item-menu/dialog/list-item-dialog";
 
 type MediaItem = {
     id: string;
@@ -30,31 +32,6 @@ const STATUS_SECTIONS: { label: string; status: NonNullable<ItemStatus>; showPlu
     { label: 'Completed', status: 'finished', showPlus: false },
 ];
 
-function ListTable({ ids, showPlus, renderRow }: {
-    ids: string[];
-    showPlus: boolean;
-    renderRow: (id: string, showPlus: boolean) => React.ReactNode;
-}) {
-    if (ids.length === 0) return <p className={styles.noEntries}>No entries found</p>;
-
-    return (
-        <table className={styles.table}>
-            <thead>
-                <tr className={styles.header}>
-                    <th className={styles.cover}></th>
-                    <th className={styles.title}>Title</th>
-                    <th className={styles.score}>Score</th>
-                    <th className={styles.progress}>Progress</th>
-                    <th className={styles.type}>Type</th>
-                </tr>
-            </thead>
-            <tbody className={styles.body}>
-                {ids.map(id => renderRow(id, showPlus))}
-            </tbody>
-        </table>
-    );
-}
-
 export default function MyMediaList({
     data,
     href,
@@ -63,6 +40,7 @@ export default function MyMediaList({
 }: Props) {
     const { user, isLoading: authLoading } = useAuth();
     const { getItemsByStatus, getEntry, updateProgress } = useLists();
+    const [dialogItem, setDialogItem] = useState<MediaItem | null>(null);
 
     if (authLoading) return <div>Loading user...</div>;
     if (!user) return <div className={styles.noList}>Please log in to see your lists.</div>;
@@ -75,16 +53,15 @@ export default function MyMediaList({
             return item && allowedTypes.includes(item.type ?? '');
         });
 
-    const renderRow = (id: string, showPlus: boolean) => {
+    const renderDesktopRow = (id: string, showPlus: boolean) => {
         const item = getItem(id);
         if (!item) return null;
-
         const entry = getEntry(id);
         const progress = entry?.progress ?? 0;
         const total = item.total ?? getTotal(item);
 
         return (
-            <tr key={id} className={styles.row}>
+            <tr key={id} className={styles.desktopRow}>
                 <td className={styles.itemImg}>
                     <Image
                         src={item.imageUrl || '/placeholder.svg'}
@@ -92,6 +69,8 @@ export default function MyMediaList({
                         height={200}
                         width={200}
                         className={styles.image}
+                        style={{ cursor: 'pointer' }}
+                        onClick={() => setDialogItem(item)}
                     />
                 </td>
                 <td className={styles.itemTitle}>
@@ -119,18 +98,89 @@ export default function MyMediaList({
         );
     };
 
+    const renderMobileRow = (id: string, showPlus: boolean) => {
+        const item = getItem(id);
+        if (!item) return null;
+        const entry = getEntry(id);
+        const progress = entry?.progress ?? 0;
+        const total = item.total ?? getTotal(item);
+
+        return (
+            <li key={id} className={styles.mobileRow}>
+                <Image
+                    src={item.imageUrl || '/placeholder.svg'}
+                    alt={item.title}
+                    height={200}
+                    width={200}
+                    className={styles.mobileImage}
+                    style={{ cursor: 'pointer' }}
+                    onClick={() => setDialogItem(item)}
+                />
+                <div className={styles.mobileContent}>
+                    <Link href={`/${href}/${item.id}`} className={styles.mobileTitle}>
+                        {item.title}
+                    </Link>
+                    <div className={styles.mobileMeta}>
+                        <UserScore itemId={id} />
+                        <div className={styles.progressWrapper}>
+                            {showPlus && (
+                                <SvgPlusSolid
+                                    className={styles.plus}
+                                    onClick={() => updateProgress(id)}
+                                    style={{ cursor: 'pointer' }}
+                                />
+                            )}
+                            <span>{progress} / {total}</span>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        );
+    };
+
     return (
         <div className={styles.page}>
-            {STATUS_SECTIONS.map(({ label, status, showPlus }) => (
-                <section key={status}>
-                    <h2 className={styles.listType}>{label}</h2>
-                    <ListTable
-                        ids={getFilteredIds(status)}
-                        showPlus={showPlus}
-                        renderRow={renderRow}
-                    />
-                </section>
-            ))}
+            {STATUS_SECTIONS.map(({ label, status, showPlus }) => {
+                const ids = getFilteredIds(status);
+                return (
+                    <section key={status}>
+                        <h2 className={styles.listType}>{label}</h2>
+
+                        {ids.length === 0 ? (
+                            <p className={styles.noEntries}>No entries found</p>
+                        ) : (
+                            <>
+                                <table className={`${styles.table} ${styles.desktopTable}`}>
+                                    <thead>
+                                        <tr className={styles.header}>
+                                            <th className={styles.cover}></th>
+                                            <th className={styles.title}>Title</th>
+                                            <th className={styles.score}>Score</th>
+                                            <th className={styles.progress}>Progress</th>
+                                            <th className={styles.type}>Type</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        {ids.map(id => renderDesktopRow(id, showPlus))}
+                                    </tbody>
+                                </table>
+
+                                <ul className={styles.mobileList}>
+                                    {ids.map(id => renderMobileRow(id, showPlus))}
+                                </ul>
+                            </>
+                        )}
+                    </section>
+                );
+            })}
+
+            {dialogItem && (
+                <ListItemDialog
+                    item={dialogItem}
+                    open={!!dialogItem}
+                    onClose={() => setDialogItem(null)}
+                />
+            )}
         </div>
     );
 }

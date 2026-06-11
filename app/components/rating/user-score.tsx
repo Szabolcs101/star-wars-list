@@ -11,7 +11,7 @@ export default function UserScore({ itemId }: Props) {
     const { getEntry, updateScore } = useLists();
 
     const entry = getEntry(itemId);
-    const isCompleted = entry?.status === "finished";
+    const canScore = entry?.status === "finished" || "current";
     const userScore = entry?.score ?? null;
 
     const [localScore, setLocalScore] = useState(userScore ?? "");
@@ -37,7 +37,7 @@ export default function UserScore({ itemId }: Props) {
                     max="10"
                     value={localScore}
                     onChange={handleChange}
-                    disabled={!isCompleted}
+                    disabled={!canScore}
                     className={styles.scoreInput}
                     placeholder={'Rate'}
                 />

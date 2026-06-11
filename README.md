@@ -15,12 +15,6 @@ Main inspiration in terms of design/idea: anilist -> https://anilist.co/
 ## Install and run
 
 - npm install
+- npm run db:seed
 - npm run dev
-
-## Improvements for the future
-
-- Code refactor (make pages fully server-sided, etc)
-- Bug fix
-- Improve UI on mobile
-- Add functionality -> score system, "favorites" tab (currently only UI but no functionality)
 

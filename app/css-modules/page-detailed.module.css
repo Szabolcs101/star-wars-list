@@ -99,6 +99,12 @@
     font-weight: bold;
 }
 
+.details {
+    display: flex;
+    gap: 1rem;
+}
+
+
 @media (max-width: 1024px) {
     .headerRow {
         margin: 2rem;

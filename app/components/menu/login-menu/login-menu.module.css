@@ -35,4 +35,5 @@
 .userInfo {
     padding: 0.5rem;
     color: var(--font-highlighted);
+    font-weight: bold;
 }

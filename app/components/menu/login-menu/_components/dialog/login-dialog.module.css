@@ -16,7 +16,7 @@
     left: 0;
 
     background-color: rgba(0, 0, 0, 0.4);
-
+    backdrop-filter: blur(1px);
     animation: fade-in 0.3s ease-out;
 }
 
