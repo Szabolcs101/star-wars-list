@@ -4,6 +4,7 @@ import { Dialog } from "@base-ui/react";
 import Image from "next/image";
 import { useLists, ItemStatus } from "@/app/context/list-context";
 import styles from "./list-item-dialog.module.css";
+import { getContentTable } from "@/lib/utils/content-table";
 
 type MediaItem = {
     id: string;
@@ -26,15 +27,17 @@ const STATUS_OPTIONS: { label: string; value: NonNullable<ItemStatus> }[] = [
 ];
 
 export default function MediaEditDialog({ item, open, onClose }: Props) {
-    const { getEntry, setStatus, updateScore, updateEntry, removeItem } = useLists();
+    const { getEntry, setStatus, updateScore, setProgress, removeItem } = useLists();
 
     const entry = getEntry(item.id);
 
-    const [localStatus, setLocalStatus] = useState<NonNullable<ItemStatus>>(
-        entry?.status ?? "planned"
-    );
-    const [localScore, setLocalScore] = useState<number | "">(entry?.score ?? "");
-    const [localProgress, setLocalProgress] = useState<number>(entry?.progress ?? 0);
+    const [localStatus, setLocalStatus] = useState<NonNullable<ItemStatus>>("planned");
+    const [localScore, setLocalScore] = useState<number | "">("");
+    const [localProgress, setLocalProgress] = useState<number>(0);
+    const [isSaving, setIsSaving] = useState(false);
+    const [isDeleting, setIsDeleting] = useState(false);
+
+    const total = item.total ?? 0;
 
     useEffect(() => {
         if (open) {
@@ -44,7 +47,6 @@ export default function MediaEditDialog({ item, open, onClose }: Props) {
         }
     }, [open, entry]);
 
-    const total = item.total ?? 0;
     const scoreEnabled = localStatus === "current" || localStatus === "finished";
 
     const handleStatusChange = (newStatus: NonNullable<ItemStatus>) => {
@@ -70,19 +72,35 @@ export default function MediaEditDialog({ item, open, onClose }: Props) {
     };
 
     const handleSave = async () => {
-        await setStatus(item.id, localStatus);
+        setIsSaving(true);
+        const contentTable = getContentTable(item.type);
+        try {
+            await setStatus(item.id, localStatus, contentTable);
 
-        if (localScore !== "" && scoreEnabled) {
-            updateScore(item.id, localScore as number);
+            if (localScore !== "" && scoreEnabled) {
+                await updateScore(item.id, localScore as number, contentTable);
+            }
+
+            await setProgress(item.id, localProgress, total, contentTable);
+
+            onClose();
+        } catch (err) {
+            console.error("Failed to save changes", err);
+        } finally {
+            setIsSaving(false);
         }
-
-        updateEntry(item.id, { progress: localProgress });
-        onClose();
     };
-
-    const handleDelete = () => {
-        removeItem(item.id);
-        onClose();
+    
+    const handleDelete = async () => {
+        setIsDeleting(true);
+        try {
+            await removeItem(item.id, getContentTable(item.type));
+            onClose();
+        } catch (err) {
+            console.error("Failed to delete item", err);
+        } finally {
+            setIsDeleting(false);
+        }
     };
 
     return (
@@ -90,7 +108,6 @@ export default function MediaEditDialog({ item, open, onClose }: Props) {
             <Dialog.Portal>
                 <Dialog.Backdrop className={styles.backdrop} />
                 <Dialog.Popup className={styles.popup}>
-
                     <div className={styles.header}>
                         <div>
                             <Image
@@ -146,33 +163,38 @@ export default function MediaEditDialog({ item, open, onClose }: Props) {
 
                         <div className={styles.field}>
                             <label className={styles.label}>Progress</label>
-                            <div>
-                                <input
-                                    type="number"
-                                    min="0"
-                                    max={total > 0 ? total : undefined}
-                                    value={localProgress}
-                                    onChange={(e) => handleProgressChange(parseInt(e.target.value) || 0)}
-                                    className={styles.input}
-                                />
-                            </div>
+                            <input
+                                type="number"
+                                min="0"
+                                max={total > 0 ? total : undefined}
+                                value={localProgress}
+                                onChange={(e) => handleProgressChange(parseInt(e.target.value) || 0)}
+                                className={styles.input}
+                            />
                         </div>
                     </div>
 
                     <div className={styles.actions}>
-                        <button className={styles.btnDelete} onClick={handleDelete}>
-                            Delete
+                        <button
+                            className={styles.btnDelete}
+                            onClick={handleDelete}
+                            disabled={isDeleting}
+                        >
+                            {isDeleting ? "Deleting..." : "Delete"}
                         </button>
                         <div className={styles.actionsRight}>
                             <Dialog.Close className={styles.btnCancel}>
                                 Cancel
                             </Dialog.Close>
-                            <button className={styles.btnSave} onClick={handleSave}>
-                                Save
+                            <button
+                                className={styles.btnSave}
+                                onClick={handleSave}
+                                disabled={isSaving}
+                            >
+                                {isSaving ? "Saving..." : "Save"}
                             </button>
                         </div>
                     </div>
-
                 </Dialog.Popup>
             </Dialog.Portal>
         </Dialog.Root>

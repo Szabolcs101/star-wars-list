@@ -6,19 +6,20 @@ import { useLists } from '../../../app/context/list-context';
 
 interface ListMenuProps {
     itemId: string;
+    contentTable: string;
     currentStatus?: "finished" | "current" | "planned" | null;
 }
 
-export default function ListMenu({ itemId }: ListMenuProps) {
+export default function ListMenu({ itemId, contentTable }: ListMenuProps) {
     const { setStatus, getStatus } = useLists();
 
     const status = getStatus(itemId);
 
     const handleSelect = (newStatus: "planned" | "current" | "finished") => {
         if (status === newStatus) {
-            setStatus(itemId, null);
+            setStatus(itemId, null, contentTable);
         } else {
-            setStatus(itemId, newStatus);
+            setStatus(itemId, newStatus, contentTable);
         }
     };
 

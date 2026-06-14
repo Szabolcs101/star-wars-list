@@ -29,13 +29,13 @@ export default async function BookPage({ params }: { params: Promise<{ id: strin
                         <p className={styles.description}>{book.description}</p>
                         <div className={styles.rateRow}>
                             <p>Rate: </p>
-                            <UserScore itemId={id} />
+                            <UserScore itemId={id} contentTable='books' />
                         </div>
                     </div>
                 </section>
             </div>
             <section className={styles.listSection}>
-                <ListMenu itemId={id} />
+                <ListMenu itemId={id} contentTable='books'/>
                 <FavoriteToggle />
             </section>
             <section className={styles.bodySection}>

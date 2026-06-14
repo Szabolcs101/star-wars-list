@@ -6,249 +6,185 @@ export type ItemStatus = "finished" | "current" | "planned" | null;
 
 export interface UserItemEntry {
     status: ItemStatus;
+    progress: number;
+    score?: number;
     addedAt?: string;
     finishedAt?: string;
-    score?: number;
-    progress: number;
 }
 
-export type UserLists = Record<string, UserItemEntry>;
-
-const DEFAULT_LISTS: UserLists = {};
-
 interface ListsContextType {
-    lists: UserLists;
-    setStatus: (itemId: string, status: ItemStatus) => void;
-    updateEntry: (itemId: string, updates: Partial<UserItemEntry>) => void;
-    updateScore: (itemId: string, score: number) => void;
-    removeItem: (itemId: string) => void;
+    lists: Record<string, UserItemEntry>;
+    loading: boolean;
+    setStatus: (itemId: string, status: ItemStatus, contentTable: string) => Promise<void>;
+    updateProgress: (itemId: string, contentTable: string) => Promise<void>;
+    setProgress: (itemId: string, progress: number, total?: number, contentTable?: string) => Promise<void>;
+    updateScore: (itemId: string, score: number, contentTable: string) => Promise<void>;
+    removeItem: (itemId: string, contentTable: string) => Promise<void>;
     getStatus: (itemId: string) => ItemStatus;
     getEntry: (itemId: string) => UserItemEntry | undefined;
+    getAverageScore: (itemId: string) => Promise<number>;
+    getPopularity: (itemId: string) => Promise<number>;
     getItemsByStatus: (status: ItemStatus) => string[];
     isInAnyList: (itemId: string) => boolean;
-    clearAll: () => void;
-    updateProgress: (itemId: string) => void;
-    getAverageScore: (itemId: string) => number;
-    getPopularity: (itemId: string) => number;
+    refreshLists: () => Promise<void>;
 }
 
 const ListsContext = createContext<ListsContextType | undefined>(undefined);
 
 export function ListProvider({ children }: { children: ReactNode }) {
     const { user } = useAuth();
-    const [lists, setLists] = useState<UserLists>(DEFAULT_LISTS);
-    const [allUserLists, setAllUserLists] = useState<Record<string, UserLists>>({});
+    const [lists, setLists] = useState<Record<string, UserItemEntry>>({});
+    const [loading, setLoading] = useState(true);
 
-    const storageKey = user ? `starwars_user_items_${user.id}` : null;
-
-    useEffect(() => {
-        if (!storageKey) {
-            setLists(DEFAULT_LISTS);
+    const fetchUserLists = async () => {
+        if (!user?.id) {
+            setLists({});
+            setLoading(false);
             return;
         }
+
         try {
-            const saved = localStorage.getItem(storageKey);
-            if (saved) setLists(JSON.parse(saved));
+            const res = await fetch(`/api/user-lists?userId=${user.id}`);
+            if (res.ok) {
+                const data = await res.json();
+                const listMap: Record<string, UserItemEntry> = {};
+
+                data.forEach((entry: any) => {
+                    listMap[entry.contentId] = {
+                        status: entry.listType as ItemStatus || null,
+                        progress: entry.progress || 0,
+                        score: entry.rating ? Number(entry.rating) : undefined,
+                        addedAt: entry.updatedAt,
+                    };
+                });
+
+                setLists(listMap);
+            }
         } catch (err) {
-            console.error("User lists load error", err);
+            console.error("Failed to fetch user lists:", err);
+        } finally {
+            setLoading(false);
         }
-    }, [storageKey]);
+    };
 
     useEffect(() => {
-        if (!storageKey) return;
+        fetchUserLists();
+    }, [user?.id]);
+
+    const refreshLists = () => fetchUserLists();
+
+    const updateEntry = async (itemId: string, contentTable: string, body: any) => {
+        if (!user?.id) return;
+
         try {
-            localStorage.setItem(storageKey, JSON.stringify(lists));
+            await fetch('/api/user-lists', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    userId: user.id,
+                    contentId: itemId,
+                    contentTable,
+                    ...body,
+                }),
+            });
+            await refreshLists();
         } catch (err) {
-            console.error("User lists save error", err);
+            console.error("Failed to update entry:", err);
         }
-    }, [lists, storageKey]);
-
-
-    const getTotalForItem = async (itemId: string): Promise<number> => {
-        const res = await fetch(`/api/item-total/${itemId}`);
-        const data = await res.json();
-        return data.total;
     };
 
-    useEffect(() => {
-        if (typeof window === "undefined") return;
+    const setStatus = async (itemId: string, status: ItemStatus, contentTable: string) => {
+        await updateEntry(itemId, contentTable, { listType: status });
+    };
 
-        const loadAllLists = () => {
-            const listsObj: Record<string, UserLists> = {};
-            for (let i = 0; i < localStorage.length; i++) {
-                const key = localStorage.key(i);
-                if (key?.startsWith('starwars_user_items_')) {
-                    try {
-                        const data = JSON.parse(localStorage.getItem(key)!);
-                        listsObj[key] = data;
-                    } catch (e) {
-                        console.error(`Failed to parse ${key}`);
-                    }
-                }
-            }
-            setAllUserLists(listsObj);
-        };
+    const updateProgress = async (itemId: string, contentTable: string) => {
+        const current = lists[itemId];
+        const newProgress = (current?.progress ?? 0) + 1;
+        await setProgress(itemId, newProgress, undefined, contentTable);
+    };
 
-        loadAllLists();
+    const setProgress = async (
+        itemId: string,
+        newProgress: number,
+        total?: number,
+        contentTable: string = "series"
+    ) => {
+        if (!user?.id) return;
 
-        const handleStorageChange = (e: StorageEvent) => {
-            if (e.key?.startsWith('starwars_user_items_')) {
-                loadAllLists();
-            }
-        };
+        const clampedProgress = Math.max(0, newProgress);
+        let newStatus: ItemStatus = "planned";
 
-        window.addEventListener('storage', handleStorageChange);
-        return () => window.removeEventListener('storage', handleStorageChange);
-    }, []);
+        if (clampedProgress === 0) {
+            newStatus = "planned";
+        } else if (total !== undefined && clampedProgress >= total) {
+            newStatus = "finished";
+        } else {
+            newStatus = "current";
+        }
 
-    const getAverageScore = (itemId: string): number => {
-        let total = 0;
-        let count = 0;
-
-        Object.values(allUserLists).forEach(userEntries => {
-            const entry = userEntries[itemId];
-            if (entry?.score !== undefined && entry?.status === 'finished') {
-                total += entry.score;
-                count++;
-            }
+        await updateEntry(itemId, contentTable, {
+            progress: clampedProgress,
+            listType: newStatus,
         });
-
-        return count > 0 ? Number((total / count).toFixed(1)) : 0;
     };
 
-    const getPopularity = (itemId: string): number => {
-        let count = 0;
-
-        Object.values(allUserLists).forEach(userEntries => {
-            const entry = userEntries[itemId];
-            if (entry?.status === 'finished') count++;
-        });
-
-        return count;
-    };
-
-    const updateScore = (itemId: string, score: number) => {
+    const updateScore = async (itemId: string, score: number, contentTable: string) => {
         const clampedScore = Math.max(1, Math.min(10, score));
-        updateEntry(itemId, { score: clampedScore });
+        await updateEntry(itemId, contentTable, { rating: clampedScore });
     };
 
-    const setStatus = async (itemId: string, status: ItemStatus) => {
-        const total = await getTotalForItem(itemId);
-        setLists((prev) => {
-            if (status === null) {
-                const { [itemId]: _, ...rest } = prev;
-                return rest;
-            }
-
-            const currentEntry = prev[itemId] || {};
-
-            let newProgress = currentEntry.progress ?? 0;
-
-            if (status === "finished") {
-                newProgress = total;
-            }
-
-            if (status === "planned") {
-                newProgress = 0;
-            }
-
-            return {
-                ...prev,
-                [itemId]: {
-                    ...currentEntry,
-                    status,
-                    progress: newProgress,
-                    addedAt: currentEntry.addedAt ?? new Date().toISOString(),
-                    ...(status === "finished" && !currentEntry.finishedAt
-                        ? { finishedAt: new Date().toISOString().split("T")[0] }
-                        : {}),
-                },
-            };
+    const removeItem = async (itemId: string, contentTable: string) => {
+        await updateEntry(itemId, contentTable, {
+            listType: null,
+            progress: 0,
+            rating: null
         });
     };
 
-    const updateEntry = (itemId: string, updates: Partial<UserItemEntry>) => {
-        setLists((prev) => ({
-            ...prev,
-            [itemId]: {
-                ...prev[itemId],
-                ...updates,
-            },
-        }));
+    const getAverageScore = async (itemId: string): Promise<number> => {
+        try {
+            const res = await fetch(`/api/item-average/${itemId}`);
+            const data = await res.json();
+            return data.average || 0;
+        } catch {
+            return 0;
+        }
     };
 
-    const removeItem = (itemId: string) => {
-        setLists((prev) => {
-            const { [itemId]: _, ...rest } = prev;
-            return rest;
-        });
+    const getPopularity = async (itemId: string): Promise<number> => {
+        try {
+            const res = await fetch(`/api/item-popularity/${itemId}`);
+            const data = await res.json();
+            return data.count || 0;
+        } catch {
+            return 0;
+        }
     };
-
-    const updateProgress = async (itemId: string) => {
-        const total = await getTotalForItem(itemId);
-        setLists((prev) => {
-            const currentEntry = prev[itemId];
-            if (!currentEntry) return prev;
-
-            const currentProgress = currentEntry.progress ?? 0;
-            let newProgress = currentProgress + 1;
-
-            if (total > 0) {
-                newProgress = Math.min(newProgress, total);
-            } else {
-                newProgress = 1;
-            }
-
-            let newStatus: ItemStatus = currentEntry.status;
-
-            if (newProgress > 0 && newStatus === "planned") {
-                newStatus = "current";
-            }
-
-            if (newProgress >= total) {
-                newStatus = "finished";
-                newProgress = total;
-            }
-
-            return {
-                ...prev,
-                [itemId]: {
-                    ...currentEntry,
-                    progress: newProgress,
-                    status: newStatus,
-                    ...(newStatus === "finished" && !currentEntry.finishedAt
-                        ? { finishedAt: new Date().toISOString().split("T")[0] }
-                        : {}),
-                },
-            };
-        });
-    };
-
-    const getStatus = (itemId: string): ItemStatus => lists[itemId]?.status ?? null;
-    const getEntry = (itemId: string) => lists[itemId];
-    const isInAnyList = (itemId: string) => !!lists[itemId];
 
     const getItemsByStatus = (status: ItemStatus) =>
         Object.entries(lists)
             .filter(([, entry]) => entry.status === status)
             .map(([id]) => id);
 
-    const clearAll = () => setLists(DEFAULT_LISTS);
+    const getStatus = (itemId: string): ItemStatus => lists[itemId]?.status ?? null;
+    const getEntry = (itemId: string) => lists[itemId];
+    const isInAnyList = (itemId: string) => !!lists[itemId];
 
     const value: ListsContextType = {
         lists,
+        loading,
         setStatus,
-        updateEntry,
+        updateProgress,
+        setProgress,
         updateScore,
         removeItem,
         getStatus,
         getEntry,
+        getAverageScore,
+        getPopularity,
         getItemsByStatus,
         isInAnyList,
-        clearAll,
-        updateProgress,
-        getAverageScore,
-        getPopularity
+        refreshLists,
     };
 
     return <ListsContext.Provider value={value}>{children}</ListsContext.Provider>;
@@ -256,6 +192,6 @@ export function ListProvider({ children }: { children: ReactNode }) {
 
 export const useLists = () => {
     const ctx = useContext(ListsContext);
-    if (!ctx) throw new Error("useLists must be used within ListsProvider");
+    if (!ctx) throw new Error("useLists must be used within ListProvider");
     return ctx;
 };

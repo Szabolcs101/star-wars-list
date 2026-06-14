@@ -1,4 +1,4 @@
-import { sqliteTable, text, integer, real } from "drizzle-orm/sqlite-core";
+import { sqliteTable, text, integer, real, uniqueIndex } from "drizzle-orm/sqlite-core";
 
 export const users = sqliteTable("users", {
   id: text("id").primaryKey(),
@@ -106,4 +106,7 @@ export const userListEntries = sqliteTable("user_list_entries", {
   rating: real("rating"),
   isFavorite: integer("is_favorite", { mode: "boolean" }).default(false),
   updatedAt: text("updated_at").notNull(),
-});
+}, (table) => ({
+  userContentUnique: uniqueIndex("user_content_unique")
+    .on(table.userId, table.contentId, table.contentTable),
+}));

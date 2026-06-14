@@ -8,6 +8,7 @@ import { useAuth } from "../context/auth-context";
 import { ItemStatus, useLists } from "../context/list-context";
 import UserScore from "../components/rating/user-score";
 import ListItemDialog from "../components/menu/list-item-menu/dialog/list-item-dialog";
+import { getContentTable } from "@/lib/utils/content-table";
 
 type MediaItem = {
     id: string;
@@ -39,10 +40,12 @@ export default function MyMediaList({
     getTotal = () => 1,
 }: Props) {
     const { user, isLoading: authLoading } = useAuth();
-    const { getItemsByStatus, getEntry, updateProgress } = useLists();
-    const [dialogItem, setDialogItem] = useState<MediaItem | null>(null);
+    const { getItemsByStatus, getEntry, updateProgress, loading: listsLoading } = useLists();
 
-    if (authLoading) return <div>Loading user...</div>;
+    const [dialogItem, setDialogItem] = useState<MediaItem | null>(null);
+    const [updatingIds, setUpdatingIds] = useState<Set<string>>(new Set());
+
+    if (authLoading || listsLoading) return <div>Loading...</div>;
     if (!user) return <div className={styles.noList}>Please log in to see your lists.</div>;
 
     const getItem = (id: string) => data.find(item => item.id === id);
@@ -53,12 +56,34 @@ export default function MyMediaList({
             return item && allowedTypes.includes(item.type ?? '');
         });
 
+    const handleUpdateProgress = async (id: string) => {
+        if (updatingIds.has(id)) return;
+        const item = getItem(id);
+        if (!item) return;
+
+        setUpdatingIds(prev => new Set(prev).add(id));
+
+        try {
+            await updateProgress(id, getContentTable(item.type));
+        } catch (err) {
+            console.error("Failed to update progress", err);
+        } finally {
+            setUpdatingIds(prev => {
+                const newSet = new Set(prev);
+                newSet.delete(id);
+                return newSet;
+            });
+        }
+    };
+
     const renderDesktopRow = (id: string, showPlus: boolean) => {
         const item = getItem(id);
         if (!item) return null;
+
         const entry = getEntry(id);
         const progress = entry?.progress ?? 0;
         const total = item.total ?? getTotal(item);
+        const isUpdating = updatingIds.has(id);
 
         return (
             <tr key={id} className={styles.desktopRow}>
@@ -77,15 +102,18 @@ export default function MyMediaList({
                     <Link href={`/${href}/${item.id}`}>{item.title}</Link>
                 </td>
                 <td className={styles.itemScore}>
-                    <UserScore itemId={id} />
+                    <UserScore itemId={id} contentTable={getContentTable(item.type)} />
                 </td>
                 <td className={styles.itemProgress}>
                     {showPlus ? (
                         <div className={styles.progressWrapper}>
                             <SvgPlusSolid
                                 className={styles.plus}
-                                onClick={() => updateProgress(id)}
-                                style={{ cursor: 'pointer' }}
+                                onClick={() => handleUpdateProgress(id)}
+                                style={{
+                                    cursor: isUpdating ? 'not-allowed' : 'pointer',
+                                    opacity: isUpdating ? 0.6 : 1
+                                }}
                             />
                             <span>{progress} / {total}</span>
                         </div>
@@ -104,6 +132,7 @@ export default function MyMediaList({
         const entry = getEntry(id);
         const progress = entry?.progress ?? 0;
         const total = item.total ?? getTotal(item);
+        const isUpdating = updatingIds.has(id);
 
         return (
             <li key={id} className={styles.mobileRow}>
@@ -121,13 +150,16 @@ export default function MyMediaList({
                         {item.title}
                     </Link>
                     <div className={styles.mobileMeta}>
-                        <UserScore itemId={id} />
+                        <UserScore itemId={id} contentTable={getContentTable(item.type)} />
                         <div className={styles.progressWrapper}>
                             {showPlus && (
                                 <SvgPlusSolid
                                     className={styles.plus}
-                                    onClick={() => updateProgress(id)}
-                                    style={{ cursor: 'pointer' }}
+                                    onClick={() => handleUpdateProgress(id)}
+                                    style={{
+                                        cursor: isUpdating ? 'not-allowed' : 'pointer',
+                                        opacity: isUpdating ? 0.6 : 1
+                                    }}
                                 />
                             )}
                             <span>{progress} / {total}</span>

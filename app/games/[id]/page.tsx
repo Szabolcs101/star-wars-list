@@ -29,13 +29,13 @@ export default async function GamesPage({ params }: { params: Promise<{ id: stri
                         <p className={styles.description}>{game.description}</p>
                         <div className={styles.rateRow}>
                             <p>Rate: </p>
-                            <UserScore itemId={id} />
+                            <UserScore itemId={id} contentTable='games'/>
                         </div>
                     </div>
                 </section>
             </div>
             <section className={styles.listSection}>
-                <ListMenu itemId={id} />
+                <ListMenu itemId={id} contentTable='games'/>
                 <FavoriteToggle />
             </section>
             <section className={styles.bodySection}>
