@@ -1,9 +1,32 @@
-import { eq, inArray } from "drizzle-orm";
+import { and, eq, inArray, like } from "drizzle-orm";
 import { db } from "../index";
-import { games, relations } from "../schema";
+import { books, games, relations } from "../schema";
  
 export async function getAllGames() {
   return db.select().from(games).all();
+}
+
+export async function getGames(filters: {
+  search?: string;
+  canonStatus?: string;
+  status?: string;
+}) {
+  const conditions = [];
+
+  if (filters.search) {
+    conditions.push(like(games.title, `%${filters.search}%`));
+  }
+  if (filters.canonStatus) {
+    conditions.push(eq(games.canonStatus, filters.canonStatus));
+  }
+  if (filters.status) {
+    conditions.push(eq(games.status, filters.status));
+  }
+
+  return db
+    .select()
+    .from(games)
+    .where(conditions.length ? and(...conditions) : undefined);
 }
  
 export async function getGameById(id: string) {
