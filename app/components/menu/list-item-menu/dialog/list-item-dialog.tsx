@@ -5,6 +5,7 @@ import Image from "next/image";
 import { useLists, ItemStatus } from "@/app/context/list-context";
 import styles from "./list-item-dialog.module.css";
 import { getContentTable } from "@/lib/utils/content-table";
+import { useNotification } from "@/app/context/notification-provider";
 
 type MediaItem = {
     id: string;
@@ -30,6 +31,8 @@ export default function MediaEditDialog({ item, open, onClose }: Props) {
     const { getEntry, setStatus, updateScore, setProgress, removeItem } = useLists();
 
     const entry = getEntry(item.id);
+
+    const info = useNotification();
 
     const [localStatus, setLocalStatus] = useState<NonNullable<ItemStatus>>("planned");
     const [localScore, setLocalScore] = useState<number | "">("");
@@ -86,8 +89,10 @@ export default function MediaEditDialog({ item, open, onClose }: Props) {
             onClose();
         } catch (err) {
             console.error("Failed to save changes", err);
+            info.error("Failed to save changes")
         } finally {
             setIsSaving(false);
+            info.success("Changes successfully saved")
         }
     };
     
@@ -98,8 +103,10 @@ export default function MediaEditDialog({ item, open, onClose }: Props) {
             onClose();
         } catch (err) {
             console.error("Failed to delete item", err);
+            info.error("Failed to delete item")
         } finally {
             setIsDeleting(false);
+            info.info('Item deleted from list')
         }
     };
 

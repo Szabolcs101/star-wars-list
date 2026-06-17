@@ -7,6 +7,7 @@ import { ThemeProvider } from "next-themes";
 import "./globals.css";
 import AuthProvider from "./context/auth-context";
 import { ListProvider } from "./context/list-context";
+import { NotificationProvider } from "./context/notification-provider";
 
 
 const geistSans = Geist({
@@ -43,11 +44,13 @@ export default function RootLayout({
             >
                 <AuthProvider>
                     <ListProvider>
-                        <ThemeProvider attribute='class' enableSystem defaultTheme="system">
-                            <Header />
-                            {children}
-                            <Footer />
-                        </ThemeProvider>
+                        <NotificationProvider>
+                            <ThemeProvider attribute='class' enableSystem defaultTheme="system">
+                                <Header />
+                                {children}
+                                <Footer />
+                            </ThemeProvider>
+                        </NotificationProvider>
                     </ListProvider>
                 </AuthProvider>
             </body>

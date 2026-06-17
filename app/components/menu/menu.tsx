@@ -3,6 +3,7 @@ import { Menu } from '@base-ui/react/menu';
 import styles from './menu.module.css';
 import { SvgChevronSolid } from '../icons/fontawesome';
 import { useLists } from '../../../app/context/list-context';
+import { useNotification } from '@/app/context/notification-provider';
 
 interface ListMenuProps {
     itemId: string;
@@ -12,6 +13,7 @@ interface ListMenuProps {
 
 export default function ListMenu({ itemId, contentTable }: ListMenuProps) {
     const { setStatus, getStatus } = useLists();
+    const notif = useNotification();
 
     const status = getStatus(itemId);
 
@@ -20,6 +22,7 @@ export default function ListMenu({ itemId, contentTable }: ListMenuProps) {
             setStatus(itemId, null, contentTable);
         } else {
             setStatus(itemId, newStatus, contentTable);
+            notif.success(`Item added to ${status} list.`)
         }
     };
 
