@@ -89,10 +89,10 @@ export default function MediaEditDialog({ item, open, onClose }: Props) {
             onClose();
         } catch (err) {
             console.error("Failed to save changes", err);
-            info.error("Failed to save changes")
+            info.error("Failed to save changes.")
         } finally {
             setIsSaving(false);
-            info.success("Changes successfully saved")
+            info.success("Changes successfully saved.")
         }
     };
     
@@ -103,10 +103,10 @@ export default function MediaEditDialog({ item, open, onClose }: Props) {
             onClose();
         } catch (err) {
             console.error("Failed to delete item", err);
-            info.error("Failed to delete item")
+            info.error("Failed to delete item.")
         } finally {
             setIsDeleting(false);
-            info.info('Item deleted from list')
+            info.info('Item deleted from list.')
         }
     };
 

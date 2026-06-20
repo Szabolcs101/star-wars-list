@@ -3,6 +3,7 @@ import { drizzle } from "drizzle-orm/better-sqlite3";
 import * as schema from "./schema";
 import path from "path";
 import fs from "fs";
+import bcrypt from "bcryptjs";
 
 const DB_PATH = path.join(process.cwd(), "data", "starwars.db");
 const DATA_DIR = path.join(process.cwd(), "data");
@@ -125,7 +126,8 @@ async function seed() {
 
     const users = readJson<{ id: string; email: string; password: string; name: string }>("users.json");
     for (const u of users) {
-        db.insert(schema.users).values(u).run();
+        const hashed = await bcrypt.hash(u.password, 10);
+        db.insert(schema.users).values({ ...u, password: hashed }).run();
     }
     console.log(`Seeded ${users.length} users.`);
 

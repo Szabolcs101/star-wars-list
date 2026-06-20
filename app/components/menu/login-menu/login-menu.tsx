@@ -5,12 +5,17 @@ import { SvgUserSolid } from '../../icons/fontawesome';
 import { LoginDialog } from './_components/dialog/login-dialog';
 import { useState } from 'react';
 import { useAuth } from '@/app/context/auth-context';
+import { RegistrationDialog } from './_components/dialog/registration-dialog';
 
 export default function LoginMenu() {
     const [menuOpen, setMenuOpen] = useState(false);
-    const [dialogOpen, setDialogOpen] = useState(false);
+    const [loginOpen, setLoginOpen] = useState(false);
+    const [regOpen, setRegOpen] = useState(false);
 
     const { user, logout } = useAuth();
+
+    const switchToReg = () => { setLoginOpen(false); setRegOpen(true); };
+    const switchToLogin = () => { setRegOpen(false); setLoginOpen(true); };
 
     const isLoggedIn = !!user;
 
@@ -41,7 +46,7 @@ export default function LoginMenu() {
                                         <Menu.Item
                                             className={styles.item}
                                             onClick={() => {
-                                                setDialogOpen(true);
+                                                setLoginOpen(true);
                                                 setMenuOpen(false);
                                             }}
                                         >
@@ -70,7 +75,8 @@ export default function LoginMenu() {
                 </Menu.Portal>
             </Menu.Root>
 
-            <LoginDialog open={dialogOpen} onOpenChange={setDialogOpen} />
+            <LoginDialog open={loginOpen} onOpenChange={setLoginOpen} onSwitchToRegister={switchToReg} />
+            <RegistrationDialog open={regOpen} onOpenChange={setRegOpen} onSwitchToLogin={switchToLogin} />
         </>
     );
 }

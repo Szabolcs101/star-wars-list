@@ -1,5 +1,6 @@
 'use client';
 import { createContext, useContext, useState, useEffect, ReactNode } from 'react';
+import { useNotification } from './notification-provider';
 
 interface User {
     id: string;
@@ -19,6 +20,8 @@ const AuthContext = createContext<AuthContextType | null>(null);
 export default function AuthProvider({ children }: { children: ReactNode }) {
     const [user, setUser] = useState<User | null>(null);
     const [isLoading, setIsLoading] = useState(true);
+
+    const notif = useNotification();
 
     useEffect(() => {
         const saved = localStorage.getItem('currentUser');
@@ -44,12 +47,14 @@ export default function AuthProvider({ children }: { children: ReactNode }) {
         const userObj: User = await res.json();
         setUser(userObj);
         localStorage.setItem('currentUser', JSON.stringify(userObj));
+        notif.info('User logged in.')
         return true;
     };
 
     const logout = () => {
         setUser(null);
         localStorage.removeItem('currentUser');
+        notif.info('User logged out.')
     };
 
     return (
