@@ -10,6 +10,7 @@ export interface UserItemEntry {
     score?: number;
     addedAt?: string;
     finishedAt?: string;
+    contentTable?: string;
 }
 
 interface ListsContextType {
@@ -55,6 +56,7 @@ export function ListProvider({ children }: { children: ReactNode }) {
                         progress: entry.progress || 0,
                         score: entry.rating ? Number(entry.rating) : undefined,
                         addedAt: entry.updatedAt,
+                        contentTable: entry.contentTable,
                     };
                 });
 

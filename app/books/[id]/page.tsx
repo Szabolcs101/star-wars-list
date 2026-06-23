@@ -36,7 +36,7 @@ export default async function BookPage({ params }: { params: Promise<{ id: strin
             </div>
             <section className={styles.listSection}>
                 <ListMenu itemId={id} contentTable='books'/>
-                <FavoriteToggle />
+                <FavoriteToggle itemId={id} contentTable = 'books'/>
             </section>
             <section className={styles.bodySection}>
                 <section className={styles.detailedSection}>

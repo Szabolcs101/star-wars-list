@@ -8,6 +8,7 @@ import "./globals.css";
 import AuthProvider from "./context/auth-context";
 import { ListProvider } from "./context/list-context";
 import { NotificationProvider } from "./context/notification-provider";
+import { FavoritesProvider } from "./context/favorites-context";
 
 
 const geistSans = Geist({
@@ -42,17 +43,19 @@ export default function RootLayout({
             <body
                 className={`${montserrat.variable} ${montserrat.variable} antialiased`}
             >
-                <AuthProvider>
-                    <ListProvider>
-                        <NotificationProvider>
-                            <ThemeProvider attribute='class' enableSystem defaultTheme="system">
-                                <Header />
-                                {children}
-                                <Footer />
-                            </ThemeProvider>
-                        </NotificationProvider>
-                    </ListProvider>
-                </AuthProvider>
+                <NotificationProvider>
+                    <AuthProvider>
+                        <FavoritesProvider>
+                            <ListProvider>
+                                <ThemeProvider attribute='class' enableSystem defaultTheme="system">
+                                    <Header />
+                                    {children}
+                                    <Footer />
+                                </ThemeProvider>
+                            </ListProvider>
+                        </FavoritesProvider>
+                    </AuthProvider>
+                </NotificationProvider>
             </body>
         </html>
     );

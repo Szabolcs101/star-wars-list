@@ -39,7 +39,7 @@ export default async function SeriesPage({ params }: { params: Promise<{ id: str
             </div>
             <section className={styles.listSection}>
                 <ListMenu itemId={id} contentTable='series'/>
-                <FavoriteToggle />
+                <FavoriteToggle itemId={id} contentTable='series' />
             </section>
             <section className={styles.bodySection}>
                 <section className={styles.detailedSection}>

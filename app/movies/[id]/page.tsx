@@ -39,7 +39,7 @@ export default async function MoviePage({ params }: { params: Promise<{ id: stri
             </div>
             <section className={styles.listSection}>
                 <ListMenu itemId={id} contentTable='shows'/>
-                <FavoriteToggle />
+                <FavoriteToggle itemId={id} contentTable="shows"/>
             </section>
             <section className={styles.bodySection}>
                 <section className={styles.detailedSection}>
