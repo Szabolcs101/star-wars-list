@@ -7,7 +7,7 @@ import { ThemeProvider } from "next-themes";
 import "./globals.css";
 import AuthProvider from "./context/auth-context";
 import { ListProvider } from "./context/list-context";
-import { NotificationProvider } from "./context/notification-provider";
+import { ToastProvider } from "./context/toast-context";
 import { FavoritesProvider } from "./context/favorites-context";
 
 
@@ -43,7 +43,7 @@ export default function RootLayout({
             <body
                 className={`${montserrat.variable} ${montserrat.variable} antialiased`}
             >
-                <NotificationProvider>
+                <ToastProvider>
                     <AuthProvider>
                         <FavoritesProvider>
                             <ListProvider>
@@ -55,7 +55,7 @@ export default function RootLayout({
                             </ListProvider>
                         </FavoritesProvider>
                     </AuthProvider>
-                </NotificationProvider>
+                </ToastProvider>
             </body>
         </html>
     );

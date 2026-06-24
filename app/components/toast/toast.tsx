@@ -1,21 +1,21 @@
 'use client';
 import React, { useEffect, useState } from 'react';
-import styles from './notification.module.css';
+import styles from './Toast.module.css';
 
-export type NotificationType = 'info' | 'error' | 'success';
+export type ToastType = 'info' | 'error' | 'success';
 
-export interface NotificationItem {
+export interface ToastItem {
     id: number;
     message: string;
-    type: NotificationType;
+    type: ToastType;
 }
 
-interface NotificationProps {
-    item: NotificationItem;
+interface ToastProps {
+    item: ToastItem;
     onRemove: (id: number) => void;
 }
 
-export function NotificationItem({ item, onRemove }: NotificationProps) {
+export function ToastItem({ item, onRemove }: ToastProps) {
     const [visible, setVisible] = useState(false);
 
     useEffect(() => {

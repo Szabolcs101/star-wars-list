@@ -2,16 +2,16 @@
 import { useTheme } from 'next-themes';
 import { SvgLightModeSolid, SvgDarkModeSolid } from '../../../icons/icons';
 import styles from './theme-toggler.module.css'
-import { useNotification } from '@/app/context/notification-provider';
+import { useToast } from '@/app/context/toast-context';
 
 export default function ThemeToggler() {
 
     const { theme, setTheme } = useTheme();
-    const notif = useNotification();
+    const toast = useToast();
 
     const handleTheme = (newTheme: 'light' | 'dark') => {
         setTheme(newTheme);
-        notif.info(`${newTheme === 'light' ? 'Light' : 'Dark'} mode enabled.`);
+        toast.info(`${newTheme === 'light' ? 'Light' : 'Dark'} mode enabled.`);
     };
 
     return (

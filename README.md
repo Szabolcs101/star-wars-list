@@ -20,6 +20,5 @@ Main inspiration in terms of design/idea: anilist -> https://anilist.co/
 
 ## Improvements 
 
-- Rename notif to toast
 - use list-entries db instead of context
 
