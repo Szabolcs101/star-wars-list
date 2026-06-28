@@ -121,6 +121,13 @@ async function seed() {
       updated_at TEXT NOT NULL,
       UNIQUE(user_id, content_id, content_table)
     );
+    CREATE TABLE IF NOT EXISTS follows (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    follower_id TEXT NOT NULL REFERENCES users(id),
+    following_id TEXT NOT NULL REFERENCES users(id),
+    created_at TEXT NOT NULL,
+    UNIQUE(follower_id, following_id)
+);
   `);
     console.log("Tables created.");
 

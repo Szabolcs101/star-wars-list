@@ -1,7 +1,7 @@
 'use client';
 import React, { createContext, useCallback, useContext, useRef, useState } from 'react';
 import { ToastItem, ToastType, type ToastItem as ToastItemType } from '../components/toast/toast';
-import styles from './toast-provider.module.css';
+import styles from './toast-context.module.css';
 
 export interface ToastAPI {
     info: (message: string) => void;

@@ -110,3 +110,12 @@ export const userListEntries = sqliteTable("user_list_entries", {
   userContentUnique: uniqueIndex("user_content_unique")
     .on(table.userId, table.contentId, table.contentTable),
 }));
+
+export const follows = sqliteTable("follows", {
+    id: integer("id").primaryKey({ autoIncrement: true }),
+    followerId: text("follower_id").notNull().references(() => users.id),
+    followingId: text("following_id").notNull().references(() => users.id),
+    createdAt: text("created_at").notNull(),
+}, (table) => ({
+    unique: uniqueIndex("follower_following_unique").on(table.followerId, table.followingId),
+}));

@@ -62,13 +62,13 @@
     flex-wrap: wrap;
 }
 
-.leftCol {
+.leftCol, .rightCol {
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
 
-.itemTypeOverview, .favoritesSection {
+.itemTypeOverview, .favoritesSection, .avgScores {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -122,7 +122,7 @@
     background-color: #3b82f6;
 }
 
-.moviesEntry {
+.moviesEntry, .movieScores {
     color: #3b82f6;
 }
 
@@ -130,7 +130,7 @@
     background-color: #8b5cf6;
 }
 
-.seriesEntry {
+.seriesEntry, .seriesScores {
     color: #8b5cf6;
 }
 
@@ -138,7 +138,7 @@
     background-color: #10b981;
 }
 
-.gamesEntry {
+.gamesEntry, .gamesScores {
     color: #10b981;
 }
 
@@ -146,11 +146,11 @@
     background-color: #f59e0b;
 }
 
-.booksEntry {
+.booksEntry, .booksScores {
     color: #f59e0b;
 }
 
-.favoriteList {
+.favoriteList, .followList {
     display: flex;
     gap: 20px;
     min-height: 120px;
@@ -163,4 +163,29 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+.scores {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--background-footer);
+    padding: 1rem;
+}
+
+.avgGames, .avgMovies, .avgSeries, .avgBooks {
+    display: flex;
+    gap: 1rem;
+}
+
+.followIcon {
+    fill: white;
+    height: 30px;
+}
+
+@media (max-width: 1024px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
 }

@@ -1,6 +1,6 @@
 'use client';
 import React, { useEffect, useState } from 'react';
-import styles from './Toast.module.css';
+import styles from './toast.module.css';
 
 export type ToastType = 'info' | 'error' | 'success';
 
