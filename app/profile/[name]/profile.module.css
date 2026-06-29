@@ -68,7 +68,7 @@
     gap: 40px;
 }
 
-.itemTypeOverview, .favoritesSection, .avgScores {
+.itemTypeOverview, .favoritesSection, .avgScores, .followerSection {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -180,6 +180,17 @@
 .followIcon {
     fill: white;
     height: 30px;
+    cursor: pointer;
+}
+
+.followIcon:hover {
+    fill: orange;
+}
+
+.followItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 @media (max-width: 1024px) {

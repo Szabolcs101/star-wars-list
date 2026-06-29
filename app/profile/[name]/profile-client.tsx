@@ -26,6 +26,7 @@ interface FavoriteEntry {
 interface UserRef {
     id: string;
     name: string;
+    imageUrl?: string;
 }
 
 interface Props {
@@ -83,9 +84,9 @@ export default function ProfileClient({ profileUser, entries, favorites, followe
     return (
         <div>
             <div className={styles.banner}>
-                <Image className={styles.bannerImage} src={'/profile/banner_ph.png'} alt='banner' height={300} width={1000} />
+                <Image className={styles.bannerImage} src={'/profile/banner_ph.jpg'} alt='banner' height={300} width={1000} />
                 <div className={styles.profileWrapper}>
-                    <Image src={'/profile/profile_placeholder.png'} alt='profile' height={200} width={125} />
+                    <Image src={'/profile/profile_placeholder.jpg'} alt='profile' height={200} width={125} />
                     <div>
                         <div>
                             <p className={styles.userName}>{profileUser.name}</p>
@@ -93,12 +94,11 @@ export default function ProfileClient({ profileUser, entries, favorites, followe
                                 <SvgFollowSolid
                                     className={`${styles.followIcon} ${isFollowing ? styles.following : ''}`}
                                     onClick={handleFollow}
-                                    style={{ cursor: 'pointer' }}
                                 />
                             )}
                         </div>
                     </div>
-                    {isOwnProfile && <span className={styles.ownProfileBadge}>This is you</span>}
+                    {isOwnProfile && <span className={styles.ownProfileBadge}></span>}
                 </div>
             </div>
 
@@ -200,7 +200,13 @@ export default function ProfileClient({ profileUser, entries, favorites, followe
                         <div className={styles.followList}>
                             {followers.map(f => (
                                 <Link key={f.id} href={`/profile/${f.name}`} className={styles.followItem}>
-                                    {f.name}
+                                    <Image
+                                        src={f.imageUrl ?? '/profile/profile_placeholder.jpg'}
+                                        alt={f.name}
+                                        width={100}
+                                        height={100}
+                                    />
+                                    <span>{f.name}</span>
                                 </Link>
                             ))}
                         </div>
